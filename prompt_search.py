@@ -35,6 +35,12 @@ class Template:
     def key(self):
         return self.template.replace("\n", " ").replace(",", "").replace("\"", "")
 
+    def performance(self):
+        if self.num_participations == 0:
+            return 1.0  # Optimism!
+        raw_performance = self.num_correct / self.num_participations
+        return raw_performance ** 2
+
 
 class AnswerChainSearcher:
     def __init__(self):
@@ -44,8 +50,8 @@ class AnswerChainSearcher:
         known_data = {"prompt": prompt}
         sequence = []
         while "answer" not in known_data:
-            # Pick a random template for now
-            template = random.choice(self.templates)
+            # Pick a random template biased by performance
+            template = random.choices(self.templates, weights=[template.performance() for template in self.templates])[0]
             # Make sure we have all the data we need
             if not all(variable in known_data for variable in template.input_variables):
                 continue
@@ -101,7 +107,7 @@ templates = [
 ]
 
 if __name__ == "__main__":
-    num_questions = 100
+    num_questions = 1000
     save_file = "template_data.csv"
 
     answer_searcher = AnswerChainSearcher()
