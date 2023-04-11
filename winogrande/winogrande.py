@@ -39,18 +39,25 @@ def generate_answer(prompt):
 def is_correct_answer(generated_answer, correct_option, option1, option2):
     correct_answer = option1 if correct_option == '1' else option2
     if generated_answer.strip().lower() == correct_answer.lower():
-        return True
+        return True, correct_answer
     if generated_answer.strip().lower() in correct_answer.lower():
-        return True
+        return True, correct_answer
     if correct_answer.lower() in generated_answer.strip().lower():
-        return True
-    return False
+        return True, correct_answer
+    return False, correct_answer
+
+
+def eval_answer_against_question(answer, question):
+    correct, correct_answer = is_correct_answer(answer, question['answer'], question['option1'], question['option2'])
+    if correct:
+        return True, correct_answer
+    return False, correct_answer
 
 
 def eval_answers_against_questions(answers, questions):
     correct_count = 0
     for i in range(len(answers)):
-        correct = is_correct_answer(answers[i], questions[i]['answer'], questions[i]['option1'], questions[i]['option2'])
+        correct, _ = eval_answer_against_question(answers[i], questions[i])
         if correct:
             correct_count += 1
     return correct_count
@@ -63,7 +70,7 @@ if __name__ == "__main__":
     for question in random_questions:
         prompt = f"Question: {question['sentence']} Options: {question['option1']} or {question['option2']}? Answer:"
         answer = generate_answer(prompt)
-        correct = is_correct_answer(answer, question['answer'], question['option1'], question['option2'])
+        correct, _ = is_correct_answer(answer, question['answer'], question['option1'], question['option2'])
 
         if correct:
             correct_count += 1
