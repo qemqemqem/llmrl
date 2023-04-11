@@ -37,11 +37,23 @@ def generate_answer(prompt):
 
 # Function to check if the generated answer is correct
 def is_correct_answer(generated_answer, correct_option, option1, option2):
-    if correct_option == '1' and generated_answer.lower() == option1.lower():
+    correct_answer = option1 if correct_option == '1' else option2
+    if generated_answer.strip().lower() == correct_answer.lower():
         return True
-    if correct_option == '2' and generated_answer.lower() == option2.lower():
+    if generated_answer.strip().lower() in correct_answer.lower():
+        return True
+    if correct_answer.lower() in generated_answer.strip().lower():
         return True
     return False
+
+
+def eval_answers_against_questions(answers, questions):
+    correct_count = 0
+    for i in range(len(answers)):
+        correct = is_correct_answer(answers[i], questions[i]['answer'], questions[i]['option1'], questions[i]['option2'])
+        if correct:
+            correct_count += 1
+    return correct_count
 
 
 if __name__ == "__main__":
