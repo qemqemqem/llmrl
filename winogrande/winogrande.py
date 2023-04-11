@@ -13,8 +13,13 @@ openai.api_key = os.environ["OPENAI_API_KEY"]
 with open("/home/keenan/Downloads/winogrande_1.1/winogrande_1.1/dev.jsonl", "r") as file:
     dataset = [json.loads(line) for line in file]
 
-# Randomly choose 100 questions
-random_questions = random.sample(dataset, 10)
+
+def get_random_questions(num_questions):
+    # Randomly choose 100 questions
+    random_questions = random.sample(dataset, num_questions)
+    if num_questions > len(dataset):
+        print(f"Warning: num_questions ({num_questions}) is greater than the number of questions in the dataset ({len(dataset)}).")
+    return random_questions
 
 
 # Function to generate answers using the OpenAI API
@@ -39,18 +44,20 @@ def is_correct_answer(generated_answer, correct_option, option1, option2):
     return False
 
 
-# Iterate through the randomly chosen questions, generate answers, and check correctness
-correct_count = 0
-for question in random_questions:
-    prompt = f"Question: {question['sentence']} Options: {question['option1']} or {question['option2']}? Answer:"
-    answer = generate_answer(prompt)
-    correct = is_correct_answer(answer, question['answer'], question['option1'], question['option2'])
+if __name__ == "__main__":
+    # Iterate through the randomly chosen questions, generate answers, and check correctness
+    correct_count = 0
+    random_questions = get_random_questions(10)
+    for question in random_questions:
+        prompt = f"Question: {question['sentence']} Options: {question['option1']} or {question['option2']}? Answer:"
+        answer = generate_answer(prompt)
+        correct = is_correct_answer(answer, question['answer'], question['option1'], question['option2'])
 
-    if correct:
-        correct_count += 1
+        if correct:
+            correct_count += 1
 
-    print(f"Prompt: {prompt}\nGenerated Answer: {answer}\nCorrect: {'✅' if correct else '❌'}, ({question['option1'] if question['answer'] == 1 else question['option2']})\n")
+        print(f"Prompt: {prompt}\nGenerated Answer: {answer}\nCorrect: {'✅' if correct else '❌'}, ({question['option1'] if question['answer'] == 1 else question['option2']})\n")
 
-# Calculate and print the accuracy
-accuracy = (correct_count / len(random_questions)) * 100
-print(f"Accuracy: {accuracy:.2f}%")
+    # Calculate and print the accuracy
+    accuracy = (correct_count / len(random_questions)) * 100
+    print(f"Accuracy: {accuracy:.2f}%")
