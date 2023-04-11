@@ -9,6 +9,7 @@ from winogrande.winogrande import get_random_questions, eval_answer_against_ques
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
+# A high temperature is worse but noisier, which gives us more data because it increases entropy
 llm = OpenAI(temperature=0.9)
 
 
@@ -21,6 +22,8 @@ class Template:
         self.named_output = named_output
         self.template = template
         self.input_variables = extract_bracket_words(template)
+        self.num_participations = 0
+        self.num_correct = 0
 
     def format(self, **kwargs):
         return self.template.format(**kwargs)
@@ -28,6 +31,9 @@ class Template:
     def __repr__(self):
         shortened = self.template.replace("\n", " ")[0:20]
         return f"Template({self.named_output}, {shortened})"
+
+    def key(self):
+        return self.template.replace("\n", " ").replace(",", "").replace("\"", "")
 
 
 class AnswerChainSearcher:
@@ -51,8 +57,29 @@ class AnswerChainSearcher:
             known_data[template.named_output] = llm(prompt)
         return sequence, known_data["answer"]
 
-    def teach(self, sequence, answer):
-        pass
+    def teach(self, sequence, answer, correct):
+        for template in sequence:
+            template.num_participations += 1
+            if correct:
+                template.num_correct += 1
+
+    def load_template_data_from_file(self, filename):
+        # Return early if the file doesn't exist
+        if not os.path.exists(filename):
+            return
+        with open(filename, "r") as f:
+            for line in f:
+                key, num_correct, num_participations, _ = line.split(",")
+                # Find matching template
+                for template in self.templates:
+                    if template.key() == key:
+                        template.num_correct = int(num_correct)
+                        template.num_participations = int(num_participations)
+
+    def save_template_data_to_file(self, filename):
+        with open(filename, "w") as f:
+            for template in self.templates:
+                f.write(f"{template.key()},{template.num_correct},{template.num_participations},{template.num_correct / template.num_participations * 100:.2f}\n")
 
 
 templates = [
@@ -74,21 +101,29 @@ templates = [
 ]
 
 if __name__ == "__main__":
-    num_questions = 10
+    num_questions = 100
+    save_file = "template_data.csv"
 
     answer_searcher = AnswerChainSearcher()
     answer_searcher.templates = templates
+    answer_searcher.load_template_data_from_file(save_file)
     winogrande_questions = get_random_questions(num_questions)
-    # sequences = []
-    # answers = []
     correct_count = 0
-    for question in winogrande_questions:
+    for i, question in enumerate(winogrande_questions):
         sequence, answer = answer_searcher.try_answer(question["sentence"], question["answer"])
         if answer.strip() == "":
-            print("Empty answer")
-        # sequences.append(sequence)
-        # answers.append(answer)
+            print("\n\nEmpty answer! :(\n\n")
         is_correct, correct_answer = eval_answer_against_question(answer[:20], question)
-        print(f"{'✅' if is_correct else '❌'}: Answer/Correct: {answer.strip()} / {correct_answer} using Sequence: {sequence}")
+        print(f"{'✅' if is_correct else '❌'}: Answer/Correct: {answer.strip()}/{correct_answer} using Sequence: {sequence} from \"{question['sentence']}\"")
         correct_count += is_correct
+        # Teaching
+        answer_searcher.teach(sequence, answer, is_correct)
+        if (i + 1) % 10 == 0 or i == num_questions - 1:
+            print(f"Number correct: {correct_count}/{i + 1}")
+            # Save the template data to a file
+            answer_searcher.save_template_data_to_file(save_file)
     print(f"Number correct: {correct_count}/{num_questions}")
+
+    # How did the templates do?
+    for template in templates:
+        print(f"Template: {template} Number correct: {template.num_correct}/{template.num_participations} == {template.num_correct / template.num_participations * 100:.2f}%")
