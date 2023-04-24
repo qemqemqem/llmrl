@@ -68,7 +68,7 @@ def prompt_completion_chat(question="", model="gpt-3.5-turbo", n=1, temperature=
         answers.append(ans)
     # print(f"\tPROMPT: {question}\n\tANSWER: {answer}\n")
     duration = time.perf_counter() - start_time
-    print(f"Duration: {duration:.2f} seconds: {answers[0][:20]}")
+    # print(f"Duration: {duration:.2f} seconds: {answers[0][:20]}")
     if n == 1:
         return answers[0]
     return answers

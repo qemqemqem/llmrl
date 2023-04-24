@@ -12,8 +12,8 @@ class StepType:
         self.is_final: bool = is_final  # If True, this is the last step in the problem, and the answer is the answer to the Problem
 
         if not is_final:
-            self.text += " Answer this question, but do not proceed to the final answer yet."
-            self.text += " Please be concise and professional."
+            # self.text += " Answer this question, but do not proceed to the final answer yet."
+            self.text += " Please be concise and professional. Do only this step and do not jump ahead."
         else:
             self.text += " Give the final answer only, using as few words as possible."
 
@@ -50,7 +50,35 @@ class Problem:
 
 
 def choose_step_type(problem: Problem) -> StepType:
-    return random.choice(problem.types_of_steps)  # TODO Call out to ChatGPT
+    messages = problem.messages_for_chat()
+    sys_msg = next(msg for msg in messages if msg["role"] == "system")
+    sys_msg["content"] = "You specialize in cognitive strategies. You always know how to think through a difficult problem."
+    present_options = "I need to figure out what to do next. Here are my options:"
+    for i, step_type in enumerate(problem.types_of_steps):
+        present_options += "\n" + str(i) + ") " + step_type.name
+    present_options += "\nPlease choose an option by typing the number of the option."
+    messages.append({"role": "user", "content": present_options})
+
+    choice = prompt_completion_chat(messages=messages)
+
+    # Find the matching step type
+    for i, step_type in enumerate(problem.types_of_steps):
+        if str(i) == choice:
+            return step_type
+        if choice.startswith(str(i)):
+            return step_type
+        if choice.startswith(step_type.name):
+            return step_type
+        if str(i) + ")" in choice:
+            return step_type
+        if step_type.name in choice:
+            return step_type
+        if str(i) in choice:
+            return step_type
+
+    # If we didn't find it, just choose randomly
+    print("ERROR: Got a bad choice:", choice, "Choosing randomly.")
+    return random.choice(problem.types_of_steps)
 
 
 def solve_problem_for_train(problem: Problem):
@@ -93,13 +121,13 @@ if __name__ == "__main__":
 
     problem = Problem(prompt)
     problem.types_of_steps = [
-        StepType("strategy", "What is the best strategy to solve this problem?"),
-        StepType("obvious answer", "What is the obvious answer to this problem?"),
-        StepType("math", "Step through the math to solve this problem."),
-        StepType("guess and check", "Guess and check to solve this problem."),
-        StepType("find the trick", "I think there might be a clever trick for solving this problem. What is it?"),
-        StepType("more information", "What other information might help us solve this problem?"),
-        StepType("ready to find answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True),
+        StepType("Choose a strategy", "What is the best strategy to solve this problem?"),
+        StepType("Identify the obvious answer", "What is the obvious answer to this problem?"),
+        StepType("Do math", "Step through the math to solve this problem."),
+        StepType("Guess and check", "Guess and check to solve this problem."),
+        StepType("Look for a clever trick", "I think there might be a clever trick for solving this problem. What is it?"),
+        StepType("Think about background", "What background information do we know that might help us solve this problem?"),
+        StepType("Ready to find the final answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True),
     ]
     print("Problem:", problem.problem_text)
     solve_problem_for_train(problem)
