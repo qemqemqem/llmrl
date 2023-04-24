@@ -1,4 +1,8 @@
 import re
+import time
+from difflib import SequenceMatcher
+
+from termcolor import colored
 
 from drop.drop import *
 from gpt.gpt import prompt_completion_chat
@@ -6,8 +10,9 @@ from utils.filer import *
 
 
 class StepType:
-    def __init__(self, name: str, text: str, is_final: bool = False):
+    def __init__(self, name: str, text: str, is_final: bool = False, short_name=None):
         self.name: str = name
+        self.short_name: str = short_name if short_name else name  # This helps for parsing the text to choose the next step
         self.text: str = text
         self.is_final: bool = is_final  # If True, this is the last step in the problem, and the answer is the answer to the Problem
 
@@ -55,26 +60,42 @@ def choose_step_type(problem: Problem) -> StepType:
     sys_msg["content"] = "You specialize in cognitive strategies. You always know how to think through a difficult problem."
     present_options = "I need to figure out what to do next. Here are my options:"
     for i, step_type in enumerate(problem.types_of_steps):
-        present_options += "\n" + str(i) + ") " + step_type.name
-    present_options += "\nPlease choose an option by typing the number of the option."
+        present_options += "\n" + str(i + 1) + ") " + step_type.name
+    present_options += "\nIt is probably a good idea to pick an option that has not yet been tried."
+    present_options += "\nPlease choose an option by returning the number of the option. For example, if you want to choose the first option, type '1'."
     messages.append({"role": "user", "content": present_options})
 
     choice = prompt_completion_chat(messages=messages)
 
-    # Find the matching step type
+    # Find the matching step type. Iterate multiple times, because we start with the most reliable strategy and work down to the least reliable.
     for i, step_type in enumerate(problem.types_of_steps):
-        if str(i) == choice:
+        if str(i + 1) == choice:
             return step_type
-        if choice.startswith(str(i)):
+        if choice.startswith(str(i + 1)):
             return step_type
         if choice.startswith(step_type.name):
             return step_type
-        if str(i) + ")" in choice:
+    for i, step_type in enumerate(problem.types_of_steps):
+        if str(i + 1) + ")" in choice:
             return step_type
+    for i, step_type in enumerate(problem.types_of_steps):
         if step_type.name in choice:
             return step_type
-        if str(i) in choice:
+    for i, step_type in enumerate(problem.types_of_steps):
+        if step_type.short_name in choice:
             return step_type
+    for i, step_type in enumerate(problem.types_of_steps):
+        if str(i + 1) in choice:
+            return step_type
+    # Fall back on the choice that is most similar to the choice that was made, using the longest common substring. Randomly order them, so it doesn't default to the last one.
+    closest_name = max([s.name for s in random.sample(problem.types_of_steps, len(problem.types_of_steps))], key=lambda x: SequenceMatcher(None, choice, x).find_longest_match(0, len(choice), 0, len(x)).size)
+    for step_type in problem.types_of_steps:
+        if step_type.name == closest_name:
+            return step_type
+
+    # Notes
+    # [] It seems to perseverate, choosing the same option multiple times in a row
+    # [] Sometimes it says "you need to choose a strategy by typing the number", indicating that it has become confused about the wording here and the wording of the strategy option.
 
     # If we didn't find it, just choose randomly
     print("ERROR: Got a bad choice:", choice, "Choosing randomly.")
@@ -92,13 +113,13 @@ def solve_problem_for_train(problem: Problem, randomness=0.1):
         if step_type.is_final and len(problem.steps) == 0:
             step_type = random.choice([step_type for step_type in problem.types_of_steps if not step_type.is_final])  # Always do at least one step
 
-        print("Next step type:", step_type.name)
+        print("Next step:", step_type.name)
 
         # Complete this step with chat
         messages = problem.messages_for_chat()
         messages.append({"role": "user", "content": step_type.text})
         response = prompt_completion_chat(messages=messages)
-        print("Got response:", response)
+        print(colored(f"Got response: {response}", "blue"))
         step = Step(step_type)
         step.step_response = response
         problem.steps.append(step)
@@ -115,13 +136,13 @@ def reflect_on_problem(problem: Problem, solved_correctly: bool):
 
 def define_step_types():
     return [
-        StepType("Choose a strategy", "What is the best strategy to solve this problem?"),
-        StepType("Identify the obvious answer", "What is the obvious answer to this problem?"),
-        StepType("Do math", "Step through the math to solve this problem."),
+        StepType("Choose a strategy", "What is the best strategy to solve this problem?", short_name="strategy"),
+        StepType("Identify the obvious answer", "What is the obvious answer to this problem?", short_name="obvious"),
+        StepType("Do math", "Step through the math to solve this problem.", short_name="math"),
         StepType("Guess and check", "Guess and check to solve this problem."),
-        StepType("Look for a clever trick", "I think there might be a clever trick for solving this problem. What is it?"),
-        StepType("Think about background", "What background information do we know that might help us solve this problem?"),
-        StepType("Ready to find the final answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True),
+        StepType("Look for a clever trick", "I think there might be a clever trick for solving this problem. What is it?", short_name="trick"),
+        StepType("Think about background", "What background information do we know that might help us solve this problem?", short_name="background"),
+        StepType("Ready to find the final answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True, short_name="final"),
     ]
 
 
@@ -130,7 +151,9 @@ if __name__ == "__main__":
     paths = []
     problems = []
 
-    for _ in range(10):
+    for i in range(10):
+        start_time = time.time()
+
         drop_data = download_data()
         passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
         question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
@@ -138,13 +161,13 @@ if __name__ == "__main__":
 
         problem = Problem(prompt)
         problem.types_of_steps = define_step_types()
-        print("Problem:", problem.problem_text)
+        print(f"Problem {i}:", problem.problem_text)
         solve_problem_for_train(problem, randomness=0.0)
-        print(problem)
         save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
         print("Final answer:", problem.final_answer)
         problem.solved_correctly = is_correct_answer(problem.final_answer, answer)
         print("Compare correct answer: ", answer, "Correct? ", problem.solved_correctly)
+        print(f"Took time: {time.time() - start_time} seconds")
 
         # Add to log
         paths.append(question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(problem.solved_correctly))

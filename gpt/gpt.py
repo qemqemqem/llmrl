@@ -48,17 +48,23 @@ def prompt_completion(question, engine="davinci-instruct-beta", max_tokens=64, t
 def prompt_completion_chat(question="", model="gpt-3.5-turbo", n=1, temperature=0.0, max_tokens=256, system_description="You are a thoughtful and serious bot. You are concise, professional, and accurate.", messages=None):
     start_time = time.perf_counter()
     prompt = f"{question} "
-    response = openai.ChatCompletion.create(
-        # https://openai.com/blog/introducing-chatgpt-and-whisper-apis
-        model=model,
-        messages=messages if messages is not None else [
-            {"role": "system", "content": system_description},
-            {"role": "user", "content": prompt},
-        ],
-        max_tokens=max_tokens,
-        temperature=temperature,
-        n=n,
-    )
+    response = None
+    while response is None:
+        try:
+            response = openai.ChatCompletion.create(
+                # https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+                model=model,
+                messages=messages if messages is not None else [
+                    {"role": "system", "content": system_description},
+                    {"role": "user", "content": prompt},
+                ],
+                max_tokens=max_tokens,
+                temperature=temperature,
+                n=n,
+            )
+        except Exception as e:
+            print(f"OpenAI GPT Error: {e}")
+            time.sleep(1)  # Wait a second and try again
     answers = []
     for i in range(n):
         ans = response.choices[i].message.content.strip()

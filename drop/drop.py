@@ -86,6 +86,9 @@ def sample_questions(drop_data, num_random_questions):
         question = qa_pair["question"]
         answer = qa_pair["answer"]
         question_answer_pairs.append((passage_id, passage_text, question, answer))
+    if len(question_answer_pairs) < num_random_questions:
+        # Recursion. Might lead to duplicates but c'est la vie
+        question_answer_pairs += sample_questions(drop_data, num_random_questions - len(question_answer_pairs))
     return question_answer_pairs
 
 
