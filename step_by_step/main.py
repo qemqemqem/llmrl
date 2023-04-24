@@ -1,6 +1,6 @@
-import json
-import random
+import re
 
+from drop.drop import *
 from gpt.gpt import prompt_completion_chat
 from utils.filer import *
 
@@ -12,9 +12,10 @@ class StepType:
         self.is_final: bool = is_final  # If True, this is the last step in the problem, and the answer is the answer to the Problem
 
         if not is_final:
-            self.text += " I don't want you to find the final answer, just this step."
-
-        self.text += " Please be concise."
+            self.text += " Answer this question, but do not proceed to the final answer yet."
+            self.text += " Please be concise and professional."
+        else:
+            self.text += " Give the final answer only, using as few words as possible."
 
 
 class Step:
@@ -39,12 +40,12 @@ class Problem:
     def messages_for_chat(self):
         messages = [
             {"role": "system", "content": "You are a thoughtful question answering bot. You give short but correct answers to questions. You like to think things through carefully."},
-            {"role": "user", "text": self.problem_text},
-            {"role": "assistant", "text": "I need to think this through step by step."},
+            {"role": "user", "content": self.problem_text},
+            {"role": "assistant", "content": "I need to think this through step by step."},
         ]
         for step in self.steps:
-            messages.append({"role": "user", "text": step.type_of_step.text})
-            messages.append({"role": "assistant", "text": step.step_response})
+            messages.append({"role": "user", "content": step.type_of_step.text})
+            messages.append({"role": "assistant", "content": step.step_response})
         return messages
 
 
@@ -67,8 +68,8 @@ def solve_problem_for_train(problem: Problem):
 
         # Complete this step with chat
         messages = problem.messages_for_chat()
-        messages.append({"role": "user", "text": step_type.text})
-        response = prompt_completion_chat(messages)
+        messages.append({"role": "user", "content": step_type.text})
+        response = prompt_completion_chat(messages=messages)
         print("Got response:", response)
         step = Step(step_type)
         step.step_response = response
@@ -85,7 +86,12 @@ def reflect_on_problem(problem: Problem, solved_correctly: bool):
 
 
 if __name__ == "__main__":
-    problem = Problem("Rhonda has 12 marbles more than Douglas. Douglas has 6 marbles more than Bertha. Rhonda has twice as many marbles as Bertha has. How many marbles does Douglas have?")
+    drop_data = download_data()
+    passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
+    question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
+    prompt = format_prompt(passage_text, question)
+
+    problem = Problem(prompt)
     problem.types_of_steps = [
         StepType("strategy", "What is the best strategy to solve this problem?"),
         StepType("obvious answer", "What is the obvious answer to this problem?"),
@@ -93,10 +99,11 @@ if __name__ == "__main__":
         StepType("guess and check", "Guess and check to solve this problem."),
         StepType("find the trick", "I think there might be a clever trick for solving this problem. What is it?"),
         StepType("more information", "What other information might help us solve this problem?"),
-        StepType("ready to find answer", "Given what we know, what is the answer to this problem?", is_final=True),
+        StepType("ready to find answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True),
     ]
     print("Problem:", problem.problem_text)
     solve_problem_for_train(problem)
     print(problem)
-    save_to_file("../saved_runs/marbles_count.json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+    save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
     print("Final answer:", problem.final_answer)
+    print("Compare correct answer: ", answer)
