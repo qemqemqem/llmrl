@@ -113,14 +113,8 @@ def reflect_on_problem(problem: Problem, solved_correctly: bool):
     # TODO reflect on each step
 
 
-if __name__ == "__main__":
-    drop_data = download_data()
-    passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
-    question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
-    prompt = format_prompt(passage_text, question)
-
-    problem = Problem(prompt)
-    problem.types_of_steps = [
+def define_step_types():
+    return [
         StepType("Choose a strategy", "What is the best strategy to solve this problem?"),
         StepType("Identify the obvious answer", "What is the obvious answer to this problem?"),
         StepType("Do math", "Step through the math to solve this problem."),
@@ -129,9 +123,20 @@ if __name__ == "__main__":
         StepType("Think about background", "What background information do we know that might help us solve this problem?"),
         StepType("Ready to find the final answer", "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'.", is_final=True),
     ]
+
+
+if __name__ == "__main__":
+    drop_data = download_data()
+    passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
+    question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
+    prompt = format_prompt(passage_text, question)
+
+    problem = Problem(prompt)
+    problem.types_of_steps = define_step_types()
     print("Problem:", problem.problem_text)
     solve_problem_for_train(problem)
     print(problem)
     save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
     print("Final answer:", problem.final_answer)
-    print("Compare correct answer: ", answer)
+    correct = is_correct_answer(problem.final_answer, answer)
+    print("Compare correct answer: ", answer, "Correct? ", correct)

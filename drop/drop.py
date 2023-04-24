@@ -7,9 +7,13 @@ import inflect
 import openai
 import requests
 
-
 # Install the openai package if not already installed
 # !pip install openai
+
+# Create an inflect engine to convert numbers.
+# Do this at the top of the file because it's slow to create.
+inflect_engine = inflect.engine()
+
 
 def download_data():
     # Set up your API key for OpenAI
@@ -99,9 +103,6 @@ if __name__ == '__main__':
 
     correct = 0
     total = 0
-
-    # Create an inflect engine to convert numbers
-    inflect_engine = inflect.engine()
 
     # Iterate through the selected questions and answer them using the OpenAI API
     for passage_id, passage_data in random_passages:
