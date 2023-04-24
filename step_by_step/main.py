@@ -1,17 +1,26 @@
 import random
 
+from gpt.gpt import prompt_completion_chat
+
 
 class StepType:
     def __init__(self, name: str, text: str, is_final: bool = False):
         self.name: str = name
         self.text: str = text
-        self.is_final: bool = is_final
+        self.is_final: bool = is_final  # If True, this is the last step in the problem, and the answer is the answer to the Problem
+
+        if not is_final:
+            self.text += " I don't want you to find the final answer, just this step."
+
+        self.text += " Please be concise."
 
 
 class Step:
     def __init__(self, type_of_step: StepType):
         self.type_of_step: StepType = type_of_step
         self.step_response: str = ""
+
+        # These are used during reflection after the problem is solved and the answer is checked
         self.was_useful: bool = False
         self.usefulness_commentary: str = ""
 
@@ -23,10 +32,11 @@ class Problem:
         self.solved_correctly: bool = False
         self.commentary_on_process: str = ""
         self.types_of_steps: list[StepType] = []
+        self.final_answer = ""
 
     def messages_for_chat(self):
         messages = [
-            {"prompt", "You are a thoughtful question answering bot. You give short but correct answers to questions. You like to think things through carefully."},
+            {"role": "system", "content": "You are a thoughtful question answering bot. You give short but correct answers to questions. You like to think things through carefully."},
             {"role": "user", "text": self.problem_text},
             {"role": "assistant", "text": "I need to think this through step by step."},
         ]
@@ -42,22 +52,29 @@ def choose_step_type(problem: Problem) -> StepType:
 
 def solve_problem_for_train(problem: Problem):
     while True:
-        if random.random() < 0.1:
-            step_type = random.choice(problem.types_of_steps)  # Mix it up sometimes, for exploration
-        elif len(problem.steps) > 4:
-            step_type = next(step_type for step_type in problem.types_of_steps if step_type.is_final)  # That's enough steps
+        if random.random() < 0.1:  # Mix it up sometimes, for exploration
+            step_type = random.choice(problem.types_of_steps)
+        elif len(problem.steps) > 4:  # That's enough steps
+            step_type = next(step_type for step_type in problem.types_of_steps if step_type.is_final)
         else:
             step_type = choose_step_type(problem)
         if step_type.is_final and len(problem.steps) == 0:
             step_type = random.choice([step_type for step_type in problem.types_of_steps if not step_type.is_final])  # Always do at least one step
 
+        print("Next step type:", step_type.name)
+
         # Complete this step with chat
         messages = problem.messages_for_chat()
         messages.append({"role": "user", "text": step_type.text})
-        # TODO Call out to ChatGPT
-
+        response = prompt_completion_chat(messages)
+        print("Got response:", response)
         step = Step(step_type)
+        step.step_response = response
         problem.steps.append(step)
+
+        if step_type.is_final:
+            problem.final_answer = response
+            break
 
 
 def reflect_on_problem(problem: Problem, solved_correctly: bool):
@@ -76,4 +93,7 @@ if __name__ == "__main__":
         StepType("more information", "What other information might help us solve this problem?"),
         StepType("ready to find answer", "Given what we know, what is the answer to this problem?", is_final=True),
     ]
+    print("Problem:", problem.problem_text)
     solve_problem_for_train(problem)
+    print(problem)
+    print("Final answer:", problem.final_answer)
