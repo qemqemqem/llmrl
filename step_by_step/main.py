@@ -1,6 +1,8 @@
+import json
 import random
 
 from gpt.gpt import prompt_completion_chat
+from utils.filer import *
 
 
 class StepType:
@@ -96,4 +98,5 @@ if __name__ == "__main__":
     print("Problem:", problem.problem_text)
     solve_problem_for_train(problem)
     print(problem)
+    save_to_file("../saved_runs/marbles_count.json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
     print("Final answer:", problem.final_answer)
