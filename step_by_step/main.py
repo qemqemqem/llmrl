@@ -81,9 +81,9 @@ def choose_step_type(problem: Problem) -> StepType:
     return random.choice(problem.types_of_steps)
 
 
-def solve_problem_for_train(problem: Problem):
+def solve_problem_for_train(problem: Problem, randomness=0.1):
     while True:
-        if random.random() < 0.1:  # Mix it up sometimes, for exploration
+        if random.random() < randomness:  # Mix it up sometimes, for exploration
             step_type = random.choice(problem.types_of_steps)
         elif len(problem.steps) > 4:  # That's enough steps
             step_type = next(step_type for step_type in problem.types_of_steps if step_type.is_final)
@@ -126,17 +126,31 @@ def define_step_types():
 
 
 if __name__ == "__main__":
-    drop_data = download_data()
-    passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
-    question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
-    prompt = format_prompt(passage_text, question)
+    # Logging what paths it takes:
+    paths = []
+    problems = []
 
-    problem = Problem(prompt)
-    problem.types_of_steps = define_step_types()
-    print("Problem:", problem.problem_text)
-    solve_problem_for_train(problem)
-    print(problem)
-    save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
-    print("Final answer:", problem.final_answer)
-    correct = is_correct_answer(problem.final_answer, answer)
-    print("Compare correct answer: ", answer, "Correct? ", correct)
+    for _ in range(10):
+        drop_data = download_data()
+        passage_id, passage_text, question, answer = sample_questions(drop_data, 1)[0]
+        question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
+        prompt = format_prompt(passage_text, question)
+
+        problem = Problem(prompt)
+        problem.types_of_steps = define_step_types()
+        print("Problem:", problem.problem_text)
+        solve_problem_for_train(problem, randomness=0.0)
+        print(problem)
+        save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        print("Final answer:", problem.final_answer)
+        problem.solved_correctly = is_correct_answer(problem.final_answer, answer)
+        print("Compare correct answer: ", answer, "Correct? ", problem.solved_correctly)
+
+        # Add to log
+        paths.append(question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(correct))
+        problems.append(problem)
+
+    print("Paths taken:")
+    print("\n\n".join(paths))
+
+    print(f"Num correct: {sum([1 for problem in problems if problem.solved_correctly])} / {len(problems)}")
