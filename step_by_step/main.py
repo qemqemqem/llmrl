@@ -147,7 +147,7 @@ if __name__ == "__main__":
         print("Compare correct answer: ", answer, "Correct? ", problem.solved_correctly)
 
         # Add to log
-        paths.append(question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(correct))
+        paths.append(question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(problem.solved_correctly))
         problems.append(problem)
 
     print("Paths taken:")
