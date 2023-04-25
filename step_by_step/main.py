@@ -14,7 +14,7 @@ if __name__ == "__main__":
     step_choices = []
 
     drop_data = download_data()
-    num_questions = 2
+    num_questions = 10
 
     # Sample outside the loop to avoid duplicates
     question_tuples = sample_questions(drop_data, num_questions)
@@ -52,7 +52,7 @@ if __name__ == "__main__":
             step_choices.append(step.type_of_step.name)
 
     # Final summary
-    print("Step choices:")
+    print("Step choice counts:")
     # Counts
     print("\n".join([f"* {choice}: {step_choices.count(choice)}" for choice in sorted(list(set(step_choices)), key=lambda x: step_choices.count(x), reverse=True)]))
     # print("Paths taken:")
