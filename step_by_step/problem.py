@@ -7,6 +7,7 @@ class StepType:
 
         if not is_final:
             # self.text += " Answer this question, but do not proceed to the final answer yet."
+            # TODO Put this elsewhere so it doesn't get logged
             self.text += " Please be concise and professional. Do only this step and do not jump ahead."
         else:
             self.text += " Give the final answer only, using as few words as possible."

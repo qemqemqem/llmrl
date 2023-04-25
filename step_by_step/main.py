@@ -2,10 +2,24 @@ import re
 import time
 
 from drop.drop import *
+from step_by_step.finetuning import load_all_files_in_directory, parse_file_as_json
 from step_by_step.next_step import *
 from step_by_step.reflecting import reflect_on_finished_problem, reflect_on_each_step
 from step_by_step.solver import *
 from utils.filer import *
+
+
+def compute_accuracy_on_all_files(files: dict):
+    all_files = load_all_files_in_directory("saved_runs")
+    num_correct = 0
+    num_total = 0
+    for filename, file in all_files.items():
+        problem = parse_file_as_json(file)
+        if problem["solved_correctly"]:
+            num_correct += 1
+        num_total += 1
+    print(f"Num correct: {num_correct} / {num_total} = {num_correct / num_total * 100:.2f}%")
+
 
 if __name__ == "__main__":
     # Logging what paths it takes:
@@ -38,7 +52,7 @@ if __name__ == "__main__":
         reflect_on_each_step(problem)
 
         # Save to file
-        save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        save_to_file("saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
         # Print how we did
         print("Final answer:", problem.final_answer)
