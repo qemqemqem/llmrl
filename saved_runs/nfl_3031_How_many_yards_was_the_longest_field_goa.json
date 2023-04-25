@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the game summary and identified the different field goals made during the game. Then, I noted the length of each field goal and determined that the longest field goal was 38 yards. \n\nTo solve the problem better, I could have created a table or chart to organize the information about the field goals. This would have made it easier to compare the lengths of the different field goals and identify the longest one.",
+    "final_answer": "The longest field goal was 38 yards.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "38",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Steelers stayed home for Game 2 of a 3-game home stand against the Raiders.  In the first quarter, the Raiders scored first as Derek Carr found Michael Crabtree on a 22-yard pass for a 7-0 lead.  The Steelers got on the board later on in the quarter when Chris Boswell kicked a 34-yard field goal for a 7-3 game.  In the 2nd quarter, the Steelers took the lead when DeAngelo Williams ran for a TD from 3 yards out (with a successful 2-point conversion) for an 11-7 game.  The Raiders however, retook the lead when Carr found Amari Cooper on a 15-yard pass for a 14-11 lead.  The Steelers closed the half when Williams ran for another 3-yard TD and Boswell kicked a 38-yard field goal for leads of 18-14 and then 21-14 at halftime.  After the break, the Raiders went back to work tying the game up 21-21 when Carr found Clive Walford on a 1-yard pass for the only score of the third quarter.  In the fourth quarter, the Steelers were able to retake the lead as Ben Roethlisberger found Martavis Bryant on a 14-yard pass for a 28-21 game.  Roethlisberger then found Jesse James on a 4-yard pass for a 35-21 game.  The Raiders would tie the game back up with 2 straight TDs of their own:  First coming from Jamize Olawale who ran from 19 yards out for a 35-28 game and then Carr finding Crabtree again on a 38-yard pass to make it 35-35.  Getting the ball back with seconds left, the Steelers had to depend on backup QB Landry Jones to help them get within field goal range.  They would successfully do so and then Boswell kicked the game-winning 18-yard field goal for a 38-35 final score.\n\nQuestion:\nHow many yards was the longest field goal?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Sure, the question is asking for the length of the longest field goal made during the Steelers vs Raiders game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Rephrase the problem",
+                "short_name": "rephrase",
+                "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me understand what the question was asking for.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, the problem can be broken down into identifying the different field goals made during the game and then determining the length of each field goal.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me identify the different parts of the problem and how to approach it.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The longest field goal was 38 yards.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped me focus on finding the answer to the question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the game summary and identified the different field goals made during the game. Then, I noted the length of each field goal and determined that the longest field goal was 38 yards. \n\nTo solve the problem better, I could have created a table or chart to organize the information about the field goals. This would have made it easier to compare the lengths of the different field goals and identify the longest one.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The longest field goal was 38 yards., and the correct answer was 38. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

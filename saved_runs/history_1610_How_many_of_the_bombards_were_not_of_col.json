@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I first identified the relevant information, which was that the army of Bijapur had 350 bombards, of which 30 were of colossal size. To find the number of bombards that were not of colossal size, I subtracted 30 from 350, which gave me the answer of 320. \n\nTo solve the problem better, I could have read the passage more carefully to ensure that I didn't miss any important details. Additionally, I could have double-checked my calculations to make sure that I didn't make any mistakes.",
+    "final_answer": "The number of bombards that were not of colossal size is 320.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "320",
+        "spans": []
+    },
+    "problem_text": "Context:\nBy December 28, 1570, general Nuri Khan arrived with the vanguard of the army from Bijapur, the Adil Shah himself arriving eight days later with the bulk of his forces. According to the Portuguese it numbered 100,000 men strong, of which 30,000 were foot, 3,000 arquebusiers and 35,000 horse, including 2000 elephants, while the remaining were forced labourers. Besides over 350 bombards of which 30 were of colossal size, the army was also accompanied by several thousands of dancing women. He established a camp around his red tent to the east of the island of Goa, the infantry  distributed ahead of Benastarim and the artillery placed into position to counter-fire the Portuguese batteries. The artillery of Bijapur began battering the fort, which was constantly repaired during the night. Throughout the Portuguese lines by the river banks, the Viceroy ordered torches and bonfires be lit on isolated positions by night, to give the impression of readiness and encourage the enemy to waste ammunition firing on them.\n\nQuestion:\nHow many of the bombards were not of colossal size?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information to the problem is that the army of Bijapur had 350 bombards, of which 30 were of colossal size.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The number of bombards that were not of colossal size is 320.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I first identified the relevant information, which was that the army of Bijapur had 350 bombards, of which 30 were of colossal size. To find the number of bombards that were not of colossal size, I subtracted 30 from 350, which gave me the answer of 320. \n\nTo solve the problem better, I could have read the passage more carefully to ensure that I didn't miss any important details. Additionally, I could have double-checked my calculations to make sure that I didn't make any mistakes.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The number of bombards that were not of colossal size is 320., and the correct answer was 320. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

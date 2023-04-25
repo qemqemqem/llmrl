@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the given text and identified the relevant information, which was that the KPRA met only once, a three-day session in April 1976. Therefore, the answer to the question \"How many three day sessions did the KPRA have in 1976?\" is 1. Since the answer was straightforward, there was no need for any additional steps or methods to solve the problem.",
+    "final_answer": "1",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "1",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn January 1976 the Communist Party of Kampuchea  promulgated the \"Constitution of Democratic Kampuchea\". The Constitution provided for a \"Kampuchean People's Representative Assembly\"  to be elected by secret ballot in direct general elections and a State Praesidium to be selected and appointed every five years by the KPRA. The KPRA met only once, a three-day session in April 1976. The members of the KPRA, however, were never elected; the Central Committee of the CPK appointed the chairman and other high officials both to it and to the State Praesidium. Plans for elections of members were discussed, but the 250 members of the KPRA were in fact appointed by the upper echelon of CPK. Democratic Kampuchea was an atheist state, but Buddhist influences still persisted.  All religions were banned, and the repression of adherents of Islam, Christianity, and Buddhism was extensive. Nearly 25,000 Buddhist monks were massacred by the regime. In actual fact, all power belonged to the Standing Committee of CPK, the membership of which comprised the Secretary and Prime Minister Pol Pot, his Deputy Secretary Nuon Chea and seven others. It was known also as the \"Centre\", the \"Organisation,\" or \"Angkar\" and its daily work was conducted from Office 870 in Phnom Penh. For almost two years after the takeover, the Khmer Rouge continued to refer to itself as simply \"Angkar.\" It was only in a March 1977 speech that Pol Pot revealed the CPK's existence. It was also around that time that it was confirmed that Pol Pot was the same person as Saloth Sar, who had long been cited as the CPK's general secretary.\n\nQuestion:\nHow many three day sessions did the KPRA have in 1976?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information is that the KPRA met only once, a three-day session in April 1976.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the specific information that was needed to answer the question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "1",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to use the relevant information to arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the given text and identified the relevant information, which was that the KPRA met only once, a three-day session in April 1976. Therefore, the answer to the question \"How many three day sessions did the KPRA have in 1976?\" is 1. Since the answer was straightforward, there was no need for any additional steps or methods to solve the problem.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 1, and the correct answer was 1. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

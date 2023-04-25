@@ -1,0 +1,188 @@
+{
+    "commentary_on_process": "To solve the problem, I first broke it down into smaller parts and found the yardage of Chris Johnson's first and second touchdown runs. Then, I subtracted the yardage of the first touchdown run from the yardage of the second touchdown run to get the difference. This gave me the answer of 5 yards. \n\nTo solve the problem better, I could have double-checked my calculations to ensure that I didn't make any errors. Additionally, I could have used a calculator to make the subtraction easier and more accurate.",
+    "final_answer": "5",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "5",
+        "spans": []
+    },
+    "problem_text": "Context:\nComing off their home win over the Panthers, the Vikings flew to LP Field for a Week 4 interconference duel with the Tennessee Titans. In the first quarter, Minnesota trailed early as Titans kicker Rob Bironas got a 20-yard field goal, while RB Chris Johnson got a 1-yard TD run. In the second quarter, the Vikes responded with RB Adrian Peterson getting a 28-yard TD run. However, Tennessee responded with Bironas kicking a 32-yard field goal, along with RB LenDale White getting a 1-yard TD run. The Vikings closed out the half with kicker Ryan Longwell getting a 42-yard field goal. In the third quarter, the Titans increased their lead with Bironas nailing a 49-yard field goal. In the fourth quarter, Minnesota tried to rally as Peterson got a 3-yard TD run, but Tennessee pulled away with Johnson's 6-yard TD run.\n\nQuestion:\nHow many yards longer was Chris Johnson's second touchdown run compared to his first?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you can subtract the yardage of Chris Johnson's first touchdown run from the yardage of his second touchdown run to find the difference.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Use similar problems",
+                "short_name": "similar",
+                "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me understand how to approach the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, you can first find out the yardage of Chris Johnson's first touchdown run and then find out the yardage of his second touchdown run, and finally subtract the yardage of the first touchdown run from the yardage of the second touchdown run to get the difference.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me break down the problem into smaller, more manageable parts.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The given information tells us that Chris Johnson got a 1-yard TD run in the first quarter and a 6-yard TD run in the fourth quarter. To find the difference, we subtract the yardage of the first touchdown run from the yardage of the second touchdown run: \n\n6 yards - 1 yard = 5 yards \n\nTherefore, Chris Johnson's second touchdown run was 5 yards longer than his first touchdown run.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me perform the necessary calculations to find the answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "5",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped me summarize my findings and provide the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I first broke it down into smaller parts and found the yardage of Chris Johnson's first and second touchdown runs. Then, I subtracted the yardage of the first touchdown run from the yardage of the second touchdown run to get the difference. This gave me the answer of 5 yards. \n\nTo solve the problem better, I could have double-checked my calculations to ensure that I didn't make any errors. Additionally, I could have used a calculator to make the subtraction easier and more accurate.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 5, and the correct answer was 5. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

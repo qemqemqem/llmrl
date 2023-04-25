@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the number of points the Raiders scored from the number of points the Bills scored. This gave me the difference in points, which was 20. I could have also added the number of points the Bills scored to the number of points the Raiders lost by, which would have given me the same answer. Overall, this was a straightforward problem that required basic arithmetic skills.",
+    "final_answer": "The Bills won the game by 20 points. \n\nAnswer: 20",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "20",
+        "spans": []
+    },
+    "problem_text": "Context:\n Traveling to Buffalo to face the Bills, the Raiders were without running back Marshawn Lynch, who was suspended for one game after making contact with an official during the team's win against Kansas City the week before. Hoping to build on the victory over the Chiefs, the Raiders started well driving 81 yards as Jamize Olawale scored from one yard out to give Oakland a 7-0 lead. However, the Raider offense sputtered on their next two possession and were forced to punt. After Tyrod Taylor hit former Raider Andre Holmes for six-yard touchdown pass to tie the game, the Raiders took over with just over two minutes remaining in the first half. Derek Carr hit DeAndr&#233; Washington over the middle over a five-yard gain, but was hit by Leonard Johnson and fumbled the ball which was recovered by Matt Milano and returned for a 40-yard touchdown to give the Bills a 14-7 lead at the half. The Bills increased the lead on their first possession of the third quarter with a 35-yard field goal. Carr was intercepted on the next Raider possession and the Bills added another field goal to push the lead to 20-7 with more than 10 minutes left in the third quarter. The Raider offense continued to struggle and punted on their next possession. The Bills took advantage and moved 80 yards in a 7:19 drive before Taylor snuck the ball in from inside the one-yard line on the first play of the fourth quarter to move the Buffalo lead to 27-7. The Raider offense finally came to life on their next possession, going no-huddle and moving 75 yards on nine plays before Carr hit Washington from four yards out to the narrow the lead to 27-14. After forcing a Buffalo punt, the Raider offense stalled near midfield and turned the ball over on downs. Looking to take some time off the clock, the Bills instead put the game out of reach as LeSean McCoy scored on a 48-yard run on the first play of the drive to move the lead to 34-14. The Raiders were able to move into Buffalo territory with under two minutes remaining, but Carr was intercepted as the Bills were able to run out the clock. The loss moved the Raider to 3-5 on the season. The fifth loss on the season, in Week 8, surpassed the number of losses (four) the Raiders suffered in the entire season the previous year. The Raider defense struggled once again, giving up 166 yards on the ground to the Bills, but did limit the Bills to 165 yards through the air. Carr completed 31 of 49 passes for 313 yards, but his two interceptions and two fumbles by the Raiders were their undoing.\n\nQuestion:\nHow many points did the Bills win the game by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The Bills won the game by 20 points. They scored 34 points and the Raiders scored 14 points. Therefore, 34 - 14 = 20.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "I subtracted the number of points the Raiders scored from the number of points the Bills scored to find the difference in points.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Bills won the game by 20 points. \n\nAnswer: 20",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "I was able to give the final answer after finding the difference in points.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the number of points the Raiders scored from the number of points the Bills scored. This gave me the difference in points, which was 20. I could have also added the number of points the Bills scored to the number of points the Raiders lost by, which would have given me the same answer. Overall, this was a straightforward problem that required basic arithmetic skills.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The Bills won the game by 20 points. \n\nAnswer: 20, and the correct answer was 20. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

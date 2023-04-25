@@ -1,0 +1,199 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the percentage of college and university students who had smoked tobacco from a hookah (40.3%) from 100% to find the percentage of students who claim to have never used a hookah. Therefore, the percentage of college students who claim to have never used a hookah in 2011 is 59.7%. \n\nTo solve the problem better, it would have been helpful to have more information about the study, such as the sample size and the demographics of the participants. Additionally, it would have been useful to have more recent data to see if the percentage of college students who claim to have never used a hookah has changed over time.",
+    "final_answer": "The percentage of college students who claim to have never used a hookah in 2011 is 59.7%.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "59.7",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn cities with indoor smoking bans, hookah bars have been forced to close or switch to tobacco-free mixtures. In many cities though, hookah lounges have been growing in popularity. From the year 2000 to 2004, over 200 new hookah caf\u00e9s opened for business, most of them targeted at young adults and located near college campuses or cities with large Middle-Eastern communities. This activity continues to gain popularity within the post-secondary student demographic. Hookah use among high school students rose from 4.1% to 9.4% from 2011 to 2014 while cigarette smoking decreased from 15.8% to 9.2% during this same time period, according to the US CDC. According to a 2011 study, 40.3 percent of college and university students surveyed had smoked tobacco from a hookah. As of 8 July 2013, at least 1,178 college or university campuses in the U.S. have adopted 100% smokefree campus policies that attempt to eliminate smoking in indoor and outdoor areas across the entire campus, including residences.\n\nQuestion:\nHow many percent of college students claim to have never used a hookah in 2011?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can help to find the answer.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts helped to focus on the relevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is the percentage of college and university students surveyed who had smoked tobacco from a hookah, which is 40.3 percent, according to a 2011 study.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped to determine what data was needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The keywords that can help identify the type of problem are \"percent\" and \"never used.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the keywords helped to focus on the specific information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to subtract the percentage of college and university students who had smoked tobacco from a hookah (40.3%) from 100% to find the percentage of students who claim to have never used a hookah.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Choosing a strategy helped to determine the best approach to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The percentage of college students who claim to have never used a hookah in 2011 is 59.7%.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Finding the final answer helped to solve the problem and answer the question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the percentage of college and university students who had smoked tobacco from a hookah (40.3%) from 100% to find the percentage of students who claim to have never used a hookah. Therefore, the percentage of college students who claim to have never used a hookah in 2011 is 59.7%. \n\nTo solve the problem better, it would have been helpful to have more information about the study, such as the sample size and the demographics of the participants. Additionally, it would have been useful to have more recent data to see if the percentage of college students who claim to have never used a hookah has changed over time.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The percentage of college students who claim to have never used a hookah in 2011 is 59.7%., and the correct answer was 59.7. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

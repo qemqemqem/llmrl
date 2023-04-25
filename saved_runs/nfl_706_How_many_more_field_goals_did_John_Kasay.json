@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and identified the number of field goals made by each kicker. Then, I subtracted the number of field goals made by Olindo Mare from the number of field goals made by John Kasay to get the answer. \n\nTo solve the problem better, I could have written down the number of field goals made by each kicker and used a subtraction operation to find the difference between them. This would have made it easier to keep track of the numbers and avoid any errors.",
+    "final_answer": "John Kasay made one more field goal than Olindo Mare.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "1",
+        "spans": []
+    },
+    "problem_text": "Context:\nComing off their bye week and still in search of their first win of the year, the Saints stayed at home at played a Week 5 divisional duel with the Carolina Panthers.  In the first quarter, New Orleans trailed early as Panthers kicker John Kasay got a 23-yard field goal.  The Saints would respond with kicker Olindo Mare getting a 25-yard field goal.  In the second quarter, the Panthers retook the lead with Kasay's 35-yard field goal.  New Orleans would respond with Mare kicking a 28-yard field goal. In the third quarter, the Saints took the lead with FB Mike Karney getting a 2-yard TD run for the only score of the period.  However, in the fourth quarter, Carolina came back to win with QB David Carr completing a 17-yard TD pass to WR Steve Smith, along with Kasay's 52-yard field goal as time ran out. With the loss, the Saints fell to their first 0-4 start since 1996.\n\nQuestion:\nHow many more field goals did John Kasay make than Olindo Mare?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can make it easier to solve.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "John Kasay made one more field goal than Olindo Mare.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Reading through the context and identifying the number of field goals made by each kicker was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and identified the number of field goals made by each kicker. Then, I subtracted the number of field goals made by Olindo Mare from the number of field goals made by John Kasay to get the answer. \n\nTo solve the problem better, I could have written down the number of field goals made by each kicker and used a subtraction operation to find the difference between them. This would have made it easier to keep track of the numbers and avoid any errors.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was John Kasay made one more field goal than Olindo Mare., and the correct answer was 1. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

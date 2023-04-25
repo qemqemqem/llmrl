@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the article and identified the relevant information, which was the distances of the field goals that Scobee missed. I then added up the distances to find the total yards of field goals that Scobee missed, which was 90 yards. \n\nSince there were only two missed field goals, this was a straightforward problem that could be solved by simple addition. However, if there were more missed field goals, it might be helpful to use a calculator or a spreadsheet to keep track of the distances and make sure that all of the missed field goals are included in the total.",
+    "final_answer": "90",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "90",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Patriots played the Steelers on opening night, celebrating their Super Bowl victory from the season before. On the opening possession of the game, the Steelers drove all the way to the Patriots 26, but Josh Scobee missed a 44-yard field goal attempt. After the next two drives ended in punts, the Patriots engineered a 13 play, 90-yard marathon, lasting over seven minutes with Tom Brady hitting his go-to target Rob Gronkowski for a 16-yard touchdown and the early 7-0 lead. The Steelers once again drove deep into Patriots territory, but Scobee missed a 46-yard field goal wide right. The Patriots made the Steelers pay, driving 64 yards in 9 plays, scoring on Brady's 6-yard touchdown pass to Gronkowski, increasing the lead to 14-0. The Steelers finally responded driving back to the 26, but this time Scobee was good from 44-yards away and the Patriots led 14-3 at halftime. The Patriots offense continued with their first half pace, producing a second half opening drive of nine plays, 80-yards, finishing with Brady throwing a 1-yard touchdown pass to new acquisition, tight end Scott Chandler, widening the Patriots lead to 21-3. The Steelers countered with a 80-yard, 7 play drive, with Will Johnson scoring on a 1-yard touchdown run, and Ben Roethlisberger converting the two-point conversion on a pass to Markus Wheaton, trimming the deficit to 21-11. After a Patriots three-and-out, the Steelers marched 67 yards to the Patriots 1-yard line, but a penalty pushed them back to the 5 and DeAngelo Williams was stuffed for a loss bringing up 4th-down and Scobee converted the 24-yard field goal to make the score 21-14. The Patriots countered, aided by a 52-yard catch by Gronkowski, marching 79 yards in 7 plays, scoring on a 1-yard touchdown catch by Gronkowski, extending the lead the 28-14. Three possessions later, Roethlisberger was intercepted at the Patriots 7. After a Patriots punt, the Steelers raced 70 yards in 12 plays, scoring on an 11-yard touchdown pass to Antonio Brown with just&#160;:02 seconds left, trimming the deficit to 28-21. Gronkowski ended his superb night by falling on the subsequent Steelers onside kick attempt, ending the game.\n\nQuestion:\nHow many total yards of field goals did Scobee miss?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The article states that Scobee missed a 44-yard field goal attempt and a 46-yard field goal attempt, but later converted a 24-yard field goal attempt.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the important details and ignore the irrelevant ones.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To find the total yards of field goals that Scobee missed, we need to add up the distances of the two missed field goals. \n\n44 yards + 46 yards = 90 yards\n\nTherefore, Scobee missed a total of 90 yards of field goals.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step allowed me to calculate the total yards of field goals that Scobee missed.",
+            "was_useful": true
+        },
+        {
+            "step_response": "90",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step is not really a step, but rather a statement of readiness.",
+            "was_useful": false
+        },
+        {
+            "step_response": "To solve the problem, I read through the article and identified the relevant information, which was the distances of the field goals that Scobee missed. I then added up the distances to find the total yards of field goals that Scobee missed, which was 90 yards. \n\nSince there were only two missed field goals, this was a straightforward problem that could be solved by simple addition. However, if there were more missed field goals, it might be helpful to use a calculator or a spreadsheet to keep track of the distances and make sure that all of the missed field goals are included in the total.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 90, and the correct answer was 90. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

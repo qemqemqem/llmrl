@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the passage and identified the relevant information. The passage stated that the 1625 outbreak was recorded as the Great Plague until 1665, when it was surpassed. Therefore, it took 40 years for the death total of the 1625 outbreak to be surpassed. \n\nTo solve the problem better, I could have taken notes while reading the passage to ensure that I did not miss any important details. Additionally, I could have double-checked my answer to ensure that I did not make any mistakes.",
+    "final_answer": "40",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "40",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe population grew steadily while Georgia was part of the Soviet Union and during the first years of independence, rising from less than 4 million Plague was one of the hazards of life in Britain from its dramatic appearance in 1348 with the Black Death. The Bills of Mortality began to be published regularly in 1603, in which year 33,347 deaths were recorded from plague. Between then and 1665, only four years had no recorded cases. In 1563, a thousand people were reportedly dying in London each week. In 1593, there were 15,003 deaths, 1625 saw 41,313 dead, between 1640 and 1646 came 11,000 deaths, culminating  in 3,597 for 1647. The 1625 outbreak was recorded at the time as the Great Plague, Until 1665, surpassed it. These official figures are likely to under-report actual numbers.\n\nQuestion:\nHow many years did it take for the 1625 death total to be surpassed?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage states that the 1625 outbreak was recorded as the Great Plague until 1665, when it was surpassed.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the important details in the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "40",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to use the relevant information to find the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the passage and identified the relevant information. The passage stated that the 1625 outbreak was recorded as the Great Plague until 1665, when it was surpassed. Therefore, it took 40 years for the death total of the 1625 outbreak to be surpassed. \n\nTo solve the problem better, I could have taken notes while reading the passage to ensure that I did not miss any important details. Additionally, I could have double-checked my answer to ensure that I did not make any mistakes.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 40, and the correct answer was 40. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "commentary_on_process": "To solve the problem, I added up the yards from each team's running touchdowns, which were given in the problem statement. I could have solved the problem better by double-checking my calculations and making sure that I had included all the relevant information. Additionally, if the problem had included more information, such as the number of passing touchdowns or field goals, I would have needed to adjust my approach accordingly.",
+    "final_answer": "The answer to the problem is 15.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "15",
+        "spans": []
+    },
+    "problem_text": "Context:\nTrying to end a three-game skid, the Raiders flew to Qualcomm Stadium for an AFC West rematch with the San Diego Chargers.  After a scoreless first quarter, RB ReShard Lee helped the Raiders strike first with a 1-yard TD run.  The Chargers would respond with RB LaDainian Tomlinson with a 4-yard TD run.  In the third quarter, Oakland got the lead with QB Aaron Brooks completing a 2-yard TD pass to rookie WR John Madsen for the only score of the period.  However, in the fourth quarter, San Diego took control for the win, as Tomlinson threw a successful 19-yard TD pass to TE Antonio Gates on an HB Option.  Afterwards, Tomlinson would end the game with a 10-yard TD run.  With the loss, the Raiders fell to 2-9.\n\nQuestion:\nHow many yards from running touchdowns were in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can make it more manageable.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it more manageable.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The information relevant to the problem is the number of running touchdowns scored by each team during the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying relevant information helped me focus on what was important.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, the keywords that can help identify the type of problem are \"running touchdowns\" and \"game.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying keywords helped me understand the type of problem I was dealing with.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question of the problem is to determine the total number of yards from running touchdowns in the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the main question helped me stay on track and not get sidetracked by irrelevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve this problem, we need to add up the yards from each team's running touchdowns. From the given information, we know that the Raiders scored one 1-yard TD run and one 10-yard TD run, while the Chargers scored one 4-yard TD run. Therefore, the total number of yards from running touchdowns in the game is 1 + 10 + 4 = 15 yards.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Doing the math was necessary to arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer to the problem is 15.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Checking my work and making sure I had answered the question correctly was important to ensure accuracy.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I added up the yards from each team's running touchdowns, which were given in the problem statement. I could have solved the problem better by double-checking my calculations and making sure that I had included all the relevant information. Additionally, if the problem had included more information, such as the number of passing touchdowns or field goals, I would have needed to adjust my approach accordingly.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer to the problem is 15., and the correct answer was 15. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

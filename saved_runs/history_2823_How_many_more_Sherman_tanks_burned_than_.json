@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I looked at the given information about the percentage of tanks that burned and the number of penetrations for each type of tank. From the given data, I subtracted the number of Panzer IV tanks that burned from the number of Sherman tanks that burned to get the answer of 29. \n\nTo solve the problem better, I could have used a table or a chart to organize the data and make it easier to compare the number of tanks that burned for each type. Additionally, I could have used a calculator to double-check my subtraction.",
+    "final_answer": "The answer is 29.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "29",
+        "spans": []
+    },
+    "problem_text": "Context:\nResearch for tank casualties in Normandy from 6 June to 10 July 1944 conducted by the British No. 2 Operations research concluded, that from a sample of 40 Sherman tanks, 33 tanks burned (82 percent) and 7 tanks remained unburned following an average of 1.89 penetrations. In comparison, from a sample of 5 Panzer IVs, 4 tanks burned (80 percent) and 1 tank remained unburned, following an average of 1.5 penetrations. The Panther tank burned 14 times (63 percent) from a sample of 22 tanks and following 3.24 penetrations, while the Tiger burned 4 times (80 percent) out of a sample of 5 tanks following 3.25 penetrations. John Buckley, using a case study of the British 8th Armoured Brigade (United Kingdom) and 29th Armoured Brigade (United Kingdom), found that of their 166 Shermans knocked out in combat during the Normandy campaign, 94 (56.6 percent) burned out. Buckley also notes that an American survey carried out concluded that 65% of tanks burned out after being penetrated. United States Army research proved that the major reason for this was the stowage of main gun ammunition in the vulnerable sponsons above the tracks. A U.S. Army study in 1945 concluded that only 10-15 percent of wet stowage Shermans burned when penetrated, compared to 60-80 percent of the older dry-stowage Shermans.\n\nQuestion:\nHow many more Sherman tanks burned than Panzer IV tanks?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you may rephrase the problem. \n\nThe problem is asking how many more Sherman tanks burned compared to Panzer IV tanks during the Normandy campaign in World War II.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Rephrase the problem",
+                "short_name": "rephrase",
+                "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand what the problem was asking for.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer is 29.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This helped me focus on finding the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I looked at the given information about the percentage of tanks that burned and the number of penetrations for each type of tank. From the given data, I subtracted the number of Panzer IV tanks that burned from the number of Sherman tanks that burned to get the answer of 29. \n\nTo solve the problem better, I could have used a table or a chart to organize the data and make it easier to compare the number of tanks that burned for each type. Additionally, I could have used a calculator to double-check my subtraction.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer is 29., and the correct answer was 29. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

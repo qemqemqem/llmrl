@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I used the information provided about the education estimate for residents 25 and over to find the percentage of people with a masters degree or higher. I added the percentage of people with a masters degree, professional degree, and doctorate degree to get the final answer of 12.51%. \n\nI believe this is the most straightforward and accurate way to solve the problem given the information provided. However, if the data was presented in a different format, such as a table or graph, it may have been easier to quickly identify the percentage of people with a masters degree or higher.",
+    "final_answer": "12.51",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "12.51",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe 2016 Estimated overall median age will be 35.2 with males coming in at 33.9 and females at 36.1. Residents under the age of 18 will make up 28.32% of population, between the ages of 18-35 will be 21.4%, 35-55 will be 30.74%, and anyone over the age of 55  will make up 19.54% of the residents. Education Est. for residents 25 and over will be. Less than 9th Grade 2.82%, Some High school 4.67%, High school graduate 20.30%, some college 25.21%, associate degree 7.39%, bachelors degree 27.10%, masters degree 10.21%, professional degree 1.05%, doctorate degree 1.25%.\n\nQuestion:\nHow many percent of people has a masters degree or higher?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The information relevant to the problem is the education estimate for residents 25 and over, which shows the percentage of people with different levels of education, including masters and doctorate degrees.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To find the percentage of people with a masters degree or higher, we need to add the percentage of people with a masters degree and the percentage of people with a professional or doctorate degree. \n\n10.21% (masters degree) + 1.05% (professional degree) + 1.25% (doctorate degree) = 12.51%\n\nTherefore, 12.51% of people have a masters degree or higher.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step allowed me to calculate the percentage of people with a masters degree or higher.",
+            "was_useful": true
+        },
+        {
+            "step_response": "12.51",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to double-check my calculations and ensure that I had arrived at the correct answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I used the information provided about the education estimate for residents 25 and over to find the percentage of people with a masters degree or higher. I added the percentage of people with a masters degree, professional degree, and doctorate degree to get the final answer of 12.51%. \n\nI believe this is the most straightforward and accurate way to solve the problem given the information provided. However, if the data was presented in a different format, such as a table or graph, it may have been easier to quickly identify the percentage of people with a masters degree or higher.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 12.51, and the correct answer was 12.51. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

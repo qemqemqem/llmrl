@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the game summary and looked for the relevant information about the score at halftime. I found that the Dolphins were leading 14-0 at halftime. I could have solved the problem more efficiently by scanning the text for the phrase \"halftime\" and then looking for the score at that point in the game.",
+    "final_answer": "14",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "14",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Bears, seeking to avoid going 0-3 at home for the first time in ten years, hosted the Miami Dolphins in week seven, trailing the all-time series 4-7, though the Bears won the most recent game in 2010, 16-0. The Bears had struggled at home during the season, scoring a total of 37 points and a -4 turnover differential; in contrast, the Bears had an average score of 26.5 and a +6 turnover difference on the road. In addition, Jay Cutler had nine passing touchdowns, two interceptions and a 104.6 passer rating in away games, while having four touchdowns, four interceptions (three of which occurred in the second half) and a rating of 84.7 at home, with a rating of 58.1 after halftime. Chicago had to protect Cutler from the defensive line duo of Cameron Wake and Olivier Vernon, both recording 1.5 sacks each in the previous week against the Packers. In addition, the Dolphins were ranked second in the league in sacks on third and fourth downs with 10. However, the Bears' receivers posed a size threat to the Miami secondary, though Miami was ranked third in yards per pass attempt allowed with 6.09, one of only eight teams allowing less than seven yards in 2014. The Dolphins also allowed only 3.8 yards per carry and yards allowed per play with 4.7 yards. On defense, the Bears would have to prepare for a Ryan Tannehill-led zone-read option offense, which has an average drive length of 3:08, third-fastest in the league. However, Tannehill could make mistakes, as he had thrown 35 interceptions in 37 career starts. The Dolphins also had the second-fewest completions of at least 20 yards with 11. The Bears would also have to watch the run game, which ranked third in the NFL with 4.97 yards per carry. Entering the game, the Bears' defense was tied for the fourth-most sacks (15), third-most interceptions (eight), and third in points recorded off turnovers (49). The Bears were the favorite by -3. Terrance Mitchell, Ahmad Dixon, Chris Conte, Lance Briggs, Jon Bostic, Charles Leno, Jr., and Trevor Scott were scratches for the game, while Jermon Bushrod, Brandon Marshall, Robbie Gould, Ryan Mundy and Jeremiah Ratliff were team captains. The Dolphins won the toss, and elected to receive. On the first play from scrimmage, Tannehill was sacked by Ratliff for a loss of five yards; Ratliff would finish the game with a career-high 3.5 sacks. After both teams punted on their first drives, the Dolphins scored first on Tannehill's 13-yard touchdown pass to Charles Clay. On the Bears' next drive, Cutler fumbled on his own 38-yard line, but Ka'Deem Carey recovered the ball; the Bears would punt three plays later. Miami's eventual drive lasted into the second quarter, but ended with Caleb Sturgis missing a 50-yard field goal wide right. The Bears would reach the Dolphins' 37-yard line, but Cutler's pass for Martellus Bennett was intercepted by Reshad Jones, who returned the pick to the Bears' 29-yard line, and was stripped by Brandon Marshall, Koa Misi recovering at the 23-yard line. The fumble was subsequently challenged, but was upheld. Miami would drive to the Bears' eight-yard line, and two plays later, Tannehill threw a ten-yard touchdown pass to Mike Wallace. Both teams would exchange punts at the end of the half, Miami leading 14-0. On their first drive of the second half, the Bears scored their first points of the game with Cutler's ten-yard touchdown pass to Matt Forte, though the Dolphins retaliated on their next possession with Lamar Miller's two-yard touchdown run. The Bears' drive lasted into the fourth quarter, but ended at their own 24-yard line when Wake strip-sacked Cutler, recovering it at Chicago's 16. The Dolphins would go three-and-out on the drive, resorting to Sturgis' 33-yard field goal. On the Bears' next drive, Cutler threw a pass to Dante Rosario, who fumbled after being stripped by Cortland Finnegan, Randy Starks recovering at the Bears' 35-yard line. However, the Dolphins failed to take advantage of the takeaway, Sturgis' 37-yard field goal being blocked by Lamarr Houston. Starting from their own 27, the Bears reached the Dolphins' 44, and a defensive pass interference penalty on Jason Taylor brought the Bears to the five-yard line. Three plays later, Forte scored on a one-yard run. The Dolphins would score on their next drive via Miller's four-yard run, but was nullified by holding penalty on Clay; Sturgis would kick a 19-yard field goal to make the score 27-14. Chicago's final drive reached Miami's 15-yard line, but the offense failed to gain ground, Cutler first throwing an incomplete pass, then fumbling but recovering, and finally throwing two more incomplete passes. Tannehill would kneel twice to end the game. The Bears fell to 0-4 in games where Cutler throws an interception. After the game, in the Bears' locker room, there were reports of shouting and players being pulled out of the room, with Marshall calling out Cutler, and Kyle Long criticizing the fans. Former Bears linebacker Blake Costanzo was also critical, stating Marc Trestman had \"made the Bears soft\". In an interview, Gould stated, \"Everyone's trying to make this a story out of something that really wasn't that big of a deal. Obviously everyone's frustrated. Everyone wants to win. Our fans want to win. Coaches want to win. The players want to win. And everyone's obviously frustrated.\"\n\nQuestion:\nHow many points were the Bears trailing by at halftime?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The Dolphins were leading 14-0 at halftime.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the information that was important for solving the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "14",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me prepare to find the answer by focusing my attention on the relevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the game summary and looked for the relevant information about the score at halftime. I found that the Dolphins were leading 14-0 at halftime. I could have solved the problem more efficiently by scanning the text for the phrase \"halftime\" and then looking for the score at that point in the game.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 14, and the correct answer was 14. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

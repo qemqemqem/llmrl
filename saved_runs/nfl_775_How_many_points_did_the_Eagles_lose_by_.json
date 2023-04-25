@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for the relevant information, which was the final score of the game. I then subtracted the Eagles' score from the Giants' score to find the point difference, which was 3. \n\nTo solve the problem better, I could have scanned the context more carefully to ensure that I didn't miss any important details. Additionally, I could have double-checked my calculation to make sure that I didn't make any errors.",
+    "final_answer": "The Eagles lost by 3 points. \n\nAnswer: 3",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "3",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Eagles lost 16-13 to the New York Giants. The Eagles, with Donovan McNabb back under center, scored on their opening drive with Brian Westbrook finding the end zone on an 18-yard pass from McNabb. The Giants scored an FG after having first-and-goal from the one-yard line. Another New York field goal just before halftime left the score 7-6. A fumble recovery gave Philadelphia the ball at the Giant eight-yard line, and David Akers kicked a short field goal. Later in the third quarter, Westbrook fumbled and Sam Madison recovered for New York. Eli Manning connected with Plaxico Burress for a 20-yard touchdown two plays later giving the Giants a 13-10 lead. A 41-yard pass to Burress set up another Lawrence Tynes field goal making it 16-10. Akers kicked a 39-yarder after a nearly eight-minute drive by the Eagles in the fourth quarter. On the Eagles' next drive, they crossed into Giant territory, but turned the ball over on downs. After a three-and-out, New York punter Jeff Feagles kicked the ball to the Eagles' 11-yard line with&#160;:51 to play and no timeouts. McNabb led the Eagles down the field, giving Akers a chance from 57 yards out. Akers hit the right upright and the FG was missed with 1 second remaining. Westbrook rushed for 116 and had a receiving touchdown, while Trent Cole had two sacks. Burress had 136 yards and one score. The home loss leaves the Eagles at 5-8.\n\nQuestion:\nHow many points did the Eagles lose by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information is that the Eagles lost the game 16-13 to the New York Giants.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the important details in the context and ignore the irrelevant ones.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Eagles lost by 3 points. \n\nAnswer: 3",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to apply the relevant information to solve the problem and arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for the relevant information, which was the final score of the game. I then subtracted the Eagles' score from the Giants' score to find the point difference, which was 3. \n\nTo solve the problem better, I could have scanned the context more carefully to ensure that I didn't miss any important details. Additionally, I could have double-checked my calculation to make sure that I didn't make any errors.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The Eagles lost by 3 points. \n\nAnswer: 3, and the correct answer was 3. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

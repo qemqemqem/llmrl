@@ -1,0 +1,190 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the number of troops from the Netherlands from the number of Canadian troops in the 16th Air Assault Brigade. This gave me the difference between the two numbers, which was 600. \n\nTo solve the problem better, it would have been helpful to have a clearer statement of the problem. For example, the problem could have explicitly stated that we needed to find the difference between the number of Canadian troops and soldiers from the Netherlands in the 16th Air Assault Brigade. Additionally, it would have been helpful to have more context about the overall size of the brigade and the roles of the different countries involved.",
+    "final_answer": "The answer to the problem is 600.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "600",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nDecember 2001 saw the creation of the NATO-led International Security Assistance Force  to assist the Afghan Transitional Administration and the first post-Taliban elected government. With a renewed Taliban insurgency, it was announced in 2006 that ISAF would replace the U.S. troops in the province as part of Operation Enduring Freedom. The British 16th Air Assault Brigade  formed the core of the force in southern Afghanistan, along with troops and helicopters from Australia, Canada and the Netherlands. The initial force consisted of roughly 3,300 British, 2,000 Canadian, 1,400 from the Netherlands and 240 from Australia, along with special forces from Denmark and Estonia and small contingents from other nations. The monthly supply of cargo containers through Pakistani route to ISAF in Afghanistan is over 4,000 costing around 12 billion in Pakistani Rupees.\n\nQuestion:\nHow many more Canadian troops were in the 16th Air Assault Brigade than soldiers from the Netherlands?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can help in finding the answer.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts helped me focus on the specific information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is that there were 2,000 Canadian troops and 1,400 troops from the Netherlands in the 16th Air Assault Brigade.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped me determine which numbers to use in the math.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To find the difference between the number of Canadian troops and soldiers from the Netherlands in the 16th Air Assault Brigade, we need to subtract the number of troops from the Netherlands from the number of Canadian troops. \n\n2,000 Canadian troops - 1,400 troops from the Netherlands = 600 more Canadian troops than soldiers from the Netherlands in the 16th Air Assault Brigade.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Doing the math allowed me to find the difference between the number of Canadian troops and soldiers from the Netherlands in the 16th Air Assault Brigade.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer to the problem is 600.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to present the final answer in a clear and concise manner.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the number of troops from the Netherlands from the number of Canadian troops in the 16th Air Assault Brigade. This gave me the difference between the two numbers, which was 600. \n\nTo solve the problem better, it would have been helpful to have a clearer statement of the problem. For example, the problem could have explicitly stated that we needed to find the difference between the number of Canadian troops and soldiers from the Netherlands in the 16th Air Assault Brigade. Additionally, it would have been helpful to have more context about the overall size of the brigade and the roles of the different countries involved.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer to the problem is 600., and the correct answer was 600. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

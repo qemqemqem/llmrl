@@ -1,0 +1,168 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the passage and identified the relevant information. I found that Cam Newton threw a nine-yard touchdown pass to Greg Olsen to make the score 21-14 at halftime, and later threw a six-yard touchdown pass to Olsen to take a 31-24 lead. Therefore, the difference between the two touchdown passes was three yards. Since the problem only required a simple subtraction, there was no better way to solve it.",
+    "final_answer": "3",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "3",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nIn week five, the Bears, looking to go 3-0 on the road for the first time since 2006, visited the 2-2 Carolina Panthers, the Bears having led the all-time series 5-3, and also having won the most recent meeting in 2012 23-22. The Bears had been plagued by inconsistency during the season, for example in the passing attack, with Jay Cutler, playing in his first away game with Chicago against Carolina, completing 67.5 percent in the two home games with four touchdowns and four interceptions while posting an 84.7 rating. On the road, he had completed 63.9 percent of passes with six touchdowns and no interceptions, along with a 106.3 rating. In two games against the Panthers, Cutler had thrown a touchdown and two picks with a 69.5 passer rating. The Bears had to protect Cutler from a Panthers defense that recorded 60 sacks in 2013, and despite missing Greg Hardy, featured defending Defensive Player of the Year Luke Kuechly and Star Lotulelei. However, Panthers' cornerback Antoine Cason was struggling during the year, having allowed three touchdowns. Additionally, the Panthers' had allowed 75 points the last two games, compared to 21 in the first two weeks, and while allowing an average 201.7 passing yards in the first three games, the team permitted the Baltimore Ravens' Joe Flacco to throw for 327 passing yards in their last game. On the ground, the Bears had an advantage against the Panthers' 27th-ranked rushing defense, which allowed 140.8 rushing yards per game, 264 rushing yards two games prior against the Pittsburgh Steelers, and a total 391 rushing yards in the last two games. The Bears also had a chance to capitalize on the Panthers' worst-ranked red zone offenses and defenses, with Chicago boasting a second- and sixth-ranked red zone offense and defense, respectively. The Panthers were the -2.5 favorite for the game's betting line. The Bears' inactives were Sherrick McManis, Ahmad Dixon, Shea McClellin, Roberto Garza, Charles Leno, Jr., and Jeremiah Ratliff, while Matt Slauson, D.J. Williams, and Robbie Gould were the captains. After the Bears won the toss and kicked off, the Panthers punted on their drive, and on the punt return, Santonio Holmes fumbled the ball out of bounds. The Bears would also be forced to punt, and on the return, Philly Brown was tackled by Teddy Williams before receiving the ball, and while both teams were attempting to recover the ball, Brown picked up the ball and scored on the 79-yard return. On the Bears' next drive, despite reaching the Panthers' seven-yard line, Cutler's pass for Brandon Marshall went into double coverage and was intercepted by Roman Harper, who returned the pick 44 yards to the Bears' 49-yard line, but was ruled down by challenge, and as a result, the Panthers started the drive from their own eight-yard line. Three plays later, Isaiah Frey forced Kelvin Benjamin to fumble, recovering the loose ball at Carolina's 28-yard line. The Bears would score on Cutler's ten-yard touchdown pass to Matt Forte; Chicago would then capitalize on another turnover during the Panthers' next drive: after Willie Young strip-sacked Cam Newton, Lamarr Houston recovered at Carolina's 18-yard line, and on the Bears' ensuing drive, Cutler scored on a ten-yard run, the first rushing touchdown for Cutler since 2011 and the first for the team in 2014. The Bears' next drive lasted into the second quarter, and ended with the Bears extending the score to 21-7 after Cutler threw a 25-yard touchdown pass to Alshon Jeffery. The Panthers then drove to Chicago's 25-yard line, but the drive ended after Newton's pass was intercepted by a diving Lance Briggs. However, the Bears failed to take advantage of the pick, with Gould missing a 35-yard field goal. On the final drive for Carolina, Newton threw a nine-yard touchdown pass to Greg Olsen to make the score at halftime 21-14. After the Bears punted on their first drive of the second half, the Panthers reached the Bears' seven-yard line, and a penalty on Kyle Fuller moved the ball to the one-yard line, where Chris Ogbonnaya scored on a one-yard run to tie the game. Gould would give the Bears the lead again via a 45-yard field goal. The two teams exchanged punts five times in the fourth quarter, and on Chicago's third possession of the quarter, Cutler's pass for Holmes was overthrown and intercepted by Thomas DeCoud, which set up a Graham Gano 44-yard field goal. On the Bears' next play, Forte was stripped by Cason, and Kawann Short recovered. Six plays later, Cam Newton threw a 6-yard touchdown pass to Olsen to take the 31-24 lead. On the Bears' final drive, the offense faced 4th-and-21 from their own 34-yard line when Cutler fumbled while being sacked by Short, and Charles Johnson recovered. Carolina kneeled twice to end the game. The Bears had three turnovers in the fourth quarter, the second team to do so in 2014, after the New York Giants, while committing two turnovers in consecutive possessions during the fourth quarter. In comparison, the team had only one in the first four games. In the passing game, poor production on short passes led to Cutler's struggles on longer throws, completing only one of five passes of 15 yards or more during the game, including two interceptions; entering the game, he was ranked 31st of 33 quarterbacks in completion percentage for such throws with 24 percent. However, the Bears had managed to score multiple passing touchdowns against the Panthers, the fourth time this had happened to the Panthers in 2014; the Panthers had only two games allowed in 2013.\n\nQuestion:\nHow many yards difference was Cam Newton's first touchdown pass compared to his second?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage states that Cam Newton threw a nine-yard touchdown pass to Greg Olsen to make the score 21-14 at halftime, and later threw a six-yard touchdown pass to Olsen to take a 31-24 lead.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the important details in the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "3",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to stay focused on the task at hand and find the answer efficiently.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the passage and identified the relevant information. I found that Cam Newton threw a nine-yard touchdown pass to Greg Olsen to make the score 21-14 at halftime, and later threw a six-yard touchdown pass to Olsen to take a 31-24 lead. Therefore, the difference between the two touchdown passes was three yards. Since the problem only required a simple subtraction, there was no better way to solve it.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 3, and the correct answer was 3. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

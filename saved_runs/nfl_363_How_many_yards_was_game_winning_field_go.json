@@ -1,0 +1,168 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for the relevant information about the game-winning field goal. I found that Josh Brown kicked a 54-yard field goal to win the game, so I concluded that the answer to the problem was 54 yards. \n\nTo solve the problem better, I could have scanned the text more carefully to ensure that I didn't miss any important details. Additionally, I could have taken notes or highlighted key information to help me remember the relevant details more easily.",
+    "final_answer": "The game-winning field goal was 54 yards.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "54",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nStill recovering from the loss to the Bears and without Shaun Alexander and WR Bobby Engram, the Hawks were ineffective for much of the first half. Trailing 21-7, Mike Holmgren blistered the paint in the locker room and a different Hawks team took the field in the second half. Seattle scored 20 unanswered points to lead 27-21 and looked to have put the game away after a Lofa Tatupu interception late in the game. However, RB Maurice Morris fumbled on the Ram 7-yard line with 2:48 left. A few plays later Ram QB Marc Bulger hit Torry Holt with a 67-yard TD pass to give the Rams a 28-27 lead with 1:38 remaining. Matt Hasselbeck engineered a final drive from the Seahawks' 17-yard line and led the team to the Rams' 31-yard line. A premature celebration erupted on the Rams' sideline as the Seahawks were called for an illegal formation after Hasselbeck spiked the ball to stop the clock with four seconds left in the game. The Rams believed the Seahawks had committed a false start which would have resulted in a ten-second runoff on the clock that would have ended the game. Instead, the Seahawks were penalized five yards, pushing them back to the 36-yard line. Despite the setback, Josh Brown still kicked a 54-yard field goal to win the game, 30-28. Brown's kick was tied for the second longest game-winning field goal in NFL history, behind Tom Dempsey's 63-yard effort in 1970. (It would be supplanted a week later by Tampa Bay kicker Matt Bryant's 62-yard field goal in a win over the Philadelphia Eagles.) Brown also became the first player in NFL history to make 3 field goals of 49 yards or longer in the same quarter. In the third quarter, Brown achieved the equally rare feat of hitting both uprights on an unsuccessful 34-yard field goal attempt.\n\nQuestion:\nHow many yards was game-winning field goal?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The main question is: What was the distance of the game-winning field goal in the Seahawks vs. Rams game?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the specific information I needed to find.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The game-winning field goal was 54 yards.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to locate the relevant information and determine the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for the relevant information about the game-winning field goal. I found that Josh Brown kicked a 54-yard field goal to win the game, so I concluded that the answer to the problem was 54 yards. \n\nTo solve the problem better, I could have scanned the text more carefully to ensure that I didn't miss any important details. Additionally, I could have taken notes or highlighted key information to help me remember the relevant details more easily.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The game-winning field goal was 54 yards., and the correct answer was 54. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the number of killed and wounded Australians from the total number of Australians who served. Specifically, I subtracted 60,000 from 416,000 and then subtracted the result from 416,000 again. This gave me the answer of 204,000. \n\nTo solve the problem better, I could have used a different method, such as adding the number of killed and wounded Australians to find the total number of Australians who were directly affected by the war, and then subtracting that from the total number of Australians who served to find the number who were not killed or wounded. However, since the numbers involved were relatively small, the method I used was simple and efficient.",
+    "final_answer": "The number of Australians who served but were not killed or wounded is 204,000.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "204000",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nThe Australian prime minister, Billy Hughes, wrote to the British prime minister, Lloyd George, \"You have assured us that you cannot get better terms. I much regret it, and hope even now that some way may be found of securing agreement for demanding reparation commensurate with the tremendous sacrifices made by the British Empire and her Allies.\" Australia received \u00a35,571,720 war reparations, but the direct cost of the war to Australia had been \u00a3376,993,052, and, by the mid-1930s, repatriation pensions, war gratuities, interest and sinking fund charges were \u00a3831,280,947. Of about 416,000 Australians who served, about 60,000 were killed and another 152,000 were wounded. Diseases flourished in the chaotic wartime conditions. In 1914 alone, louse-borne epidemic typhus killed 200,000 in Serbia. From 1918 to 1922, Russia had about 25\u00a0million infections and 3 million deaths from epidemic typhus. In 1923, 13 million Russians contracted malaria, a sharp increase from the pre-war years. In addition, a major influenza epidemic spread around the world. Overall, the 1918 flu pandemic killed at least 50 million people. The social disruption and widespread violence of the Russian Revolution of 1917 and the ensuing Russian Civil War sparked more than 2,000 pogroms in the former Russian Empire, mostly in Ukraine. An estimated 60,000-200,000\u00a0civilian Jews were killed in the atrocities. In the aftermath of World War I, Greece fought against Turkish nationalists led by Mustafa Kemal, a war that eventually resulted in a massive population exchange between the two countries under the Treaty of Lausanne. According to various sources, several hundred thousand Greeks died during this period, which was tied in with the Greek Genocide.\n\nQuestion:\nAbout how many Australians that served were not killed or wounded?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can make it more manageable. One way to do this is to subtract the number of killed and wounded Australians from the total number of Australians who served.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it more manageable.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information is that about 60,000 Australians were killed and 152,000 were wounded during World War I, and that about 416,000 Australians served in the war.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped me focus on the key numbers needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The number of Australians who served but were not killed or wounded is 204,000.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to apply the relevant information to find the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the number of killed and wounded Australians from the total number of Australians who served. Specifically, I subtracted 60,000 from 416,000 and then subtracted the result from 416,000 again. This gave me the answer of 204,000. \n\nTo solve the problem better, I could have used a different method, such as adding the number of killed and wounded Australians to find the total number of Australians who were directly affected by the war, and then subtracting that from the total number of Australians who served to find the number who were not killed or wounded. However, since the numbers involved were relatively small, the method I used was simple and efficient.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The number of Australians who served but were not killed or wounded is 204,000., and the correct answer was 204000. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

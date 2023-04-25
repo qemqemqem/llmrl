@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I first identified the relevant information, which was that Loveday Jenkin was elected as the leader of the Campaign for a Cornish Constituency in 1990, and was replaced by Dick Cole as the leader of Mebyon Kernow on 4 October 1997. I then calculated the difference between those two years, which was 7, to determine that Jenkin was the leader of MK for 7 years. \n\nSince the information was presented in a chronological order, it was easy to identify the relevant dates and calculate the difference between them. However, if the information was presented in a different order or if there were more leaders mentioned, it could have been more challenging to determine the length of Jenkin's leadership.",
+    "final_answer": "7",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "7",
+        "spans": []
+    },
+    "problem_text": "Context:\nOn 28 May 1975 James Whetter left MK to form the Cornish Nationalist Party which was campaigning for full Cornish independence. The party declined in the 1980s and was close to collapse by 1990. It did not contest the 1984 European Parliament election; it received 1.9% of the vote in Cornwall and West Plymouth in the 1989 election. During this period, the party focussed on its opposition to the creation of a South West England region. It also campaigned against the construction of a nuclear station at Luxulyan and proposals to increase house-building in Cornwall. In 1988, MK established the Campaign for a Cornish Constituency, which won the support of Cornwall County Council, all the district authorities, several Cornish organisations and three of Cornwall's five MPs. The campaign was well-publicised, attained national attention, and collected over 3,000 signatures in three months. Loveday Jenkin was elected its leader in 1990. The party's vote share declined further to 1.5% of the vote in the 1994 European Parliament election, in the new constituency of Cornwall and West Plymouth. In 1996, MK published 'Cornwall 2000 - The Way Ahead', its most detailed manifesto to date. On 4 October 1997, at the Mebyon Kernow National Conference, Jenkin was replaced by Dick Cole as the leader of MK.\n\nQuestion:\nHow many years was Jenkin the leader of MK?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The trick is to find the year when Jenkin became the leader of MK and the year when she was replaced, and then calculate the difference between those two years to determine how many years she was the leader.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Look for a clever trick",
+                "short_name": "trick",
+                "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to approach the problem in a more efficient way.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information is that Loveday Jenkin was elected as the leader of the Campaign for a Cornish Constituency in 1990, and was replaced by Dick Cole as the leader of Mebyon Kernow on 4 October 1997.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to identify the specific information that was needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "7",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to calculate the final answer based on the information I had gathered.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I first identified the relevant information, which was that Loveday Jenkin was elected as the leader of the Campaign for a Cornish Constituency in 1990, and was replaced by Dick Cole as the leader of Mebyon Kernow on 4 October 1997. I then calculated the difference between those two years, which was 7, to determine that Jenkin was the leader of MK for 7 years. \n\nSince the information was presented in a chronological order, it was easy to identify the relevant dates and calculate the difference between them. However, if the information was presented in a different order or if there were more leaders mentioned, it could have been more challenging to determine the length of Jenkin's leadership.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 7, and the correct answer was 7. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

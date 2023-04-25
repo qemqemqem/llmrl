@@ -1,0 +1,188 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for the relevant information about the score at halftime. I found that the Raiders had a 14-0 lead before halftime. Therefore, the answer to the problem is 14. Since the context provided the exact answer, there was no need for any additional calculations or estimations.",
+    "final_answer": "14",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "14",
+        "spans": []
+    },
+    "problem_text": "Context:\nWith Paxton Lynch as the starting quarterback, the Broncos' offense did not advance past their own 37-yard line on eight of their first ten possessions &#8212; excluding a fumble recovery in Raiders' territory and a kneel down before halftime. Paxton Lynch was the team's leading rusher, with only 20 yards. On the Raiders' second offensive possession, a brawl erupted between cornerback Aqib Talib and Raiders' wide receiver Michael Crabtree, resulting in both players being ejected from the game. Raiders' guard Gabe Jackson was also ejected for making contact with an official during the brawl. After a strip sack and forced fumble off quarterback Derek Carr deep in Raiders' territory, the Broncos had a first and goal at the 1-yard line, however, Paxton Lynch threw a pass that was deflected and intercepted by linebacker NaVorro Bowman in the end zone. A 9-yard touchdown pass from Carr to wide receiver Amari Cooper, coupled with a 1-yard touchdown run by running back Marshawn Lynch, gave the Raiders a 14-0 lead before halftime. The lead was increased to 21-0 early in the third quarter, with a 6-yard touchdown pass from Carr to running back Jalen Richard. After Paxton Lynch suffered an ankle injury, he was replaced by Trevor Siemian late in the third quarter, and got the Broncos on the scoreboard at the 10:26 mark of the fourth quarter, with a 25-yard touchdown pass to wide receiver Cody Latimer. The Raiders drove to the Broncos' 17-yard line on their next possession, chewing up nearly five minutes off the clock, and were attempting to add to their lead. However, a 35-yard field goal attempt by placekicker Giorgio Tavecchio missed wide left. Siemian engineered a 12-play, 75-yard drive and pulled the Broncos to within a 21-14 deficit with 2:44 remaining in the game, after a 22-yard touchdown pass to wide receiver Bennie Fowler III. The Broncos were hoping for a defensive stop just before the two-minute warning, but after using the last two of their three team timeouts, Carr connected on a 31-yard pass to wide receiver Cordarrelle Patterson on a 3rd-and-8, sealing the win for the Raiders. With the loss, the Broncos exceeded their loss total from 2016.\n\nQuestion:\nHow many points was Oakland ahead by at the half?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The main question is: What was the score at halftime of the Broncos vs Raiders game?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me focus on the main goal of the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The keywords that can help identify the type of problem are \"score,\" \"halftime,\" and \"game.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me identify the important words that would help me find the answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information is that the Raiders had a 14-0 lead before halftime.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me filter out the irrelevant information and focus on the relevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "14",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped me find the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for the relevant information about the score at halftime. I found that the Raiders had a 14-0 lead before halftime. Therefore, the answer to the problem is 14. Since the context provided the exact answer, there was no need for any additional calculations or estimations.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 14, and the correct answer was 14. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

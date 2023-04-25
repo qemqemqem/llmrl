@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the given text and looked for information about when the Mi'kmaq signed the Treaty of Portsmouth. I found that the Mi'kmaq did not sign the treaty until 1726, which was not long after the treaty was ratified in 1713. Therefore, the answer to the problem is 13, which represents the number of years it took for the Mi'kmaq to sign the treaty.\n\nTo solve the problem better, I could have taken notes while reading the text to keep track of important information. Additionally, I could have used a highlighter or underlining to mark key details in the text. This would have made it easier to find the answer to the problem and to ensure that I did not miss any important information.",
+    "final_answer": "The Mi'kmaq did not sign the Treaty of Portsmouth or any other treaty until 1726. Therefore, the answer is 13.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "13",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe War of the Spanish Succession ended with the Treaty of Utrecht in 1713. The colonial borders of northeastern North America were reshaped as a result, but the treaty did not account for Indian claims to the same area. French Acadia was ceded to Great Britain which established the province of Nova Scotia, although its borders were disputed. The area disputed by the European powers consisted of land between the Kennebec River  and the Isthmus of Chignecto . This land was occupied by a number of Algonquian-speaking Indian tribes loosely allied in the Wabanaki Confederacy, which also claimed sovereignty over most of this territory and had occupancy preceding that of the Colonists. Massachusetts Governor Joseph Dudley organized a major peace conference at Portsmouth, New Hampshire. In negotiations there and at Casco Bay, the Wabanaki present orally objected to British assertions that the French had ceded their territory to Britain in eastern Maine and New Brunswick, and agreed to a confirmation of boundaries at the Kennebec River and the establishment of government-run trading posts in their territory.:162-163 The Treaty of Portsmouth was ratified on July 13, 1713 by eight representatives of the Wabanaki Confederacy, however, which asserted British sovereignty over their territory.:107-110 Over the next year, other Abenaki tribal leaders also signed the treaty, but no Mi'kmaq ever signed it or any other treaty until 1726.:97-98\n\nQuestion:\nHow many years after the Treaty of Portsmouth was ratified did a Mi'kmaq finally sign it?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, it may be helpful to try a different approach if your current strategy is not working. It's important to be open to new ideas and solutions in order to achieve your goals.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Try a different approach",
+                "short_name": "different",
+                "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Trying a different approach can help to break through mental blocks and find new solutions.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question of the problem is: How long did it take for a Mi'kmaq to sign the Treaty of Portsmouth after it was ratified?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the main question helps to focus on the specific information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Mi'kmaq did not sign the Treaty of Portsmouth or any other treaty until 1726. Therefore, the answer is 13.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Reading the text carefully and finding the relevant information is necessary to arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the given text and looked for information about when the Mi'kmaq signed the Treaty of Portsmouth. I found that the Mi'kmaq did not sign the treaty until 1726, which was not long after the treaty was ratified in 1713. Therefore, the answer to the problem is 13, which represents the number of years it took for the Mi'kmaq to sign the treaty.\n\nTo solve the problem better, I could have taken notes while reading the text to keep track of important information. Additionally, I could have used a highlighter or underlining to mark key details in the text. This would have made it easier to find the answer to the problem and to ensure that I did not miss any important information.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The Mi'kmaq did not sign the Treaty of Portsmouth or any other treaty until 1726. Therefore, the answer is 13., and the correct answer was 13. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

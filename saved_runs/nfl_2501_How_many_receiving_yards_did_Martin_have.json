@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for the relevant information about Doug Martin's receiving yards. I found that he caught three passes for 79 yards, including a 64-yard passing touchdown on a screen play. Therefore, the answer to the problem is 79. \n\nSince the problem was straightforward and the relevant information was clearly stated in the context, there was no need for any additional steps or methods to solve the problem. However, if the information was scattered or unclear, I could have used a highlighter or underlined the relevant information to make it easier to find and solve the problem.",
+    "final_answer": "79",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "79",
+        "spans": []
+    },
+    "problem_text": "Context:\nThis win snapped a nine-game away losing streak for Tampa Bay dating back to last season. The Buccaneers last road win was against the Vikings in Minnesota in week 2 when the Bucs came back and won 24-20 after trailing 17-0 in the third quarter. Doug Martin held the spotlight on this night. Martin ran the ball 29 times for 135 rushing yards and a rushing touchdown. Martin scored two touchdowns on this night and he had 100 rushing yards before halftime. Adding to that, he caught three passes for 79 yards, in which he scored a 64-yard passing touchdown on a screen play. Martin's 214 total offensive yards is the 5th best single game total in Buccaneer history. Buccaneer QB Josh Freeman had his third consecutive game with three touchdown passes, in which is a new franchise record. Freeman threw for 262 yards and has a streak of consecutive games with a touchdown pass with 10. There were three takeaways in the game, all of them belonging to the Tampa Bay defense.  Ronde Barber and Michael Bennett forced fumbles, with the Bucs recovering both of them in the second quarter.  Those turnovers were converted into points. This provided the difference in the Bucs 20-10 halftime lead over the Vikings.  Leonard Johnson also ended Minnesota's last drive with an interception. Negative plays tackles behind the line of scrimmage have become the Buccaneers' strength this season. They entered Week 8 leading the NFL in that category.  The hits kept coming Thursday night as Tampa Bay had seven more tackles for loss, including three sacks. The Tampa Bay defense allowed Adrian Peterson and the Minnesota offense to rush for 141 total rushing yards. The Vikings were the second team this season to rush over 100 yards as the Redskins were the first team to do so with Robert Griffen III. The bucs oline only allowed 1 sack to Jared Allen and the defense. Doug Martin carried the load, becoming the first player in Buccaneers history with 135 rushing yards and 75 receiving yards in the same game. The Bucs finished with 416 yards of total offense. They had 513 yards against New Orleans last Sunday and 463 yards against Kansas City the previous week before playing the Saints. That marks the first time in franchise history that the Bucs have had three straight games with over 400 yards of total offense. The Buccaneers won their sixth straight meeting against the Minnesota Vikings.\n\nQuestion:\nHow many receiving yards did Martin have?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information is that Doug Martin caught three passes for 79 yards, including a 64-yard passing touchdown on a screen play.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "79",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to use the relevant information to find the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for the relevant information about Doug Martin's receiving yards. I found that he caught three passes for 79 yards, including a 64-yard passing touchdown on a screen play. Therefore, the answer to the problem is 79. \n\nSince the problem was straightforward and the relevant information was clearly stated in the context, there was no need for any additional steps or methods to solve the problem. However, if the information was scattered or unclear, I could have used a highlighter or underlined the relevant information to make it easier to find and solve the problem.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 79, and the correct answer was 79. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

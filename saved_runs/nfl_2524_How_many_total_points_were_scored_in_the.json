@@ -1,0 +1,188 @@
+{
+    "commentary_on_process": "To solve the problem, I added up the points scored by both teams, which were given in the game summary. I could have solved the problem better by double-checking my addition to ensure that I did not make any mistakes. Additionally, I could have used a calculator to make the addition process faster and more accurate.",
+    "final_answer": "The total points scored in the game by both teams is 47.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "47",
+        "spans": []
+    },
+    "problem_text": "Context:\nComing off their win over the Browns, Washington traveled to Lincoln Financial Field for a rematch with the rival Philadelphia Eagles, who they beat 31-6 in Week 11. In the first, Philadelphia got the ball first, and subsequently got on the board first, as well, taking the opening kickoff and going on a drive in which they converted two fourth downs, and ended with quarterback Nick Foles finding wide receiver Jeremy Maclin for a 27-yard score and a 7-0 lead. Washington would be unable to answer in the quarter. In the second, Washington had good field position, as Richard Crawford had just recovered a Foles fumble and Washington converted the fumble into a Kai Forbath 45-yard field goal to cut the deficit to 7-3. Forbath's field goal was his 16th consecutive field goal to start his career, tying an NFL record. Following a Philadelphia punt, Washington drove and called on Forbath again, this time from 42 yards, and he delivered to cut the lead to 7-6. This field goal was his 17th consecutive make, setting an NFL mark for consecutive field goals made to start a career. On Philadelphia's ensuing possession, Foles was intercepted by London Fletcher, and Washington got the ball at the Eagles' 25. Washington turned Philadelphia's second turnover of the quarter into a Josh Morgan 13-yard touchdown pass from Robert Griffin III, back in after missing last week's game, for a 13-7 lead. Philadelphia would answer with an Alex Henery 38-yard field goal to cut the Washington lead to 13-10 at the half. In the third, Washington got the ball first, and drove down the field, capping off the drive with a 10-yard touchdown run by Alfred Morris to extend its advantage to 20-10. Philadelphia would respond with Henery connecting again, this time from 30 yards out, to cut the lead to 20-13. After exchanging punts, Washington got the ball back again, and this time Griffin found Santana Moss in the corner of the endzone for a 22-yard score and a 27-13 advantage. After a Philadelphia punt, Washington tried to drive down the field in an attempt to put the game on ice, but Griffin's pass was overthrown and intercepted by Colt Anderson of Philadelphia, and Philadelphia converted that into a Dion Lewis 17-yard scamper to cut Washington's advantage to 27-20. After Washington could not extend its advantage, Philadelphia got the ball back, and got into the red zone in the game's final minute. Despite an open Maclin in the endzone, Foles short-hopped the pass, and then tight end Evan Moore dropped another, and the Eagles had one final play. With 8 seconds remaining, Foles was pressured, threw an incomplete pass that did not reach the line of scrimmage, resulting in an illegal forward pass, and with only 1 second on the clock, the 1 second was run off due to the ten-second runoff rule, and Washington barely hung on for a 27-20 win. With the nail-biting win, Washington improved to 9-6, 4-1 in the NFC East, winning six straight for the first time since 1996, clinching a winning record against the NFC East for the first time since 2005 and a winning overall record for the first time since 2007. Additionally, the win guaranteed that they would be in control of their own destiny in their season finale against the Dallas Cowboys.  This is also the team's first seasonal sweep over the Eagles since 2008.\n\nQuestion:\nHow many total points were scored in the game by both teams?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can make it easier to solve. We need to add up the points scored by both teams to get the total points scored in the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The information relevant to the problem is the score of each team at the end of each quarter and at the end of the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped me focus on the important details needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, we need to add up the points scored by both teams. \n\nWashington scored 27 points in the game.\n\nPhiladelphia scored 20 points in the game.\n\nTherefore, the total points scored in the game by both teams is 27 + 20 = 47. \n\nSo, the total points scored in the game by both teams is 47.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Doing the math was necessary to find the total points scored in the game.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The total points scored in the game by both teams is 47.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to be confident that I had found the correct answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I added up the points scored by both teams, which were given in the game summary. I could have solved the problem better by double-checking my addition to ensure that I did not make any mistakes. Additionally, I could have used a calculator to make the addition process faster and more accurate.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The total points scored in the game by both teams is 47., and the correct answer was 47. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

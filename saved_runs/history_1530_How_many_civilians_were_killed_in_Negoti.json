@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the context and identified the relevant information, which stated that 230 civilians were killed in Negotino during the Tikvesh uprising. I then provided the answer as 230. \n\nSince the context provided the exact number of civilians killed in Negotino, the problem was straightforward to solve. However, if the context had not provided the exact number, I would have had to look for other sources to find the answer. Additionally, if the context had provided conflicting information, I would have had to do further research to determine the correct answer.",
+    "final_answer": "230.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "230",
+        "spans": []
+    },
+    "problem_text": "Context:\nTikvesh uprising  was an uprising in the Tikve\u0161 region of Macedonia in late June 1913. It was organized by the Internal Macedonian Revolutionary Organization  against the Serbian government in Vardar Macedonia and took place behind the Serbian lines during the Second Balkan War. IMRO acted in close coordination with the Bulgarian army generals in Macedonia, whose troops at the time were located on the left bank of the Vardar river. The rebellion started prematurely on June 15, 1913, after the secret uprising conspiracy had been revealed by the local Serbian authorities. The organisers had planned to start armed resistance against the oppressors after the Bulgarian Army had begun operations in the region. The rebellion spread in the regions of Kavadarci, Negotino and the village of Vatasha. Two large rebel groups were set up with leaders Doncho Lazarov and Mishe Shkartov. The Serbian army unit in Negotino was attacked and forced out from the town, Kavadarci and Vatasha were liberated soon after. The rebellions set up a provisional Bulgarian government in these settlements. Reorganized Serbian army troops and irregulars led by Vasilije Trbi\u0107 were sent to crush the uprising. On June 25, after realising that help from the Bulgarian army would not be coming soon, the rebels moved out from the towns. In the following days the Serbian army brutally suppressed the uprising and terrorized the Bulgarian population in the rebelling regions. According to some sources 363 civilians were killed in Kavadarci, 230 - in Negotino and 40 - in Vatasha.\n\nQuestion:\nHow many civilians were killed in Negotino?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information to answer the question is provided in the context. It states that according to some sources, 230 civilians were killed in Negotino during the Tikvesh uprising in late June 1913.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "230.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to provide the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the context and identified the relevant information, which stated that 230 civilians were killed in Negotino during the Tikvesh uprising. I then provided the answer as 230. \n\nSince the context provided the exact number of civilians killed in Negotino, the problem was straightforward to solve. However, if the context had not provided the exact number, I would have had to look for other sources to find the answer. Additionally, if the context had provided conflicting information, I would have had to do further research to determine the correct answer.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 230., and the correct answer was 230. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

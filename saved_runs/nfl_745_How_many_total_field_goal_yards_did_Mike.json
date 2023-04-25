@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I organized the given information in a table and looked for the field goals kicked by Mike Nugent. From the table, I found that Nugent kicked four field goals, with distances of 35, 41, 38, and 35 yards. To get the total yardage, I added up these distances, which gave me 149 yards.\n\nTo solve the problem better, I could have used a calculator to add up the distances of the field goals instead of doing it manually. Additionally, I could have double-checked my calculations to ensure accuracy.",
+    "final_answer": "Mike Nugent kicked a total of 4 field goals, for a total of 149 yards.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "149",
+        "spans": []
+    },
+    "problem_text": "Context:\nComing off their season-sweep over the Dolphins, the Jets went home for a Week 14 intraconference duel with the Cleveland Browns.  After a scoreless first quarter, New York trailed in the second quarter as Browns QB Derek Anderson completed a 7-yard TD pass to RB Jamal Lewis.  The Jets would get on the board with kicker Mike Nugent getting a 35-yard field goal. In the third quarter, Cleveland responded with Anderson completing a 4-yard TD pass to WR Braylon Edwards.  The Jets would reply with Nugent kicking a 41-yard field goal.  In the fourth quarter, the Browns increased their lead with kicker Phil Dawson getting a 49-yard field goal.  New York would creep closer with QB Kellen Clemens getting a 1-yard TD run (with a failed 2-point conversion), while Nugent kicked a 38-yard field goal.  However, Cleveland sealed the win with Lewis getting a 31-yard touchdown.  The Jets would end the game with Nugent nailing a 35-yard field goal.\n\nQuestion:\nHow many total field goal yards did Mike Nugent kick?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, organizing the given information in a table would be helpful. Here is a possible table:\n\n| Quarter | Team | Scoring Play | Extra Point | Total |\n|---------|------|--------------|-------------|-------|\n| 2       | NYJ  | FG (35 yards) | Good        | 3     |\n| 2       | CLE  | TD (7 yards)  | Good        | 7     |\n| 3       | CLE  | TD (4 yards)  | Good        | 14    |\n| 3       | NYJ  | FG (41 yards) | Good        | 10    |\n| 4       | CLE  | FG (49 yards) | Good        | 17    |\n| 4       | NYJ  | TD (1 yard)   | Failed      | 16    |\n| 4       | NYJ  | FG (38 yards) | Good        | 19    |\n| 4       | CLE  | TD (31 yards) | Good        | 24    |\n| 4       | NYJ  | FG (35 yards) | Good        | 22    |\n\nFrom this table, we can see that Mike Nugent",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me organize the given information and easily find the field goals kicked by Mike Nugent.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Mike Nugent kicked a total of 4 field goals, for a total of 149 yards.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped me focus on finding the total yardage of Nugent's field goals.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I organized the given information in a table and looked for the field goals kicked by Mike Nugent. From the table, I found that Nugent kicked four field goals, with distances of 35, 41, 38, and 35 yards. To get the total yardage, I added up these distances, which gave me 149 yards.\n\nTo solve the problem better, I could have used a calculator to add up the distances of the field goals instead of doing it manually. Additionally, I could have double-checked my calculations to ensure accuracy.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was Mike Nugent kicked a total of 4 field goals, for a total of 149 yards., and the correct answer was 149. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

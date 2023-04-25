@@ -1,0 +1,188 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the number of German soldiers from the number of reserve troops. The calculation was straightforward, and the answer was 19,000. \n\nTo solve the problem better, I could have double-checked my calculation to ensure accuracy. Additionally, I could have provided more context about the significance of the number of reserve troops in the context of the First Silesian Uprising.",
+    "final_answer": "19,000",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "19000",
+        "spans": []
+    },
+    "problem_text": "Context:\nOn 15 August 1919, German border guards  massacred ten Silesian civilians in a labour dispute at the Mys\u0142owice mine . The massacre sparked protests from the Silesian Polish miners, including a general strike of about 140,000 workers, and caused the First Silesian Uprising against German control of Upper Silesia. The miners demanded the local government and police become ethnically mixed to include both Germans and Poles. About 21,000 Germans soldiers of the Weimar Republic's Provisional National Army , with about 40,000 troops held in reserve, quickly put down the uprising. The army's reaction was harsh; and about 2,500 Poles were either hanged or executed by firing squad for their parts in the violence. Some 9,000 ethnic Poles sought refuge in the Second Polish Republic, taking along their family members. This came to an end when Allied forces were brought in to restore order, and the refugees were allowed to return later that year.\n\nQuestion:\nHow many more reserve troops were there than German soldiers of the Weimar Republic's Provisional National Army?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, creating a list or table to organize the given information can be helpful. Here is an example:\n\n- Event: German border guards massacre ten Silesian civilians in a labour dispute at the Mys\u0142owice mine\n- Result: First Silesian Uprising against German control of Upper Silesia\n- Demand: Local government and police become ethnically mixed to include both Germans and Poles\n- German troops: About 21,000 soldiers of the Weimar Republic's Provisional National Army\n- Reserve troops: About 40,000 troops held in reserve\n- Uprising suppression: Harsh reaction by the army, with about 2,500 Poles hanged or executed by firing squad\n- Refugees: About 9,000 ethnic Poles sought refuge in the Second Polish Republic, taking along their family members\n- Allied intervention: Allied forces were brought in to restore order\n- Refugee return: Refugees were allowed to return later that year.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me organize the given information and understand the context of the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, breaking down the problem into smaller, more manageable parts can be helpful. Here is an example:\n\n- Number of German troops: About 21,000 soldiers of the Weimar Republic's Provisional National Army\n- Number of reserve troops: About 40,000 troops held in reserve\n- Calculation: Reserve troops minus German troops\n- Solution: 40,000 - 21,000 = 19,000\n- Answer: There were 19,000 more reserve troops than German soldiers of the Weimar Republic's Provisional National Army.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me focus on the specific question being asked and identify the necessary information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, we need to subtract the number of German soldiers from the number of reserve troops. \n\nNumber of reserve troops minus number of German soldiers:\n\n40,000 - 21,000 = 19,000\n\nTherefore, there were 19,000 more reserve troops than German soldiers of the Weimar Republic's Provisional National Army.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It allowed me to calculate the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "19,000",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped me present the answer in a clear and concise manner.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the number of German soldiers from the number of reserve troops. The calculation was straightforward, and the answer was 19,000. \n\nTo solve the problem better, I could have double-checked my calculation to ensure accuracy. Additionally, I could have provided more context about the significance of the number of reserve troops in the context of the First Silesian Uprising.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 19,000, and the correct answer was 19000. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

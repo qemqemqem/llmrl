@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read the given text carefully and identified the relevant information. I then subtracted the number of white emigrants from the number of white immigrants to find the difference. The answer is 9,109. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have used a calculator to avoid any errors in arithmetic.",
+    "final_answer": "9,109.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "9109",
+        "spans": []
+    },
+    "problem_text": "Context:\nA central feature of the white community in Rhodesia was its transience, as white settlers were just as likely to leave Rhodesia after a few years rather than permanently settle; for example, of the 700 British settlers who were the first white settlers, arriving in 1890, only 15 were still living in Rhodesia in 1924. As the white population of Rhodesia had a low birth rate (18 per 1,000 compared to the African rate of 48 per 1,000), to maintain white population growth was largely dependent upon taking in new white immigrants with immigration accounting for 60% of the growth of the white Rhodesian population between 1955\u201372. However, the American historian Josiah Brownell noted that the turnover rate for white residents in Rhodesia was very high, as Rhodesia took in a total of 255,692 white immigrants between 1955\u201379 while the same period a total of 246,583 whites emigrated. Even during the boom years of the late 1950s, when Rhodesia took in an average of 13,666 white immigrants per year, mostly from the United Kingdom and South Africa, an average of about 7,666 whites emigrated annually. Between 1961\u201365, Rhodesia took in an average of 8,225 white immigrants per year while also having an average white emigration of 12, 912 per year. Many prospective white immigrants in Rhodesia arrived seeking economic opportunities and departed with fluctuations in the security situation as the Bush War intensified. A substantial number were uninterested in settling there permanently and did not apply for Rhodesian citizenship, despite a much-publicised 1967 campaign urging them to do so. Brownell asserted that patriotism in the white community was \"shallow\" due to its essentially expatriate character. Brownell also claimed that the majority of white immigrants in the late 1960s and early 1970s were unskilled laborers who competed with the countrys black African workforce and did not contribute badly needed technical or professional skills to the country. He argued that this was due to a government policy aimed at making white immigration as \"unselective as possible\" and guaranteeing every white immigrant a job.\n\nQuestion:\nHow many more white immigrants immigrated to Rhodesia between 1955\u201379 than emigrated?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The text states that between 1955-79, Rhodesia took in a total of 255,692 white immigrants while a total of 246,583 whites emigrated.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "9,109.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the difference between the number of white immigrants and emigrants.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read the given text carefully and identified the relevant information. I then subtracted the number of white emigrants from the number of white immigrants to find the difference. The answer is 9,109. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have used a calculator to avoid any errors in arithmetic.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 9,109., and the correct answer was 9109. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

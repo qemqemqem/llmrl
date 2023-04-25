@@ -1,0 +1,168 @@
+{
+    "commentary_on_process": "To solve the problem, I first found the total number of missile firings, which is 2,014. Then, I subtracted the number of kills achieved, which is 528, from the total number of missile firings to get the number of ineffective missile firings, which is 1,486. Finally, I divided the number of ineffective missile firings by the total number of missile firings and multiplied by 100 to get the percentage of ineffective missile firings, which is 74%.\n\nTo solve the problem better, I could have used a calculator to make sure my calculations were accurate and double-checked my work to avoid any errors. Additionally, I could have used a spreadsheet to organize the data and perform the calculations more efficiently.",
+    "final_answer": "The percentage of ineffective missile firings between 1958 and 1982 in 5 wars is 74%.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "74",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nIn the Vietnam air war radar missile kill reliability was approximately 10% at shorter ranges, and even worse at longer ranges due to reduced radar return and greater time for the target aircraft to detect the incoming missile and take evasive action. At one point in the Vietnam war, the U.S. Navy fired 50 AIM-7 Sparrow radar guided missiles in a row without a hit. Between 1958 and 1982 in five wars there were 2,014 combined heat-seeking and radar guided missile firings by fighter pilots engaged in air-to-air combat, achieving 528 kills, of which 76 were radar missile kills, for a combined effectiveness of 26%. However, only four of the 76 radar missile kills were in the beyond-visual-range mode intended to be the strength of radar guided missiles. The United States invested over $10 billion in air-to-air radar missile technology from the 1950s to the early 1970s. Amortized over actual kills achieved by the U.S. and its allies, each radar guided missile kill thus cost over $130 million. The defeated enemy aircraft were for the most part older MiG-17s, -19s, and -21s, with new cost of $0.3 million to $3 million each. Thus, the radar missile investment over that period far exceeded the value of enemy aircraft destroyed, and furthermore had very little of the intended BVR effectiveness.\n\nQuestion:\nBetween 1958 and 1982 in 5 wars, how many percent of the missle firings were not effective?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you can break down the problem into smaller parts. One way to do this is to find the total number of missile firings and then subtract the number of kills achieved to get the number of ineffective missile firings.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The percentage of ineffective missile firings between 1958 and 1982 in 5 wars is 74%.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Finding the final answer was necessary to answer the question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I first found the total number of missile firings, which is 2,014. Then, I subtracted the number of kills achieved, which is 528, from the total number of missile firings to get the number of ineffective missile firings, which is 1,486. Finally, I divided the number of ineffective missile firings by the total number of missile firings and multiplied by 100 to get the percentage of ineffective missile firings, which is 74%.\n\nTo solve the problem better, I could have used a calculator to make sure my calculations were accurate and double-checked my work to avoid any errors. Additionally, I could have used a spreadsheet to organize the data and perform the calculations more efficiently.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The percentage of ineffective missile firings between 1958 and 1982 in 5 wars is 74%., and the correct answer was 74. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

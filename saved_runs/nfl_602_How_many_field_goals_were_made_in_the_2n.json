@@ -1,0 +1,188 @@
+{
+    "commentary_on_process": "To solve the problem, I first broke it down into smaller parts and focused on each quarter separately to determine how many field goals were made in each quarter. I then added up the number of field goals made in the 2nd half to arrive at the final answer of 2. \n\nOne way to potentially solve the problem better would be to create a visual representation of the game, such as a timeline or a chart, to help keep track of the scoring and field goals made in each quarter. This could make it easier to quickly identify the number of field goals made in the 2nd half.",
+    "final_answer": "There was 1 field goal made in the 3rd quarter and 1 field goal made in the 4th quarter, for a total of 2 field goals made in the 2nd half. \n\nThe answer is: 2.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2",
+        "spans": []
+    },
+    "problem_text": "Context:\nFollowing their bye week, the Packers flew to Denver to take on the Broncos on Monday Night Football. In the first quarter, Bronco quarterback Jay Cutler opened the scoring with a 5-yard touchdown pass to tight end Tony Scheffler. On the first play of the ensuing series Brett Favre completed a 79-yard touchdown to rookie wide receiver James Jones. In the second quarter, rookie kicker Mason Crosby converted a 19-yard field goal, followed by a 26-yard field goal, and the Packers took a 13-7 lead into halftime. In the third quarter, Broncos kicker Jason Elam converted a 45-yard field goal to cut Green Bay's lead to 3 points. In the fourth quarter, after getting the ball back with 2:27 remaining in the game, Cutler led a drive that began on the Bronco seven-yard line down the length of the field to the Green Bay four-yard line. On a 3rd and 1 Cutler attempted a quarterback draw to win the game, but Ryan Pickett stopped Cutler for no gain on the play. With no time outs remaining Elam and the kicking unit ran onto the field and converted a field goal to tie the game on the final play of the quarter. Greg Jennings called heads and won the overtime coin toss, allowing Green Bay to receive the ball to begin overtime. On the first play, Favre threw an 82-yard touchdown pass to Jennings, who had outrun Bronco cornerback Dr&#233; Bly for the catch. This was Favre's 13th TD pass of 75&#160;yards or more, most of any player in NFL history. Favre also becomes the first Packers player to throw two touchdown passes of 75&#160;yards or more in the same game. Only three quarterbacks have accomplished the feat since 1990. Ryan Grant ran for 104&#160;yards, the first Packer to break the 100&#160;yard rushing mark this season. With the win (their first ever in Denver), the Packers improved to 6-1. On November 1, 2007 Aaron Kampman was named the NFC Defensive Player of the Month for October, having recorded 5.5 sacks during that time period. Brett Favre was voted the Fedex Air and Ground NFL Player of the Week award for games played on October 28 - 29, the third time this season he has received this award. Wide receiver James Jones of the Packers was announced as the Diet Pepsi 2007 Rookie of the Week for games played on October 28-29. Jones made three receptions for 107&#160;yards including a first-quarter 79-yard touchdown.\n\nQuestion:\nHow many field goals were made in the 2nd half?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Based on the given context, there are no assumptions or constraints that need to be considered.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make assumptions",
+                "short_name": "assumptions",
+                "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "There were no assumptions to make.",
+            "was_useful": false
+        },
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can make it more manageable. One approach could be to focus on each quarter separately and determine how many field goals were made in each quarter.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it more manageable.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, making a list or table can help organize the given information. Here's a possible table:\n\n| Quarter | Field Goals |\n|---------|-------------|\n| 2nd     | 2           |\n| 3rd     | 1           |\n| 4th     | 1           |\n\nNote: No field goals were made in the 1st quarter or in overtime.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Making a list or table helped organize the given information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "There was 1 field goal made in the 3rd quarter and 1 field goal made in the 4th quarter, for a total of 2 field goals made in the 2nd half. \n\nThe answer is: 2.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I first broke it down into smaller parts and focused on each quarter separately to determine how many field goals were made in each quarter. I then added up the number of field goals made in the 2nd half to arrive at the final answer of 2. \n\nOne way to potentially solve the problem better would be to create a visual representation of the game, such as a timeline or a chart, to help keep track of the scoring and field goals made in each quarter. This could make it easier to quickly identify the number of field goals made in the 2nd half.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was There was 1 field goal made in the 3rd quarter and 1 field goal made in the 4th quarter, for a total of 2 field goals made in the 2nd half. \n\nThe answer is: 2., and the correct answer was 2. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

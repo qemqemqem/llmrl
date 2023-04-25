@@ -1,0 +1,199 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the passage and identified the points scored by each team in each quarter. Then, I added up the total points scored by both teams. I could have solved the problem better by creating a table to keep track of the points scored by each team in each quarter, which would have made it easier to add up the total points scored by both teams.",
+    "final_answer": "The total points scored in the game were 51.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "51",
+        "spans": []
+    },
+    "problem_text": "Context:\nHoping to rebound from their divisional road loss to the Packers, the Vikings' Week 11 opponent was the Oakland Raiders, who had former Vikings quarterback Daunte Culpepper under center. After a 79-yard pass from wide receiver Sidney Rice to Visanthe Shiancoe on the first play from scrimmage, the Vikings scored on the very next play on a 10-yard run from Chester Taylor. This was followed by a safety when Culpepper was penalized for intentional grounding in his own endzone. Two plays after the ensuing free kick, the Vikings fumbled the ball just inside Oakland territory, allowing the Raiders to set up a 42-yard field goal for Sebastian Janikowski. On the next drive, the Vikings restored their nine-point lead as kicker Ryan Longwell hit a 30-yard field goal on the first play of the second quarter. A short Oakland drive culminating in 10-yard touchdown pass from Culpepper to tight end John Madsen, followed by another Janikowski field goal, saw the Raiders take the lead for the first time. Four plays later, Minnesota regained a six-point lead on a 38-yard touchdown run from Taylor, but field goals of 42 and 49 yards from Janikowski meant the first half ended with the scores level at 19-19. The Vikings recorded the only score of the third quarter on a 38-yard field goal from Longwell, though they did finish the period on the Raiders' 6-yard line, allowing Taylor to run in his third touchdown on the opening play of the fourth quarter, the first time in his career that he scored three touchdowns in one game. A 52-yard field goal from Janikowski narrowed the margin to 7 points with less than three-and-a-half minutes to play, and after forcing the Vikings to punt just inside the two-minute warning, they had one last chance to level the scores. On the first play of the drive, Culpepper threw the ball in the direction of Justin Fargas, who tipped it up, allowing Chad Greenway to come up with an interception; he went to ground with the ball, but inexplicably got up and attempted to advance it, which allowed left tackle Barry Sims to force a fumble, recovered by right guard Paul McQuistan. That enabled the Raiders to extend their drive, but although they managed to get into Vikings territory, a false start penalty meant Culpepper had to attempt a Hail Mary pass on the final play, but it came up short, giving the Vikings a 29-22 win.\n\nQuestion:\nHow many total points were scored?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage provides a detailed account of the scoring in the game between the Vikings and the Raiders, including touchdowns, field goals, and a safety.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the relevant information in the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The keyword that can help identify the type of problem is \"total points.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the keyword that was relevant to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to add up all the points scored by each team.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me choose a strategy to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, you can break down the problem by adding up the points scored by each team in each quarter and then adding up the total points scored by both teams.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me break down the problem into smaller, more manageable parts.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The total points scored in the game were 51.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me find the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the passage and identified the points scored by each team in each quarter. Then, I added up the total points scored by both teams. I could have solved the problem better by creating a table to keep track of the points scored by each team in each quarter, which would have made it easier to add up the total points scored by both teams.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The total points scored in the game were 51., and the correct answer was 51. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

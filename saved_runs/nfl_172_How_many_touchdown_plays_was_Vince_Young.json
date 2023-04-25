@@ -1,0 +1,199 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and identified the relevant information, which was that Vince Young ran for a 20-yard touchdown and completed a 20-yard touchdown pass to Bobby Wade. Then, I counted the number of touchdown plays that Vince Young was a part of, which was two. \n\nTo solve the problem better, I could have taken notes while reading the context to keep track of the relevant information. Additionally, I could have double-checked my answer to ensure accuracy.",
+    "final_answer": "Vince Young was a part of two touchdown plays. The answer is 2.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2",
+        "spans": []
+    },
+    "problem_text": "Context:\nHoping to build on their surprising victory over the Jaguars, the Texans flew to LP Field for an AFC South showdown with the Tennessee Titans.  After a scoreless first quarter, the Texans trailed early, as Tennessee QB Vince Young ran 20 yards  for a touchdown.  Houston would respond with kicker Kris Brown nailing a 27-yard field goal.  However, things started getting ugly as Titans DE Tony Brown returned a fumble 40 yards for a TD.  In the third quarter, QB David Carr lasted for only one drive, which resulted in a fumble recovery for Tennessee.  He would be replaced with back-up QB Sage Rosenfels.  However, a Rosefels interception resulted in Young completing a 20-yard TD pass to WR Bobby Wade.  The Texans would respond with Rosenfels completing a 10-yard TD pass to WR Andre Johnson.  In the fourth quarter however, CB Pacman Jones returned a punt 53 yards for a touchdown.  Houston would try to retaliate, as Rosenfels completed two touchdown passes (a 1-yarder and a 2-yarder to rookie TE Owen Daniels), but in the end, any hope for a comeback resulted in a fumble, dropping the Texans to 2-5.\n\nQuestion:\nHow many touchdown plays was Vince Young a part of?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, breaking down the problem into smaller parts can help solve it more easily.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is that Vince Young ran for a 20-yard touchdown and completed a 20-yard touchdown pass to Bobby Wade.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped me focus on what was important.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question is how many touchdown plays Vince Young was a part of.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the main question helped me stay on track and not get sidetracked.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to count the number of touchdown plays that Vince Young was a part of.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Choosing a strategy helped me approach the problem in a systematic way.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Vince Young was a part of two touchdown plays. The answer is 2.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Finding the final answer helped me solve the problem and answer the main question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and identified the relevant information, which was that Vince Young ran for a 20-yard touchdown and completed a 20-yard touchdown pass to Bobby Wade. Then, I counted the number of touchdown plays that Vince Young was a part of, which was two. \n\nTo solve the problem better, I could have taken notes while reading the context to keep track of the relevant information. Additionally, I could have double-checked my answer to ensure accuracy.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was Vince Young was a part of two touchdown plays. The answer is 2., and the correct answer was 2. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

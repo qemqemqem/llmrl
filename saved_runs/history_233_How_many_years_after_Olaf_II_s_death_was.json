@@ -1,0 +1,210 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the year of Olaf II's death (1030) from the year of his canonization (1164) to get the number of years that passed between the two events. I could have also used a calculator to subtract the two numbers, but since the numbers were relatively small, I did the subtraction mentally. There is no other way to solve this problem as it is a simple subtraction problem.",
+    "final_answer": "The number of years between Olaf II's death and his declaration as a saint is 134. \n\n1164 - 1030 = 134",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "134",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Battle of Stiklestad  in 1030 is one of the most famous battles in the history of Norway. In this battle, King Olaf II of Norway  was killed. During the pontificate of Pope Alexander III, the Roman Catholic Church  declared Olaf a saint in 1164. His younger half-brother, Harald Hardrada, was also present at the battle. Harald was only fifteen when the battle of Stiklestad took place. He became King of Norway in 1047, only to die in a failed invasion of England at the Battle of Stamford Bridge in 1066. The authenticity of the battle as a historical event is subject to question. Contemporary sources say the king was murdered. According to the Anglo Saxon Chronicle of 1030, Olaf was killed by his own people. Adam of Bremen wrote in 1070 that Olaf was killed in an ambush, and so did Florence of Worcester in 1100. Those are the only contemporary sources that mention the death of the king. After the king's canonization it was felt that the saint could not have died in such circumstances.  The story of the Battle of Stiklestad as we know it gradually developed during the two centuries following the death of King Olaf. Saint Olaf must have fallen in a major battle for Christianity.\n\nQuestion:\nHow many years after Olaf II's death was he declared a saint?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Olaf II of Norway was killed in the Battle of Stiklestad in 1030. He was declared a saint by the Roman Catholic Church during the pontificate of Pope Alexander III in 1164.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me focus on the important information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question is: How many years after Olaf II's death was he declared a saint?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand what the problem was asking for.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, you can break down the problem into smaller, more manageable parts.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me break the problem into smaller parts.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, you can rephrase the problem in your own words to ensure you understand it. The problem is asking for the number of years that passed between the death of Olaf II of Norway and his declaration as a saint by the Roman Catholic Church.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Rephrase the problem",
+                "short_name": "rephrase",
+                "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand the problem in my own words.",
+            "was_useful": true
+        },
+        {
+            "step_response": "We know that Olaf II of Norway was killed in the Battle of Stiklestad in 1030 and was declared a saint by the Roman Catholic Church during the pontificate of Pope Alexander III in 1164.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Think about background",
+                "short_name": "background",
+                "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me remember the relevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The number of years between Olaf II's death and his declaration as a saint is 134. \n\n1164 - 1030 = 134",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This helped me find the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the year of Olaf II's death (1030) from the year of his canonization (1164) to get the number of years that passed between the two events. I could have also used a calculator to subtract the two numbers, but since the numbers were relatively small, I did the subtraction mentally. There is no other way to solve this problem as it is a simple subtraction problem.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The number of years between Olaf II's death and his declaration as a saint is 134. \n\n1164 - 1030 = 134, and the correct answer was 134. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

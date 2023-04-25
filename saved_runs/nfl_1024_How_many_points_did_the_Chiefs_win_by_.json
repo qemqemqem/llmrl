@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for information about the final score of the game. I found that the Chiefs won by a score of 33-19. To determine the point difference, I subtracted the Broncos' score from the Chiefs' score, which gave me a difference of 14 points. \n\nTo solve the problem better, I could have written down the scores of both teams and then subtracted them to find the point difference. This would have helped me avoid any errors in mental math. Additionally, I could have used a calculator to double-check my answer.",
+    "final_answer": "The Chiefs won by 14 points.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "14",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Kansas City Chiefs got off to a good start after they forced the Denver Broncos to punt. This was followed with a 65-yard run by Larry Johnson to set up a 23-yard field goal kick by Nick Novak, putting the Chiefs on top 3-0. After recovering an Eddie Royal fumble early on Denver's next drive, Kansas City again failed to make it to the end zone and a 21-yard field goal by Novak put the Chiefs up 6-0. The Broncos responded with an 8-play, 9-minute drive in the second quarter that ended in a touchdown pass from Jay Cutler to Brandon Marshall, putting the Broncos briefly in the lead, 7-6. Later in the quarter, a fumble by Marshall was returned to the Broncos' 2-yard line by the Chiefs, followed 2 plays later by a Johnson touchdown run, putting the Chiefs up 13-7. The Broncos got the ball back, but a 28-yard field goal by Matt Prater went wide right. After forcing the Chiefs to punt, the Broncos got the ball back and Prater hit a 56-yarder near the end of the half, drawing the Broncos within 13-10. The second half began with a Denver drive that resulted in a 51-yard Prater field goal, tying the game at 13-13. The Chiefs answered with a 43-yard Novak field goal, putting them back on top 16-13. On the next drive, Cutler threw an interception. However, Kansas City's very next play was a Larry Johnson fumble recovered by Denver, although 2 plays later Cutler threw another interception. Despite this exchange of turnovers (3 turnovers in 4 plays), there was no scoring for the rest of the 3rd quarter. Early in the fourth quarter, the Chiefs extended their lead to 23-13 with a 10-yard touchdown pass from Damon Huard to Tony Gonzalez. The Broncos, however, failed to capitalize on a sustained 16-play, 75-yard drive and settled with a Prater field goal, cutting the lead to 23-16. The Chiefs and Broncos then each got field goals on their next drives, bringing the score to 26-16. The Chiefs got a good return after the Prater field goal and put the game away with a 16-yard touchdown run from Johnson. With the 33-19 victory, the Chiefs snapped a league-leading 12-game losing streak dating back to week 7 of the 2007 season. Larry Johnson carried the Chiefs with 198 rushing yards and 2 touchdowns. Huard managed the game well for the Chiefs, throwing 21/28 for 160 yards and 1 touchdown. Denver was hurt by 4 turnovers compared to just 1 for the Chiefs, but despite 2 interceptions, Cutler still was able to throw for 361 yards on 29/49 passing.\n\nQuestion:\nHow many points did the Chiefs win by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, estimating the answer can be a helpful step in checking the reasonableness of your solution.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Estimate the answer",
+                "short_name": "estimate",
+                "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me have an idea of what the answer should be and check the reasonableness of my final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Chiefs won by 14 points.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This was the main step that allowed me to find the final answer by reading through the context and subtracting the Broncos' score from the Chiefs' score.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for information about the final score of the game. I found that the Chiefs won by a score of 33-19. To determine the point difference, I subtracted the Broncos' score from the Chiefs' score, which gave me a difference of 14 points. \n\nTo solve the problem better, I could have written down the scores of both teams and then subtracted them to find the point difference. This would have helped me avoid any errors in mental math. Additionally, I could have used a calculator to double-check my answer.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The Chiefs won by 14 points., and the correct answer was 14. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

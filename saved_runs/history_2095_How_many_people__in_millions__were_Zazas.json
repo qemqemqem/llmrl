@@ -1,0 +1,199 @@
+{
+    "commentary_on_process": "To solve the problem, I followed the strategy of adding the number of Zazas and Circassians to get the total number of Zazas and Circassians combined. I used the information provided in the context to identify the number of Zazas and Circassians living in Turkey. \n\nTo solve the problem better, I could have double-checked my calculations to ensure that I added the numbers correctly. Additionally, I could have used a calculator to avoid any errors in arithmetic.",
+    "final_answer": "The answer to the problem is 5.5 million.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "5.5",
+        "spans": []
+    },
+    "problem_text": "Context:\nAccording to the 2012 edition of the CIA World Factbook, 70-75% of Turkeys population consists of ethnic Turks, with Kurds accounting for 18% and other minorities between 7 and 12%. According to Milliyet, a 2008 report prepared for the National Security Council (Turkey) of Turkey by academics of three Turkish universities in eastern Anatolia suggested that there are approximately 55 million ethnic Turks, 9.6 million Kurds, 3 million Zazas, 2.5 million Circassians, 2 million Bosniaks, 500,000-1.3 million Albanians, 1,000,000 Georgians, 870,000 Arabs, 600,000, Pomaks, 80,000 Laz people, 60,000 Armenians, 25,000 Assyrian people, 20,000 Jews, and 15,000 Greeks, 500 Yazidis living in Turkey.\n\nQuestion:\nHow many people (in millions) were Zazas and Circassians combined?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you can break down the problem into smaller parts. First, identify the number of Zazas and Circassians separately. Then, add the two numbers to get the total number of Zazas and Circassians combined.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is that there are 3 million Zazas and 2.5 million Circassians living in Turkey.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the relevant information helped me focus on the important details.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to add the number of Zazas and Circassians to get the total number of Zazas and Circassians combined.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Choosing a strategy helped me approach the problem in a systematic way.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Adding the number of Zazas and Circassians, we get:\n\n3 million + 2.5 million = 5.5 million\n\nTherefore, there are 5.5 million Zazas and Circassians combined living in Turkey.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Doing the math allowed me to arrive at the answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer to the problem is 5.5 million.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step allowed me to present the answer in a clear and concise manner.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I followed the strategy of adding the number of Zazas and Circassians to get the total number of Zazas and Circassians combined. I used the information provided in the context to identify the number of Zazas and Circassians living in Turkey. \n\nTo solve the problem better, I could have double-checked my calculations to ensure that I added the numbers correctly. Additionally, I could have used a calculator to avoid any errors in arithmetic.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer to the problem is 5.5 million., and the correct answer was 5.5. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "I apologize for the mistake in my previous answer. To solve the problem, I first identified the relevant information, which was that the basic old-age pension scheme covers individuals 65 years of age who earned below a certain amount set by presidential order. In 2010, that ceiling was 700,000 KRW for a single individual. However, individuals with a minimum of 10 years covered under the national pension scheme and who are 60 years of age are able to be covered under a reduced old-age pension scheme. \n\nTo find the age at which a 65-year-old with 10 years of pension coverage would retire with a basic pension, I should have subtracted 10 from 65 to get 55, which is the age at which they would have had to start contributing to the national pension scheme to be eligible for the reduced old-age pension scheme. Then, I should have added 10 years of coverage to 55 to get 65, which is the age at which they would retire with a basic pension. \n\nIn the future, I will make sure to double-check my calculations to avoid making mistakes like this.",
+    "final_answer": "65.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "75",
+        "spans": []
+    },
+    "problem_text": "Context:\nSouth Koreas old-age pension scheme covers individuals age 60 or older for the rest of their life as long as they have satisfied the minimum of 20 years of national pension coverage before hand. Individuals with a minimum of 10 years covered under the national pension scheme and who are 60 years of age are able to be covered by under a reduced old-age pension scheme. There also is an active old-age pension scheme that covers individuals age 60 to 65 engaged in activities yielding earned income. Individuals age of 55 and younger than 60 who are not engaged in activities yielding earned income are eligible to be covered under the early old-age pension scheme. Around 60% of all Korean elders, age 65 and over are entitled to a 5% benefit of their past average income at an average of 90,000 Korean won (KRW). Basic old-age pension schemes covered individuals 65 years of age who earned below an amount set by presidential order. In 2010, that ceiling was 700,00 KRW for a single individual and 1,120,000 for a couple, equivalent to around $600.00 and $960.00.\n\nQuestion:\nHow many years old will a 65 year old with 10 years of pension coverage have to be to retire with a basic pension?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "The basic old-age pension scheme covers individuals 65 years of age who earned below a certain amount set by presidential order. In 2010, that ceiling was 700,000 KRW for a single individual. Individuals with a minimum of 10 years covered under the national pension scheme and who are 60 years of age are able to be covered under a reduced old-age pension scheme.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the key information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "65.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step was premature because I had not yet calculated the answer. I should have taken the time to calculate the answer before moving on to this step.",
+            "was_useful": false
+        },
+        {
+            "step_response": "I apologize for the mistake in my previous answer. To solve the problem, I first identified the relevant information, which was that the basic old-age pension scheme covers individuals 65 years of age who earned below a certain amount set by presidential order. In 2010, that ceiling was 700,000 KRW for a single individual. However, individuals with a minimum of 10 years covered under the national pension scheme and who are 60 years of age are able to be covered under a reduced old-age pension scheme. \n\nTo find the age at which a 65-year-old with 10 years of pension coverage would retire with a basic pension, I should have subtracted 10 from 65 to get 55, which is the age at which they would have had to start contributing to the national pension scheme to be eligible for the reduced old-age pension scheme. Then, I should have added 10 years of coverage to 55 to get 65, which is the age at which they would retire with a basic pension. \n\nIn the future, I will make sure to double-check my calculations to avoid making mistakes like this.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 65., but the correct answer was 75. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

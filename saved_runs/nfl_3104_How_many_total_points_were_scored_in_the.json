@@ -1,0 +1,190 @@
+{
+    "commentary_on_process": "To solve the problem, I added up the total points scored by both teams, which were 27 and 21 for the Titans and the Bears, respectively. Therefore, the total points scored in the game was 48. \n\nTo solve the problem better, I could have looked for the final score of the game first, which would have given me the answer directly. However, since the final score was not explicitly given in the context, I had to add up the points scored by both teams to get the total points scored in the game.",
+    "final_answer": "The answer to the problem is 48.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "48",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nIn week twelve, the Bears hosted the 5-6 Tennessee Titans. The Bears were 6-5 in the all-time series, most recently a 51-20 victory in 2012, though the Bears lost the last game in Chicago, a 31-24 defeat in 2008. With Jay Cutler sidelined, Matt Barkley made his first career NFL start against a Dick LeBeau-led defense that blitzed often; on second down, the Titans recorded 12 sacks, second-most in the league. For the Bears defense, they faced an offense powered by a running game featuring DeMarco Murray and Derrick Henry, while quarterback Marcus Mariota led a unit that ranked eighth in the NFL in five-minute drives and a fifth-ranked third down conversion rate. Despite the recent woes, Jeff Joniak wrote the Bears needed to maintain a high morale and allow younger players to develop, both as players and as a team. On their opening drive, the Bears reached the Titans' 33-yard line before stalling and turning the ball over on downs. After the Titans punted, the Bears scored first when Barkley threw a seven-yard touchdown pass to Daniel Brown, their first career touchdowns. The Titans responded with Henry's 11-yard touchdown run with four seconds left in the first quarter, followed by Mariota throwing a four-yard touchdown pass to Delanie Walker in the second quarter. Chicago attempted to score again when they entered Tennessee's red zone on their next drive, but Barkley's pass for Ben Braunecker was intercepted by Wesley Woodyard. The next two drives of the game ended with a punt before Mariota threw a 29-yard touchdown pass to Rishard Matthews to give the Titans a 21-7 entering halftime. To start the second half, Connor Barth attempted a surprise onside kick, which bounced off Titan Nate Palmer as Adrian Amos recovered. The Bears took advantage to drive to the Titan's five-yard line, but were unable to score as Barkley's pass for Cameron Meredith was intercepted by Da'Norris Searcy in the endzone. Tennessee's Ryan Succop kicked field goals of 19 and 31 yards to increase the lead to 20 points. In the fourth quarter, Barkley began to lead a comeback as he led a 75-yard drive that ended with an eight-yard touchdown pass to Marquess Wilson, followed by a 69-yard scoring drive that concluded with a six-yard touchdown pass to Deonte Thompson to narrow the score to 27-21. The Titans were forced to punt on their next possession with 1:56 left in the game. Barkley moved the Bears downfield with 14-, 21- and 23-yard passes to Wilson, where they reached the Titans' seven-yard line to create a first-and-goal situation with 47 seconds left. Barkley's first pass to Josh Bellamy, which would have resulted in a touchdown, was dropped. His next two passes to Brown and Thompson also fell incomplete. On fourth-and-goal, Thompson dropped a Barkley pass in the back of the endzone to result in a turnover on downs. In addition to the two late drops by Bellamy and Thompson, the Bears as a whole struggled with drops, with ten total in the game and eight in the fourth quarter.\n\nQuestion:\nHow many total points were scored in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The obvious answer to this problem is to look for the final score of the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the obvious answer",
+                "short_name": "obvious",
+                "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step was not necessary as it did not provide any additional information.",
+            "was_useful": false
+        },
+        {
+            "step_response": "The relevant information to the problem is the scoring plays of the game and the final score.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the important details of the context.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve this problem, we need to add up the total points scored by both teams. From the given information, we know that the Titans scored 27 points, and the Bears scored 21 points. Therefore, the total points scored in the game is 27 + 21 = 48.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step allowed me to add up the points scored by both teams to get the total points scored in the game.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer to the problem is 48.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step was not necessary as it was already clear what the final answer was.",
+            "was_useful": false
+        },
+        {
+            "step_response": "To solve the problem, I added up the total points scored by both teams, which were 27 and 21 for the Titans and the Bears, respectively. Therefore, the total points scored in the game was 48. \n\nTo solve the problem better, I could have looked for the final score of the game first, which would have given me the answer directly. However, since the final score was not explicitly given in the context, I had to add up the points scored by both teams to get the total points scored in the game.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer to the problem is 48., and the correct answer was 48. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

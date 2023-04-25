@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the context and looked for any mention of the total points scored in the game. I did not see a direct mention of the total points, so I had to add up the points scored by each team. The Jaguars scored 24 points, and the Browns scored 6 points, making the total number of points scored in the game 30. \n\nTo solve the problem better, I could have kept a running tally of the points scored by each team as I read through the context. This would have made it easier to arrive at the total number of points scored in the game without having to go back and recount.",
+    "final_answer": "30",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "30",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Browns entered this game with a 3-2 record, coming off a blowout victory over the Steelers and were looking to win their third consecutive game.  Meanwhile, the Jaguars entered with a 0-6 record, and a 9-game losing streak, coming off a tough loss to the Tennessee Titans.  Despite being heavy favorites to win this matchup, the Browns were routed 24-6.  The Browns led 6-0 late in the first half and had the opportunity to kick a field goal and go up 9-0.  Instead, Browns HC Mike Pettine opted to go for it on 4th & 1. The conversion attempt failed, and within seconds, the Jaguars scored a touchdown to close out the half, leading 7-6.  Following a lost fumble by Brian Hoyer, the Jaguars added a field goal to make it 10-6.  In the fourth, the Browns finally imploded. KR Jordan Poyer attempted to catch the punt at the Browns' 2 yard line; the ball went off his facemask, and the Jaguars recovered, scoring a touchdown on their next drive to make it 17-6.  On the Browns' next drive, Hoyer threw an interception and the Jags converted another touchdown a few seconds later, making the final score 24-6.  After committing only 2 turnovers in their first 5 games, the Browns committed 3 turnovers against the Jaguars.  17 of the Jaguars' 24 points came off turnovers.  The defense picked off Blake Bortles three times, but they were able to score only 3 points off of those turnovers.  Hoyer struggled mightily throughout the game, going 16/41 for 215 yards, 0 touchdowns, an interception, and a lost fumble.  It was the Browns' lowest scoring output of the season and the fewest points that they had scored with Hoyer as their starting quarterback.  It was the first time that the Browns had failed to score a touchdown in a game since Week 2 against the Ravens (in the 2013 season). It was also the first time that the Browns failed to score any points in the second half (it last occurred in Week 2 of the 2013 season when the Browns were outscored by the Ravens 14-0 in the second half). The Jaguars won their first game of the season to improve to 1-6; The Browns' record dropped to 3-3 as they fell to 4th place in the AFC North.\n\nQuestion:\nHow many total points were scored in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Sure. The question is asking for the total number of points scored in the game between the Browns and the Jaguars.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Rephrase the problem",
+                "short_name": "rephrase",
+                "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand what the question was asking for.",
+            "was_useful": true
+        },
+        {
+            "step_response": "30",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This helped me focus on finding the answer to the question.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the context and looked for any mention of the total points scored in the game. I did not see a direct mention of the total points, so I had to add up the points scored by each team. The Jaguars scored 24 points, and the Browns scored 6 points, making the total number of points scored in the game 30. \n\nTo solve the problem better, I could have kept a running tally of the points scored by each team as I read through the context. This would have made it easier to arrive at the total number of points scored in the game without having to go back and recount.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 30, and the correct answer was 30. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read the context and identified the relevant information. I then calculated the percentage of banks in Paraguay that were wholly or partially owned by foreign companies by adding the percentages of wholly foreign-owned banks and partially foreign-owned banks, which gave me a total of 75 percent. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have highlighted or underlined the relevant information in the context to make it easier to find and reference.",
+    "final_answer": "75 percent.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "75",
+        "spans": []
+    },
+    "problem_text": "Context:\nParaguay's banking and financial services industry is still recovering from the liquidity crisis of 1995, when news of widespread corruption resulted in the closure of several significant banks. Reform efforts spurred by the International Monetary Fund  and World Bank helped restore some credibility to Paraguay's banking industry. Still, a paucity of credit options hinders the overall economy. Paraguay has a long history as a money-laundering center. The government has taken steps to curb the problem, but enforcement of anti-laundering legislation remains inconsistent. Foreign companies either partially or wholly own most banks and financial institutions in Paraguay. Paraguayan banks hold less than 10 percent of deposits. Of the 16 banks operating in Paraguay in 2003, 50 percent were wholly foreign-owned and 25 percent were partially owned by foreign companies. Paraguay's Central Bank exists to stabilize the financial sector, making sure that another run on banks, such as the one that occurred in 1995, does not recur. The Superintendencia de Bancos regulates the banking system, monitoring the percentage of non-performing loans in the banking system. Bank deposits rose significantly in 2004, along with the percentage of local currency in total deposits. Local currency deposits increased by 26 percent in 2004, a sign that Paraguayans are gaining confidence in the stability of Paraguayan currency. In another promising development, interest rates dropped dramatically in 2004, from 50 percent in 2003 to 27 percent in 2004. Paraguay's stock market, the Bolsa de Valores y Productos de Asunci\u00f3n, began trading in October 1993. The tradition of family-owned companies and economic instability kept investment low throughout the 1990s. The value of shares on the Asunci\u00f3n stock exchange rose by 390 percent in 2004, reaching US$17.5 million.\n\nQuestion:\nHow many percent of banks in Paraguay were wholly or  at least partially owned by foreign companies?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "According to the context, foreign companies either partially or wholly own most banks and financial institutions in Paraguay. Of the 16 banks operating in Paraguay in 2003, 50 percent were wholly foreign-owned and 25 percent were partially owned by foreign companies.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was necessary to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "75 percent.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read the context and identified the relevant information. I then calculated the percentage of banks in Paraguay that were wholly or partially owned by foreign companies by adding the percentages of wholly foreign-owned banks and partially foreign-owned banks, which gave me a total of 75 percent. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have highlighted or underlined the relevant information in the context to make it easier to find and reference.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 75 percent., and the correct answer was 75. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and looked for information about the duration of the First World War. I found that the war lasted from its start until the approach of World War II, which was a period of 4 years. Therefore, I concluded that the First World War lasted for 4 years. \n\nTo solve the problem better, I could have used a more systematic approach, such as scanning the text for specific keywords related to the duration of the war, or using a search engine to find the answer more quickly. Additionally, I could have checked my answer by consulting other sources to ensure accuracy.",
+    "final_answer": "The First World War lasted for 4 years.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "4",
+        "spans": []
+    },
+    "problem_text": "Context:\nFrom the time of its start until the approach of World War II, the First World War was called simply the World War or the Great War and thereafter the First World War or World War I. At the time, it was also sometimes called \"the war to end war\" or \"the war to end all wars\" due to its then-unparalleled scale and devastation. In Canada, Maclean's magazine in October 1914 wrote, \"Some wars name themselves. This is the Great War.\" During the interwar period , the war was most often called the World War and the Great War in English-speaking countries. The term \"First World War\" was first used in September 1914 by the German biologist and philosopher Ernst Haeckel, who claimed that \"there is no doubt that the course and character of the feared 'European War'\u00a0... will become the first world war in the full sense of the word,\" citing a wire service report in The Indianapolis Star on 20 September 1914. After the onset of the Second World War in 1939, the terms World War I or the First World War became standard, with British and Canadian historians favouring the First World War, and Americans World War I. In the introduction to his book, Waterloo in 100 Objects, historian Gareth Glover states: \"This opening statement will cause some bewilderment to many who have grown up with the appellation of the Great War firmly applied to the 1914-18 First World War. But to anyone living before 1918, the title of the Great War was applied to the Revolutionary and Napoleonic wars in which Britain fought France almost continuously for twenty-two years from 1793 to 1815.\" In 1911, the historian John Holland Rose published a book titled William Pitt and the Great War.\n\nQuestion:\nHow many years did the First World War last?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The obvious answer to this problem is to look for the duration of the First World War in the given context.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the obvious answer",
+                "short_name": "obvious",
+                "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the main objective of the problem, which was to find the duration of the First World War.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The First World War lasted for 4 years.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to locate the relevant information about the duration of the war and to arrive at the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and looked for information about the duration of the First World War. I found that the war lasted from its start until the approach of World War II, which was a period of 4 years. Therefore, I concluded that the First World War lasted for 4 years. \n\nTo solve the problem better, I could have used a more systematic approach, such as scanning the text for specific keywords related to the duration of the war, or using a search engine to find the answer more quickly. Additionally, I could have checked my answer by consulting other sources to ensure accuracy.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The First World War lasted for 4 years., and the correct answer was 4. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

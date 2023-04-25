@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read through the passage to identify the relevant information. I found that the passage stated that Ryan Longwell kicked one field goal, a 30-yarder, in the game between the Eagles and the Vikings. Therefore, the answer to the problem is 1. Since the information was directly stated in the passage, there was no need for any additional calculations or assumptions.",
+    "final_answer": "1",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "1",
+        "spans": []
+    },
+    "problem_text": "Context:\nComing off their miracle win over the Giants, the Eagles went home for a Week 16 intraconference duel with the Minnesota Vikings.  The game was originally scheduled for 1 pm on Sunday, but was bumped to a Sunday Night Football telecast due to the NFL's Flex Scheduling policy.  The NFL wants to ensure that every Sunday night game after Week 11 has playoff implications.  In this case, the Eagles had a chance to clinch their first NFC East title since 2006, and the sixth in Reid's 12 years as coach, with a win.  However, the game was pushed back to Tuesday due to heavy snow in Philadelphia (see below). Philadelphia delivered the game's opening punch in the first quarter as quarterback Michael Vick found rookie tight end Clay Harbor on a 3-yard touchdown pass.  The Vikings responded in the second quarter with cornerback Antoine Winfield returning a fumble 45 yards for a touchdown. Minnesota took the lead in the third quarter with kicker Ryan Longwell getting a 30-yard field goal, followed by quarterback Joe Webb getting a 9-yard touchdown run.  The Eagles answered in the fourth quarter with Vick's 10-yard touchdown run, but the Vikings pulled away after the Vikings scored a touchdown on a 1-yard run by running back Adrian Peterson. With the loss, Philadelphia fell to 10-5, and is locked into the #3 playoff seed in the NFC. The December 2010 North American blizzard postponed the game until Tuesday, December 28, 2010, at 8:00&#160;p.m. out of concern for public safety.  The game aired on NBC The NFL postponed the game shortly after noon, even before there was any snow accumulation in Philadelphia, after Philadelphia Mayor Michael Nutter declared a snow emergency for the city. Eagles and NFL officials said that the postponement decision was made mainly out of concern for the safety of fans, vendors, suppliers and stadium workers.  The game was scheduled to end just before midnight Philadelphia time, during the worst of the storm.  Eagles COO Don Smolenski said the possibility of having over 72,000 people (over 69,000 fans plus 3,000 workers) stranded in the brunt of the storm made league and team officials conclude \"it just wasn't safe\" to play the game on Sunday night. League and team officials were also concerned that emergency vehicles wouldn't be able to make it through safely.  Indeed, SEPTA and New Jersey Transit, which are utilized by many Eagles fans coming to and leaving games, were forced to alter or cancel routes due to the storm. The postponement decision was very unpopular in Philadelphia. Pennsylvania Governor Ed Rendell, the former mayor of Philadelphia and an avid Eagles fan, said that football was a game that was meant to be played in bad weather. DeSean Jackson tweeted, \"It's only snow!!!! Let us play... It must be a lot of fun... I'm ready let's get it on!!\" The next day, Rendell told WPEN-FM that the postponement was proof that the United States had become \"a nation of wusses.\"  The front page of the Philadelphia Daily News had pictures of Nutter, Eagles owner Jeff Lurie, Eagles  president Joe Banner and NFL commissioner Roger Goodell in beanie caps, suggesting they were \"wimps\" for postponing the game.  However, Nutter maintained that the city could have had Lincoln Financial Field ready in time for kickoff, and the postponement decision was made by the league and the Eagles. This was the 20th NFL game to be played on a Tuesday, but the first since 1946. The last Eagles game on a Tuesday was September 26, 1944, when they defeated the Boston Yanks in the season opener. It was also the Yanks first regular season franchise game. The Giants' loss to the Packers earlier on Sunday gave the Eagles the NFC East title. The Eagles' chances of contending for a first-round bye were ended with the loss to the Vikings coupled with the Bears' win over the Jets.\n\nQuestion:\nHow many field goals did Ryan Longwell kick?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage states that Ryan Longwell kicked one field goal, a 30-yarder, in the game between the Eagles and the Vikings.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the relevant information in the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "1",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me find the final answer based on the information I identified in step 1.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read through the passage to identify the relevant information. I found that the passage stated that Ryan Longwell kicked one field goal, a 30-yarder, in the game between the Eagles and the Vikings. Therefore, the answer to the problem is 1. Since the information was directly stated in the passage, there was no need for any additional calculations or assumptions.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 1, and the correct answer was 1. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

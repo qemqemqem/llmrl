@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I looked at the annual returns of the S&P 500 Index in 2009 and 2011, which were 26.5% and 2.1%, respectively. Then, I subtracted the annual returns in 2011 from the annual returns in 2009 and got 24.4%. Therefore, the annual returns in 2009 were 24.4% higher than in 2011. \n\nTo solve the problem better, I could have used a calculator to subtract the annual returns in 2011 from the annual returns in 2009 to get the percentage difference. Additionally, I could have used a formula to calculate the percentage difference between two numbers, which is (|a-b|/((a+b)/2)) x 100, where a is the larger number and b is the smaller number.",
+    "final_answer": "The annual returns in 2009 were 24.4% higher than in 2011.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "24.4",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn effect, investors are using availability heuristic to make decisions and subsequently, may be obstructing their own investment success. An investors lingering perceptions of a dire market environment may be causing them to view investment opportunities through an overly negative lens, making it less appealing to consider taking on investment risk, no matter how small the returns on perceived \"safe\" investments. To illustrate, Franklin Templetons annual Global Investor Sentiment Survey 1 asked individuals how they believed the S&P 500 Index performed in 2009, 2010 and 2011. 66 percent of respondents stated that they believed the market was either flat or down in 2009, 48 percent said the same about 2010 and 53 percent also said the same about 2011. In reality, the S&P 500 saw 26.5 percent annual returns in 2009, 15.1 percent annual returns in 2010 and 2.1 percent annual returns in 2011, meaning lingering perceptions based on dramatic, painful events are impacting decision-making even when those events are over.\n\nQuestion:\nHow many percent higher were annual returns in 2009 than in 2011?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you can estimate the answer by subtracting the annual returns in 2011 from the annual returns in 2009.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Estimate the answer",
+                "short_name": "estimate",
+                "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It was not necessary to estimate the answer since the exact numbers were given in the problem.",
+            "was_useful": false
+        },
+        {
+            "step_response": "The annual returns in 2009 were 24.4% higher than in 2011.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step was necessary to subtract the annual returns in 2011 from the annual returns in 2009 and get the percentage difference.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I looked at the annual returns of the S&P 500 Index in 2009 and 2011, which were 26.5% and 2.1%, respectively. Then, I subtracted the annual returns in 2011 from the annual returns in 2009 and got 24.4%. Therefore, the annual returns in 2009 were 24.4% higher than in 2011. \n\nTo solve the problem better, I could have used a calculator to subtract the annual returns in 2011 from the annual returns in 2009 to get the percentage difference. Additionally, I could have used a formula to calculate the percentage difference between two numbers, which is (|a-b|/((a+b)/2)) x 100, where a is the larger number and b is the smaller number.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The annual returns in 2009 were 24.4% higher than in 2011., and the correct answer was 24.4. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

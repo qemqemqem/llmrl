@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read the given context carefully and identified the parts that mentioned Shaun Suisham and his field goals. I then counted the number of field goals he kicked, which was 2. \n\nTo solve the problem better, I could have taken notes while reading the context to keep track of the number of field goals kicked by Shaun Suisham. Additionally, I could have highlighted or underlined the relevant parts of the context to make it easier to find the answer later.",
+    "final_answer": "Shaun Suisham kicked 2 field goals.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2",
+        "spans": []
+    },
+    "problem_text": "Context:\n The Steelers then traveled further east to take on the Michael Vick-led Jets.  The Jets scored in the first quarter when Nick Folk scored a 23-yard field goal for a 3-0 lead.  This was followed by 2 touchdowns by the Jets as Michael Vick found T.J. Graham and Jace Amaro on 67-yard and 5-yard TDs for scores of 10-0 and 17-0.  The Steelers got on the board before halftime as Shaun Suisham nailed a 53-yard field goal for a 17-3 halftime score.  In the 3rd quarter, the Jets went back to work as Folk scored a 30-yard field goal for a 20-3 game.  The Steelers would then score 10 points in the 4th quarter:  Suisham's 27-yard field goal to get within 2 TDs followed by Ben Roethlisberger hooking up with Martavis Bryant on an 80-yard TD pass to come within a TD.  The Jets got the ball back and Vick took knees to end the game with a final score of 20-13.With the loss, the Steelers dropped to 6-4. The Jets had forced 4 takeaways against the Steelers.  Ben who had thrown 12 touchdowns and no picks in the 2 games before this one had thrown only 1 touchdown pass and threw 2 interceptions.  On a positive note, Roethlisberger had thrown 13 touchdown passes and 2 interceptions in the last 3 games alone.\n\nQuestion:\nHow many field goals did Shaun Suisham kick?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The best strategy to solve this problem is to carefully read the given context and identify the parts that mention Shaun Suisham and his field goals. Then, count the number of field goals he kicked.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the problem and decide on the best approach to solve it.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Shaun Suisham kicked 2 field goals.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to stay focused on finding the answer and avoid getting sidetracked by irrelevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read the given context carefully and identified the parts that mentioned Shaun Suisham and his field goals. I then counted the number of field goals he kicked, which was 2. \n\nTo solve the problem better, I could have taken notes while reading the context to keep track of the number of field goals kicked by Shaun Suisham. Additionally, I could have highlighted or underlined the relevant parts of the context to make it easier to find the answer later.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was Shaun Suisham kicked 2 field goals., and the correct answer was 2. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

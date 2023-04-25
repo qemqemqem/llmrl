@@ -1,0 +1,190 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the Ravens' score from the Browns' score. The difference between the two scores is the number of points the Browns lost by. I could have solved the problem better by paying closer attention to the question and providing the answer in numerical form only, without any additional words or explanations.",
+    "final_answer": "The Browns lost by 17 points.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "17",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nThe Browns then went home for their home finale of the season.  The Ravens scored the first quarter's only points when Justin Tucker kicked a 31-yard field goal to make it 3-0.  In the second quarter, the Browns took the lead when Duke Johnson Jr. ran for a 12-yard touchdown to make it 7-3.  Though, the Ravens moved back into the lead when Joe Flacco ran for a 2-yard touchdown followed up by Flacco finding Benjamin Watson on a 33-yard pass to make it 10-7 and then 17-7.  Zane Gonzalez got the Browns within a touchdown when he kicked a 45-yard field goal to make it 17-10 at halftime.  In the third quarter, the Ravens scored the second half's only 10 points to eventually seal the game when Brandon Williams recovered a fumble for a 1-yard touchdown to make it 24-10.  Tucker then hit a 43-yard field goal. The Ravens routed the Browns 27-10, sending them to their 15th consecutive loss and their 16th consecutive loss within the division.  The loss ensured that the Browns would finish the season without a home victory for the first time since the 1999 season.  With the loss, the Browns fell to 0-14 and became the first franchise to start 0-14 in consecutive seasons.\n\nQuestion:\nHow many points did the Browns lose by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, estimating the answer can help you check if your solution is reasonable. The Ravens won by 17 points, so the Browns lost by at least 17 points.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Estimate the answer",
+                "short_name": "estimate",
+                "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me check if my solution was reasonable.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is the final score of the game and the difference between the scores of the two teams.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me focus on the important details of the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To find out how many points the Browns lost by, we need to subtract the Ravens' score from the Browns' score. \n\nBrowns' score: 10\nRavens' score: 27\n\n10 - 27 = -17\n\nTherefore, the Browns lost by 17 points.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It allowed me to calculate the difference between the two scores.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Browns lost by 17 points.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step is not a part of the problem-solving process.",
+            "was_useful": false
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the Ravens' score from the Browns' score. The difference between the two scores is the number of points the Browns lost by. I could have solved the problem better by paying closer attention to the question and providing the answer in numerical form only, without any additional words or explanations.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The Browns lost by 17 points., and the correct answer was 17. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

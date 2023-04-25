@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "To solve the problem, I read the passage carefully and looked for the relevant information. I found that Charles VI succeeded his father as king of France at the age of 11, and he was put under a regency led by his uncles, who managed to maintain an effective grip on government affairs until about 1388. Therefore, the answer to the problem is 8. \n\nTo solve the problem better, I could have taken notes while reading the passage to keep track of the important information. Additionally, I could have underlined or highlighted the relevant sentences to make it easier to find the answer later.",
+    "final_answer": "8",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "8",
+        "spans": []
+    },
+    "problem_text": "Context:\nAfter the deaths of Charles V and du Guesclin in 1380, France lost its main leadership and overall momentum in the war. Charles VI succeeded his father as king of France at the age of 11, and he was thus put under a regency led by his uncles, who managed to maintain an effective grip on government affairs until about 1388, well after Charles had achieved royal majority. With France facing widespread destruction, plague, and economic recession, high taxation put a heavy burden on the French peasantry and urban communities. The war effort against England largely depended on royal taxation, but the population was increasingly unwilling to pay for it, as would be demonstrated at the Harelle and Maillotin revolts in 1382. Charles V had abolished many of these taxes on his deathbed, but subsequent attempts to reinstate them stirred up hostility between the French government and populace. Difficulties in raising taxes and revenue hampered the ability of the French to fight the English. At this point, the war's pace had largely slowed down, and both nations found themselves fighting mainly through proxy wars, such as during the 1383-1385 Portuguese interregnum. The independence party in the Kingdom of Portugal, which was supported by the English, won against the supporters of the King of Castile's claim to the Portuguese throne, who in turn was backed by the French.\n\nQuestion:\nHow many years after the death of Charles V was Charles VI and his uncles able to maintain in effective grip on government affairs?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The main question is: For how long did Charles VI's uncles maintain an effective grip on government affairs after he succeeded his father as king of France?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the main question and avoid getting sidetracked.",
+            "was_useful": true
+        },
+        {
+            "step_response": "8",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me find the answer to the main question by reading the passage carefully.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read the passage carefully and looked for the relevant information. I found that Charles VI succeeded his father as king of France at the age of 11, and he was put under a regency led by his uncles, who managed to maintain an effective grip on government affairs until about 1388. Therefore, the answer to the problem is 8. \n\nTo solve the problem better, I could have taken notes while reading the passage to keep track of the important information. Additionally, I could have underlined or highlighted the relevant sentences to make it easier to find the answer later.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 8, and the correct answer was 8. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

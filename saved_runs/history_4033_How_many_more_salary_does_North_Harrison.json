@@ -1,0 +1,177 @@
+{
+    "commentary_on_process": "To solve the problem, I looked at the information provided about the average salaries of teachers in North Harrison and South Harrison districts and subtracted the average salary of South Harrison teachers from the average salary of North Harrison teachers. This gave me the difference in average salary between the two districts, which is 2,300 dollars. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have presented my answer with more context, such as stating the units of measurement (dollars) and providing a brief explanation of how I arrived at the answer.",
+    "final_answer": "The answer is 2,300.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2300",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe county has 22 schools; 15 are public schools in 3 school districts, and 7 are private. South Harrison Community Schools is the largest district with 3,141 pupils in 2010. The district covers the southern half of the county and includes Corydon Central High School, Corydon Central Junior High School, South Central Junior & Senior High School, Corydon Intermediate, Corydon Elementary, Heth-Washington Elementary, and New Middletown Elementary. North Harrison Community School Corporation had 2,324 pupils in 2010 enrolled in North Harrison High School, North Harrison Middle School, North Harrison Elementary, and Morgan Elementary. Lanesville Community School Corporation is the smallest district serving only Franklin Township. It consists of Lanesville Junior Senior High School and Lanesville Elementary. In 2010, teachers in the North Harrison district averaged $50,800 in annual salary; South Harrison teachers averaged $48,500; Lanesville teachers averaged $51,500. North Harrison had a 2010 graduation rate of 81.5%; South Harrison 84.6%; Lanesville 91.5%. Lanesville and North Harrison students performed above average on 2010 statewide ISTEP+ tests, while South Harrison students performed below average.\n\nQuestion:\nHow many more salary does North Harrison teacher average than South Harrison?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, it is often helpful to try a different approach if your current strategy is not working. It is important to be open to new ideas and to be willing to adapt your approach as needed.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Try a different approach",
+                "short_name": "different",
+                "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Trying a different approach can help when the current strategy is not working.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question of the problem is to determine the difference in average salary between North Harrison and South Harrison teachers.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Identifying the main question helps to focus on the specific information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The answer is 2,300.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "Finding the final answer is the ultimate goal of the problem-solving process.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I looked at the information provided about the average salaries of teachers in North Harrison and South Harrison districts and subtracted the average salary of South Harrison teachers from the average salary of North Harrison teachers. This gave me the difference in average salary between the two districts, which is 2,300 dollars. \n\nTo solve the problem better, I could have double-checked my calculations to ensure accuracy. Additionally, I could have presented my answer with more context, such as stating the units of measurement (dollars) and providing a brief explanation of how I arrived at the answer.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The answer is 2,300., and the correct answer was 2300. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}

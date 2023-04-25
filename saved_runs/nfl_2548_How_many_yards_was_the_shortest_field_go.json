@@ -1,0 +1,166 @@
+{
+    "commentary_on_process": "The problem asked for the length of the shortest field goal in the game between the Bears and the Vikings. I found the answer by reading through the text and identifying that Robbie Gould kicked a 30-yard field goal in the first quarter. Therefore, the answer to the problem is 30. Since the text was concise and provided all the necessary information, I don't think there was a better way to solve the problem.",
+    "final_answer": "30",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "30",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn week thirteen, the Bears visited the Hubert H. Humphrey Metrodome to play the Vikings, whom the Bears trailed 50-53-2 in the all-time series. Josh McCown was given the start for the third straight week, with an expectation that Jay Cutler would return the following week. McCown entered the game having a 65.5 completion percentage for 1,106 yards, seven touchdowns, an interception, and a 100.8 passer rating. As a result, McCown had an advantage over the Vikings' pass defense, which ranked 29th in the league with 282 passing yards allowed, while also allowing quarterbacks to record a 65 completion percentage, 40 attempts per game, and a 97.7 passer rating. Also, the Vikings allowed 31.5 points per game, the worst in the NFL, while recording only 14 turnovers. However, the Bears' defense was a weakness, ranking last in rushing yards allowed per game (145.2), total yards (1,597) and first-downs allowed (89); the defense was 31st in the NFL in yards per carry (4.9), first-down percentage (27.1) and 20-plus yard runs (12). Additionally, the defense allowed running backs in the previous five games to rush for 999 yards, average 5.8 yards per carry, and 197 yards per game. Adrian Peterson ran for an average of 108 yards per game in his career against the Bears, including 120.6 in the last three meetings between the two. Minnesota's rushing game also ran for a year-best 232 yards in the previous week. Cutler, Lance Briggs, Major Wright, Anthony Walters, James Brown, Jonathan Scott, and Cornelius Washington were inactive for the Bears. In the first quarter, McCown had a pass intercepted by Chad Greenway, but an offsides penalty on Robert Blanton nullified the play; the drive would end with the only score of the first quarter via Robbie Gould's 30-yard field goal. In the second quarter, Cordarrelle Patterson's 33-yard touchdown run gave the Vikings the lead; Gould would subsequently kick a 40-yard field goal. Before the half ended, Christian Ponder suffered from symptoms of a concussion and left. On the Bears' first drive of the second half, McCown threw an 80-yard touchdown pass to Alshon Jeffery. After the Vikings responded with Blair Walsh's 32-yard field goal, Jeffery caught a 46-yard touchdown pass over Viking cornerback Chris Cook to give Chicago the lead 20-10; Cook would eventually be ejected from the game for shoving side judge Laird Hayes. On Minnesota's first possession of the final quarter, Matt Cassel threw an eight-yard touchdown to Greg Jennings, and on Chicago's next drive, McCown's flip pass for Kyle Long was deflected and stripped by Audie Cole, with Marvin Mitchell recovering. Despite starting the drive in the Bears' red zone and reaching the six-yard line, Cassel's pass for Rhett Ellison was tipped and intercepted by Khaseem Greene. After the Bears punted, Cassel fumbled on the first play, but recovered. Afterwards, the Vikings drove from their own six-yard line to the Bears' 12, where Walsh tied the game with a 30-yard field goal, making the score 20-20. On the final play of regulation, Gould's attempted 66-yard field goal fell short. In overtime, the Bears' opening drive ended after McCown was sacked by Jared Allen and fumbled, with Jermon Bushrod recovering, prompting the Bears to punt. On the Vikings' first drive of the period, Walsh's 39-yard field goal was overruled by Ellison's facemasking penalty; Walsh would miss the eventual 57-yarder. The Bears would reach the Vikings' 29-yard line, and on second down, Gould missed the 47-yard kick wide right. The Vikings would reach Chicago's 16-yard line, allowing Walsh to kick the game-winning 34-yard field goal. Marc Trestman received criticism for calling Gould to attempt the 47-yard field goal on second down, with the Chicago Sun-Times calling the choice \"an indefensible case of playing scared.\" Trestman responded by stating he did not want to lose a fumble or suffer a penalty. Jeffery set the team record for the most receiving yards in one game with 249, surpassing his previous record set against the Saints in week 5.\n\nQuestion:\nHow many yards was the shortest field goal?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The text states that Robbie Gould kicked a 30-yard field goal in the first quarter. Therefore, the shortest field goal in the game was 30 yards.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "I used this step to read through the text and identify that Robbie Gould kicked a 30-yard field goal in the first quarter.",
+            "was_useful": true
+        },
+        {
+            "step_response": "30",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "I used this step to give the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The problem asked for the length of the shortest field goal in the game between the Bears and the Vikings. I found the answer by reading through the text and identifying that Robbie Gould kicked a 30-yard field goal in the first quarter. Therefore, the answer to the problem is 30. Since the text was concise and provided all the necessary information, I don't think there was a better way to solve the problem.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 30, and the correct answer was 30. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Can I break down the problem into smaller, more manageable parts? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Are there any patterns or relationships between the given information that can help me solve the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Can I rephrase the problem in my own words to ensure I understand it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        }
+    ]
+}
