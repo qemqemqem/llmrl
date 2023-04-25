@@ -30,6 +30,7 @@ class Problem:
         self.commentary_on_process: str = ""
         self.types_of_steps: list[StepType] = []
         self.final_answer = ""
+        self.gold_correct_answer = ""
 
     def messages_for_chat(self):
         messages = [

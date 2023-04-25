@@ -1,4 +1,5 @@
 import random
+from difflib import SequenceMatcher
 
 from gpt.gpt import prompt_completion_chat
 from step_by_step.problem import *
