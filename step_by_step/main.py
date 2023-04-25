@@ -14,7 +14,7 @@ if __name__ == "__main__":
     step_choices = []
 
     drop_data = download_data()
-    num_questions = 10
+    num_questions = 5000
 
     # Sample outside the loop to avoid duplicates
     question_tuples = sample_questions(drop_data, num_questions)

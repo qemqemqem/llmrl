@@ -19,9 +19,9 @@ def reflect_on_each_step(problem: Problem):
     steps_prompt += "\n\nUse this format:\n0. Example step. Useful. I used this step to do X.\n0. Example step. Not useful. This was distracting or misleading because Y."
     messages.append({"role": "user", "content": steps_prompt})
     steps_reflection = prompt_completion_chat(messages=messages)
-    # print(problem.solved_correctly)
+    print(problem.solved_correctly)
     # print(steps_prompt)
-    # print(steps_reflection)
+    print(steps_reflection)
 
     # Parse the reflection
     for i, l in enumerate(steps_reflection.split("\n")):
@@ -71,6 +71,6 @@ def reflect_on_finished_problem(problem: Problem):
     overall_reflection_prompt = f"Your answer was {problem.final_answer}, {'and' if problem.solved_correctly else 'but'} the correct answer was {problem.gold_correct_answer['number']}. Please write a few sentences about how you solved the problem and how you could have solved it better."
     messages.append({"role": "user", "content": overall_reflection_prompt})
     problem.commentary_on_process = prompt_completion_chat(messages=messages)
-    # print(problem.commentary_on_process)
+    print(problem.commentary_on_process)
     # Mark it as is_final so that it will be filtered in the steps reflection above
     problem.steps.append(Step(StepType("Overall reflection", overall_reflection_prompt, is_final=True), step_response=problem.commentary_on_process))
