@@ -13,9 +13,9 @@ class StepType:
 
 
 class Step:
-    def __init__(self, type_of_step: StepType):
+    def __init__(self, type_of_step: StepType, step_response: str = ""):
         self.type_of_step: StepType = type_of_step
-        self.step_response: str = ""
+        self.step_response: str = step_response
 
         # These are used during reflection after the problem is solved and the answer is checked
         self.was_useful: bool = False
