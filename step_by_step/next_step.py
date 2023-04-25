@@ -82,10 +82,6 @@ def choose_step_type(problem: Problem) -> StepType:
         if step_type.name == closest_name:
             return step_type
 
-    # Notes
-    # [] It seems to perseverate, choosing the same option multiple times in a row
-    # [] Sometimes it says "you need to choose a strategy by typing the number", indicating that it has become confused about the wording here and the wording of the strategy option.
-
     # If somehow we didn't find it, just choose randomly
     print("ERROR: Got a bad choice:", choice, "Choosing randomly.")
     return random.choice(all_steps)
