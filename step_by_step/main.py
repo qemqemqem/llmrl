@@ -1,5 +1,6 @@
 import re
 import time
+from collections import defaultdict
 
 from drop.drop import *
 from step_by_step.finetuning import load_all_files_in_directory, parse_file_as_json
@@ -9,7 +10,7 @@ from step_by_step.solver import *
 from utils.filer import *
 
 
-def compute_accuracy_on_all_files(files: dict):
+def compute_accuracy_on_all_files():
     all_files = load_all_files_in_directory("saved_runs")
     num_correct = 0
     num_total = 0
@@ -21,7 +22,26 @@ def compute_accuracy_on_all_files(files: dict):
     print(f"Num correct: {num_correct} / {num_total} = {num_correct / num_total * 100:.2f}%")
 
 
-if __name__ == "__main__":
+def compute_per_step_accuracy():
+    all_files = load_all_files_in_directory("saved_runs")
+    num_useful = defaultdict(int)
+    num_correct = defaultdict(int)
+    num_total = defaultdict(int)
+    for filename, file in all_files.items():
+        problem = parse_file_as_json(file)
+        for step in problem["steps"]:
+            if step["was_useful"]:
+                num_useful[step["type_of_step"]["name"]] += 1
+            if problem["solved_correctly"]:
+                num_correct[step["type_of_step"]["name"]] += 1
+            num_total[step["type_of_step"]["name"]] += 1
+    print(f"Useful / Total = Accuracy\t\tCorrect / Total = Accuracy\t\tStep")
+    print(f"--------------------------------------------------------------")
+    for step in sorted(num_total.keys(), key=lambda x: num_total[x]):
+        print(f"{num_useful[step]} / {num_total[step]} = {num_useful[step] / num_total[step] * 100:.2f}%\t\t{num_correct[step]} / {num_total[step]} = {num_correct[step] / num_total[step] * 100:.2f}%\t\t{step}")
+
+
+def generate_train_data():
     # Logging what paths it takes:
     paths = []
     problems = []
@@ -72,3 +92,8 @@ if __name__ == "__main__":
     # print("Paths taken:")
     # print("\n\n".join(paths))
     print(f"\nNum correct: {sum([1 for problem in problems if problem.solved_correctly])} / {len(problems)}")
+
+
+if __name__ == "__main__":
+    # generate_train_data()
+    compute_per_step_accuracy()
