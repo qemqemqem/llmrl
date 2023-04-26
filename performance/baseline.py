@@ -24,7 +24,7 @@ def load_files(directory):
 if __name__ == '__main__':
     #load all dictionaries from a given directory as list
     #convert that to dataframe
-    directory = "saved_runs_maxsteps_0/"
+    directory = "saved_runs_maxsteps_0_alt/"
     problems = load_files(directory)
 
     directory = "saved_runs/"
@@ -47,12 +47,14 @@ if __name__ == '__main__':
     unique_occurence = df_version.problem_text.value_counts()
     overlap = df_version[df_version.problem_text.isin(unique_occurence[unique_occurence >= 2].index)]
 
-    group1 = overlap[overlap["num_steps"] == 1][["problem_text", "solved_correctly"]]
-    group2 = overlap[overlap["num_steps"] > 1][["problem_text", "solved_correctly"]]
 
+    group1 = overlap[overlap["num_steps"] == 1][["problem_text", "solved_correctly", "num_steps"]]
+    group2 = overlap[overlap["num_steps"] > 1][["problem_text", "solved_correctly", "num_steps"]]
+    print('group sizes')
+    print(len(group1), len(group2))
     #create new dataframe of group1 and group2 joined on problem text with solved_correctly_x and solved_correctly_y
     merged_df = pd.merge(group1, group2, on="problem_text", how="inner")
-
+    print("correlation, mean, std, agreement")
     print(merged_df[['solved_correctly_x', 'solved_correctly_y']].corr())
 
     print(merged_df[['solved_correctly_x', 'solved_correctly_y']].mean())
@@ -60,6 +62,14 @@ if __name__ == '__main__':
 
     #get kohen's kappa
     print(metrics.cohen_kappa_score(merged_df['solved_correctly_x'], merged_df['solved_correctly_y']))
-
+    print("avg num steps:")
     print(group1.num_steps.mean())
-    print(group2.num_step.mean())
+    print(group2.num_steps.mean())
+
+    #poor mans bagging, this doesn't actually check if they had the same answer in the negative sense.
+    merged_df["overlap"] = merged_df["solved_correctly_x"].astype(int)+merged_df["solved_correctly_y"].astype(int)
+    print("bagged accuracy, when both agree and were wrong or right")
+    bagged = merged_df[(merged_df["overlap"] == 0) | (merged_df["overlap"] == 2)]
+    print(len(bagged[bagged["overlap"] == 2]) / len(bagged))
+    #keep subset where they both got it right
+    #or they both got it wrong

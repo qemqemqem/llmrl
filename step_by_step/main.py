@@ -88,4 +88,4 @@ def run(num_questions, max_steps, directory = None, aligned_directory = None):
 
 if __name__ == "__main__":
     #run(num_questions=500,max_steps= 0, directory= None, aligned_directory=None)
-    run(num_questions=50,max_steps= 0, directory= "saved_runs_maxsteps_0_alt/", aligned_directory="saved_runs")
+    run(num_questions=500,max_steps= 0, directory= "saved_runs_maxsteps_0_alt/", aligned_directory="saved_runs")
