@@ -35,7 +35,7 @@ def compute_per_step_accuracy():
             if problem["solved_correctly"]:
                 num_correct[step["type_of_step"]["name"]] += 1
             num_total[step["type_of_step"]["name"]] += 1
-    print(f"Useful / Total = Accuracy\t\tCorrect / Total = Accuracy\t\tStep")
+    print(f"Useful / Total = Usefulness\t\tCorrect / Total = Accuracy\t\tStep")
     print(f"--------------------------------------------------------------")
     for step in sorted(num_total.keys(), key=lambda x: num_total[x]):
         print(f"{num_useful[step]} / {num_total[step]} = {num_useful[step] / num_total[step] * 100:.2f}%\t\t{num_correct[step]} / {num_total[step]} = {num_correct[step] / num_total[step] * 100:.2f}%\t\t{step}")

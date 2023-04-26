@@ -2,9 +2,13 @@ import json
 
 
 def format_problem_for_finetuning(problem: dict, prompt_end="\n\n###\n\n", completion_end="\n###"):
-    p = problem["problem_text"].strip() + prompt_end
+    # Prompt
+    p = problem["problem_text"].strip() + "\n"
+    # Include the correctness in the prompt, so we can bias it to do a good job
+    p += "\nSolved correctly: " + str(problem["solved_correctly"]) + "\n"
+    p += prompt_end
+    # Completion
     c = " "  # Start completion with a space for tokenization reasons
-    c += "\nSolved correctly: " + str(problem["solved_correctly"]) + "\n"
     c += "\nSteps:\n"
     for i, step in enumerate(problem["steps"]):
         c += f"\nStep {i + 1}:\n"
@@ -40,13 +44,23 @@ def parse_file_as_json(file: str):
     return json.loads(file)
 
 
-if __name__ == "__main__":
+def generate_finetune_file():
+    output = ""  # JSONL File
     all_files = load_all_files_in_directory("saved_runs")
+    for file_name, contents in all_files.items():
+        problem = parse_file_as_json(contents)
+        prompt, completion = format_problem_for_finetuning(problem)
+        output += json.dumps({"prompt": prompt, "completion": completion}) + "\n"
+    print(output)
+    # Write to file
+    with open("finetune.jsonl", "w") as f:
+        f.write(output)
+
+
+if __name__ == "__main__":
+    generate_finetune_file()
     # random_file_name, random_file = random.choice(list(all_files.items()))
     # problem = parse_file_as_json(random_file)
     # file = format_problem_for_finetuning(problem)
     # print(random_file_name)
     # print(file)
-    for file_name, contents in all_files.items():
-        problem = parse_file_as_json(contents)
-        prompt, completion = format_problem_for_finetuning(problem)
