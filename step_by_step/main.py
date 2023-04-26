@@ -15,24 +15,27 @@ def parseids_from_directory(directory:str):
     question_ids = [f.split("_")[0] + "_" + f.split("_")[1] for f in file_names]
     return question_ids
 
-if __name__ == "__main__":
-    # Logging what paths it takes:
-    
-
+def run(num_questions, max_steps, save_directory = None, aligned_directory = None):
     paths = []
     problems = []
     step_choices = []
 
     drop_data = download_data()
-    num_questions = 500
-    max_steps = 0
-    directory = "saved_runs_maxsteps_{}/".format(max_steps)
+    num_questions = num_questions
+    max_steps = max_steps
+    if save_directory=="" | save_directory==None:
+        directory = "saved_runs_maxsteps_{}/".format(max_steps)
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    # Sample outside the loop to avoid duplicates
-    question_tuples = sample_questions(drop_data, num_questions)
+    if aligned_directory!=None:
+        aligned_ids = parseids_from_directory(aligned_directory)
+        question_tuples = select_questions(aligned_ids)
+    else:
+        # Sample outside the loop to avoid duplicates
+        question_tuples = sample_questions(drop_data, num_questions)
 
+    assert aligned_directory!=save_directory, "Aligned directory and save directory cannot be the same"
     for i in range(num_questions):
         start_time = time.time()
 
@@ -48,12 +51,13 @@ if __name__ == "__main__":
         # Reflect
         problem.gold_correct_answer = answer
         problem.solved_correctly = is_correct_answer(problem.final_answer, answer)
-        if max_steps >0: #nothing to think about
+        if max_steps > 0:  # nothing to think about
             reflect_on_finished_problem(problem)
             reflect_on_each_step(problem)
 
         # Save to file
-        save_to_file(directory + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        save_to_file(directory + question_id + ".json",
+                     json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
         # Print how we did
         print("Final answer:", problem.final_answer)
@@ -61,7 +65,9 @@ if __name__ == "__main__":
         print(f"Took time: {time.time() - start_time} seconds\n")
 
         # Add to log
-        paths.append(question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(problem.solved_correctly))
+        paths.append(
+            question + ":\n" + "\n".join(["* " + step.type_of_step.name for step in problem.steps]) + "\n" + str(
+                problem.solved_correctly))
         problems.append(problem)
         for step in problem.steps:
             step_choices.append(step.type_of_step.name)
@@ -69,7 +75,13 @@ if __name__ == "__main__":
     # Final summary
     print("Step choice counts:")
     # Counts
-    print("\n".join([f"* {choice}: {step_choices.count(choice)}" for choice in sorted(list(set(step_choices)), key=lambda x: step_choices.count(x), reverse=True)]))
+    print("\n".join([f"* {choice}: {step_choices.count(choice)}" for choice in
+                     sorted(list(set(step_choices)), key=lambda x: step_choices.count(x), reverse=True)]))
     # print("Paths taken:")
     # print("\n\n".join(paths))
     print(f"\nNum correct: {sum([1 for problem in problems if problem.solved_correctly])} / {len(problems)}")
+
+
+if __name__ == "__main__":
+    #run(num_questions=500,max_steps= 0, save_directory= None, aligned_directory=None)
+    run(num_questions=500,max_steps= 0, save_directory= "saved_runs_maxsteps_0_alt/", aligned_directory="saved_runs")
