@@ -6,15 +6,29 @@ from step_by_step.next_step import *
 from step_by_step.reflecting import reflect_on_finished_problem, reflect_on_each_step
 from step_by_step.solver import *
 from utils.filer import *
+import os
+
+def parseids_from_directory(directory:str):
+    #get all the file names in this directory that end in .json
+    file_names = [f for f in os.listdir(directory) if f.endswith(".json")]
+    #keep everything before the second underscore
+    question_ids = [f.split("_")[0] + "_" + f.split("_")[1] for f in file_names]
+    return question_ids
 
 if __name__ == "__main__":
     # Logging what paths it takes:
+    
+
     paths = []
     problems = []
     step_choices = []
 
     drop_data = download_data()
-    num_questions = 5000
+    num_questions = 500
+    max_steps = 0
+    directory = "saved_runs_maxsteps_{}/".format(max_steps)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
     # Sample outside the loop to avoid duplicates
     question_tuples = sample_questions(drop_data, num_questions)
@@ -29,16 +43,17 @@ if __name__ == "__main__":
         problem = Problem(prompt)
         problem.types_of_steps = define_step_types()
         print(f"Problem {i}:", problem.problem_text)
-        solve_problem_for_train(problem, randomness=0.0)
+        solve_problem_for_train(problem, randomness=0.0, max_steps=max_steps)
 
         # Reflect
         problem.gold_correct_answer = answer
         problem.solved_correctly = is_correct_answer(problem.final_answer, answer)
-        reflect_on_finished_problem(problem)
-        reflect_on_each_step(problem)
+        if max_steps >0: #nothing to think about
+            reflect_on_finished_problem(problem)
+            reflect_on_each_step(problem)
 
         # Save to file
-        save_to_file("../saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        save_to_file(directory + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
         # Print how we did
         print("Final answer:", problem.final_answer)

@@ -6,6 +6,7 @@ import zipfile
 import inflect
 import openai
 import requests
+from typing import List, Any, Dict
 
 # Install the openai package if not already installed
 # !pip install openai
@@ -76,8 +77,12 @@ def is_correct_answer(predicted_answer, gold_answers):
 
 def sample_questions(drop_data, num_random_questions):
     random_passages = random.sample(list(drop_data.items()), num_random_questions)  # We'll use one question from each passage
+    return select_questions(random_passages)
+
+def select_questions(relevant_passages:List[Dict]):
+    passages = relevant_passages
     question_answer_pairs = []
-    for passage_id, passage_data in random_passages:
+    for passage_id, passage_data in passages:
         passage_text = passage_data["passage"]
         good_questions = [pd for pd in passage_data["qa_pairs"] if pd["answer"]["number"] != ""]
         if len(good_questions) == 0:
@@ -90,7 +95,6 @@ def sample_questions(drop_data, num_random_questions):
         # Recursion. Might lead to duplicates but c'est la vie
         question_answer_pairs += sample_questions(drop_data, num_random_questions - len(question_answer_pairs))
     return question_answer_pairs
-
 
 def format_prompt(passage_text, question):
     return f"Context:\n{passage_text}\n\nQuestion:\n{question}"
