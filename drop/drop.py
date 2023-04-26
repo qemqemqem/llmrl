@@ -77,9 +77,9 @@ def is_correct_answer(predicted_answer, gold_answers):
 
 def sample_questions(drop_data, num_random_questions):
     random_passages = random.sample(list(drop_data.items()), num_random_questions)  # We'll use one question from each passage
-    return select_questions(random_passages)
+    return select_questions(random_passages, num_random_questions)
 
-def select_questions(relevant_passages:List[Dict]):
+def select_questions(relevant_passages:List[Dict], num_random_questions):
     passages = relevant_passages
     question_answer_pairs = []
     for passage_id, passage_data in passages:

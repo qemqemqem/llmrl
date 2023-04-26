@@ -15,7 +15,7 @@ def parseids_from_directory(directory:str):
     question_ids = [f.split("_")[0] + "_" + f.split("_")[1] for f in file_names]
     return question_ids
 
-def run(num_questions, max_steps, save_directory = None, aligned_directory = None):
+def run(num_questions, max_steps, directory = None, aligned_directory = None):
     paths = []
     problems = []
     step_choices = []
@@ -23,19 +23,23 @@ def run(num_questions, max_steps, save_directory = None, aligned_directory = Non
     drop_data = download_data()
     num_questions = num_questions
     max_steps = max_steps
-    if save_directory=="" | save_directory==None:
+    if (directory=="") | (directory==None):
         directory = "saved_runs_maxsteps_{}/".format(max_steps)
     if not os.path.exists(directory):
         os.makedirs(directory)
 
+    assert aligned_directory != directory, "Aligned directory and save directory cannot be the same"
+
     if aligned_directory!=None:
         aligned_ids = parseids_from_directory(aligned_directory)
-        question_tuples = select_questions(aligned_ids)
+        subset_drop_data = {k: drop_data[k] for k in aligned_ids if k in drop_data}
+        question_tuples = select_questions(list(subset_drop_data.items())[0:num_questions], num_questions)
     else:
         # Sample outside the loop to avoid duplicates
         question_tuples = sample_questions(drop_data, num_questions)
 
-    assert aligned_directory!=save_directory, "Aligned directory and save directory cannot be the same"
+    ###actual extraction below
+
     for i in range(num_questions):
         start_time = time.time()
 
@@ -83,5 +87,5 @@ def run(num_questions, max_steps, save_directory = None, aligned_directory = Non
 
 
 if __name__ == "__main__":
-    #run(num_questions=500,max_steps= 0, save_directory= None, aligned_directory=None)
-    run(num_questions=500,max_steps= 0, save_directory= "saved_runs_maxsteps_0_alt/", aligned_directory="saved_runs")
+    #run(num_questions=500,max_steps= 0, directory= None, aligned_directory=None)
+    run(num_questions=50,max_steps= 0, directory= "saved_runs_maxsteps_0_alt/", aligned_directory="saved_runs")
