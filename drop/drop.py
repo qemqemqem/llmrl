@@ -57,23 +57,32 @@ def answer_question(prompt):
     return answer
 
 
-def is_correct_answer(predicted_answer, gold_answers):
-    # Check if the predicted answer matches any of the gold numbers or their word forms
-    correct_numbers = [gold_answers["number"], inflect_engine.number_to_words(gold_answers["number"])]
-    # for number in gold_answers["number"]:
-    #     correct_numbers.append(inflect_engine.number_to_words(number))
+def is_correct_answer(predicted_answer, gold_answer):
+    if gold_answer["number"] != '':
+        # Handle the numeric case
+        # Check if the predicted answer matches any of the gold numbers or their word forms
+        correct_numbers = [gold_answer["number"], inflect_engine.number_to_words(gold_answer["number"])]
+        # for number in gold_answers["number"]:
+        #     correct_numbers.append(inflect_engine.number_to_words(number))
 
-    for number in correct_numbers:
-        # TODO This isn't correct (3 != 37), but it's good enough for now
-        if number.lower() in predicted_answer.lower().replace(",", ""):
-            return True
+        # For each variation on the correct answer, see if it appears in the predicted answer
+        for number in correct_numbers:
+            # TODO This isn't correct (e.g. 3 != 37), but it's good enough for now
+            if number.lower() in predicted_answer.lower().replace(",", ""):
+                return True
+        return False
 
-    # Check if the predicted answer matches any of the gold text spans
-    for span in gold_answers["spans"]:
-        if predicted_answer.lower() == span.lower():
-            return True
+    if len(gold_answer["spans"]) > 0:
+        # Check if the predicted answer matches all the gold text spans
+        for span in gold_answer["spans"]:
+            if span.lower() not in predicted_answer.lower():
+                return False
+        return True
 
-    return False
+    if "day" in gold_answer["date"] and gold_answer["date"]["day"] != "":
+        assert False, "TODO: Implement date checking"
+
+    assert False, "Unknown answer type " + str(gold_answer)
 
 
 def sample_questions(drop_data, num_random_questions, filter_function: typing.Optional[typing.Callable[[dict], bool]] = None):
@@ -112,7 +121,7 @@ def sample_questions(drop_data, num_random_questions, filter_function: typing.Op
             # This check guarantees that we'll end up with the right number of questions
             if random.random() < (num_random_questions - len(question_answer_pairs)) / (total_num_questions - num_questions_looked_at):
                 question = qa_pair["question"]
-                answer = ans
+                answer = qa_pair["answer"]
                 question_answer_pairs.append((passage_id, passage_text, question, answer))
             num_questions_looked_at += 1
     print(f"Number of numeric questions: {num_numeric}")
@@ -173,6 +182,12 @@ if __name__ == '__main__':
     # drop_test()
     drop_data = download_data()
     start_time = time.time()
-    random_questions = sample_questions(drop_data, 10000, filter_function=lambda qa_pair: qa_pair["answer"]["number"] != "")
+    random_questions = sample_questions(drop_data, 10000, filter_function=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0)
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")
     print(f"Time elapsed: {time.time() - start_time:.2f} seconds")
+    num_correct = 0
+    for passage_id, passage_text, question, answer in random_questions:
+        correct = is_correct_answer("5", answer)
+        if correct:
+            num_correct += 1
+    print(f"Num correct: {num_correct} / {len(random_questions)}")
