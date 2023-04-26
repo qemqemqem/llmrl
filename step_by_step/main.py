@@ -1,5 +1,6 @@
 import re
 import time
+import typing
 from collections import defaultdict
 
 from drop.drop import *
@@ -41,14 +42,13 @@ def compute_per_step_accuracy():
         print(f"{num_useful[step]} / {num_total[step]} = {num_useful[step] / num_total[step] * 100:.2f}%\t\t{num_correct[step]} / {num_total[step]} = {num_correct[step] / num_total[step] * 100:.2f}%\t\t{step}")
 
 
-def generate_train_data():
+def generate_train_data(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000):
     # Logging what paths it takes:
     paths = []
     problems = []
     step_choices = []
 
     drop_data = download_data()
-    num_questions = 5000
 
     # Sample outside the loop to avoid duplicates
     question_tuples = sample_questions(drop_data, num_questions)
@@ -60,7 +60,7 @@ def generate_train_data():
         passage_id, passage_text, question, answer = question_tuples[i]
         question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
         prompt = format_prompt(passage_text, question)
-        problem = Problem(prompt)
+        problem = Problem(prompt, question_alone=question)
         problem.types_of_steps = define_step_types()
         print(f"Problem {i}:", problem.problem_text)
         solve_problem_for_train(problem, randomness=0.0)
@@ -72,7 +72,8 @@ def generate_train_data():
         reflect_on_each_step(problem)
 
         # Save to file
-        save_to_file("saved_runs/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        if save_dir is not None:
+            save_to_file(save_dir + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
         # Print how we did
         print("Final answer:", problem.final_answer)
@@ -95,5 +96,5 @@ def generate_train_data():
 
 
 if __name__ == "__main__":
-    # generate_train_data()
-    compute_per_step_accuracy()
+    generate_train_data(save_dir=None, num_questions=1)
+    # compute_per_step_accuracy()

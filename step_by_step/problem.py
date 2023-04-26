@@ -24,7 +24,7 @@ class Step:
 
 
 class Problem:
-    def __init__(self, problem_text: str):
+    def __init__(self, problem_text: str, question_alone: str = None):
         self.problem_text: str = problem_text
         self.steps: list[Step] = []
         self.solved_correctly: bool = False
@@ -32,6 +32,7 @@ class Problem:
         self.types_of_steps: list[StepType] = []
         self.final_answer = ""
         self.gold_correct_answer = ""
+        self.question_alone = question_alone
 
     def messages_for_chat(self):
         messages = [
