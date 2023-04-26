@@ -112,12 +112,12 @@ def generate_train_data(save_dir: typing.Optional[str] = "saved_runs/", num_ques
         logger.print_summary()
 
 
-def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000):
+def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000, max_threads=10):
     drop_data = download_data()
     logger = RunsLogger()
 
     # Sample outside the loop to avoid duplicates
-    question_tuples = sample_questions_improved(drop_data, num_questions)
+    question_tuples = sample_questions(drop_data, num_questions)
 
     args = []
 
@@ -126,7 +126,8 @@ def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/",
         passage_id, passage_text, question, answer = question_tuples[i]
         args.append((passage_id, passage_text, question, answer, save_dir, logger))
 
-    api_call_limited_parallel(train_on_question, args, max_threads=10)
+    # Open AI tokens per min. Limit: 90000 / min
+    api_call_limited_parallel(train_on_question, args, max_threads=max_threads)
 
     # Final summary
     if logger is not None:
@@ -134,5 +135,5 @@ def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/",
 
 
 if __name__ == "__main__":
-    generate_train_data_threaded(save_dir=None, num_questions=50)
+    generate_train_data_threaded(save_dir=None, num_questions=100, max_threads=10)
     # compute_per_step_accuracy("saved_runs")

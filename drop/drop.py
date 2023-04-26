@@ -2,6 +2,7 @@ import json
 import os
 import random
 import time
+import typing
 import zipfile
 
 import inflect
@@ -75,41 +76,49 @@ def is_correct_answer(predicted_answer, gold_answers):
     return False
 
 
-def sample_questions(drop_data, num_random_questions):
-    random_passages = random.sample(list(drop_data.items()), num_random_questions)  # We'll use one question from each passage
-    question_answer_pairs = []
-    for passage_id, passage_data in random_passages:
-        passage_text = passage_data["passage"]
-        good_questions = [pd for pd in passage_data["qa_pairs"] if pd["answer"]["number"] != ""]
-        if len(good_questions) == 0:
-            continue  # TODO This is a problem because we might run short
-        qa_pair = random.choice(good_questions)
-        question = qa_pair["question"]
-        answer = qa_pair["answer"]
-        question_answer_pairs.append((passage_id, passage_text, question, answer))
-    if len(question_answer_pairs) < num_random_questions:
-        # Recursion. Might lead to duplicates but c'est la vie
-        question_answer_pairs += sample_questions(drop_data, num_random_questions - len(question_answer_pairs))
-    return question_answer_pairs
-
-
-def sample_questions_improved(drop_data, num_random_questions):
+def sample_questions(drop_data, num_random_questions, filter_function: typing.Optional[typing.Callable[[dict], bool]] = None):
     total_num_questions = 0
     num_questions_looked_at = 0
     question_answer_pairs = []
+    num_numeric = 0
+    num_span = 0
+    num_multi_span = 0
+    num_date = 0
     for passage_id, passage_data in drop_data.items():
-        total_num_questions += len(passage_data["qa_pairs"])
+        if filter_function is None:
+            total_num_questions += len(passage_data["qa_pairs"])
+        else:
+            total_num_questions += len([qa_pair for qa_pair in passage_data["qa_pairs"] if filter_function(qa_pair)])
     print(f"Total number of DROP questions available: {total_num_questions}")
     # Iterate over each question for each passage. This isn't the optimal algorithm, but that's fine.
     for passage_id, passage_data in drop_data.items():
         passage_text = passage_data["passage"]
         for qa_pair in passage_data["qa_pairs"]:
+            if filter_function is not None and not filter_function(qa_pair):
+                continue
+            ans = None
+            if qa_pair["answer"]["number"] != "":
+                num_numeric += 1
+                ans = qa_pair["answer"]["number"]
+            if len(qa_pair["answer"]["spans"]) == 1:
+                num_span += 1
+                ans = qa_pair["answer"]["spans"][0]
+            if len(qa_pair["answer"]["spans"]) > 1:
+                num_multi_span += 1
+                ans = ", ".join(qa_pair["answer"]["spans"])
+            if "day" in qa_pair["answer"]["date"] and qa_pair["answer"]["date"]["day"] != "":
+                num_date += 1
+                ans = qa_pair["answer"]["date"]
             # This check guarantees that we'll end up with the right number of questions
             if random.random() < (num_random_questions - len(question_answer_pairs)) / (total_num_questions - num_questions_looked_at):
                 question = qa_pair["question"]
-                answer = qa_pair["answer"]
+                answer = ans
                 question_answer_pairs.append((passage_id, passage_text, question, answer))
             num_questions_looked_at += 1
+    print(f"Number of numeric questions: {num_numeric}")
+    print(f"Number of span questions: {num_span}")
+    print(f"Number of date questions: {num_date}")
+    print(f"Number of multi-span questions: {num_multi_span}")
     return question_answer_pairs
 
 
@@ -164,6 +173,6 @@ if __name__ == '__main__':
     # drop_test()
     drop_data = download_data()
     start_time = time.time()
-    random_questions = sample_questions_improved(drop_data, 10000)
+    random_questions = sample_questions(drop_data, 10000, filter_function=lambda qa_pair: qa_pair["answer"]["number"] != "")
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")
     print(f"Time elapsed: {time.time() - start_time:.2f} seconds")
