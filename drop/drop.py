@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import time
 import zipfile
 
 import inflect
@@ -92,11 +93,31 @@ def sample_questions(drop_data, num_random_questions):
     return question_answer_pairs
 
 
+def sample_questions_improved(drop_data, num_random_questions):
+    total_num_questions = 0
+    num_questions_looked_at = 0
+    question_answer_pairs = []
+    for passage_id, passage_data in drop_data.items():
+        total_num_questions += len(passage_data["qa_pairs"])
+    print(f"Total number of DROP questions available: {total_num_questions}")
+    # Iterate over each question for each passage. This isn't the optimal algorithm, but that's fine.
+    for passage_id, passage_data in drop_data.items():
+        passage_text = passage_data["passage"]
+        for qa_pair in passage_data["qa_pairs"]:
+            # This check guarantees that we'll end up with the right number of questions
+            if random.random() < (num_random_questions - len(question_answer_pairs)) / (total_num_questions - num_questions_looked_at):
+                question = qa_pair["question"]
+                answer = qa_pair["answer"]
+                question_answer_pairs.append((passage_id, passage_text, question, answer))
+            num_questions_looked_at += 1
+    return question_answer_pairs
+
+
 def format_prompt(passage_text, question):
     return f"Context:\n{passage_text}\n\nQuestion:\n{question}"
 
 
-if __name__ == '__main__':
+def drop_test():
     drop_data = download_data()
 
     num_random_questions = 10
@@ -137,3 +158,12 @@ if __name__ == '__main__':
     # Calculate the accuracy
     accuracy = correct / total
     print(f"Accuracy: {accuracy:.2f}")
+
+
+if __name__ == '__main__':
+    # drop_test()
+    drop_data = download_data()
+    start_time = time.time()
+    random_questions = sample_questions_improved(drop_data, 10000)
+    print(f"Sampled {len(random_questions)} questions from the DROP dataset.")
+    print(f"Time elapsed: {time.time() - start_time:.2f} seconds")
