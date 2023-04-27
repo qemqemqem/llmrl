@@ -1,0 +1,151 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "The Bears won by 28 points. \n\nAnswer: 28",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "28",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Bears went into Week 16 knowing that any chance of a playoff berth was over, but they still had the chance to end the season on a high with their rivals the Green Bay Packers traveling to Soldier Field. The game was a must-win for the Packers if they wanted to have any chance of getting the No. 1 seed and gain home-field advantage in the playoffs. On a 16-degree afternoon in Chicago, reserve RB Adrian Peterson ran for 102 yards from 30 attempts including and 8-yard run for a TD (only the second 100-yard game of his career and his first since 2005) while Garrett Wolfe also gained 67 all-purpose yards from the RB position. However, it was the Chicago special teams that really excelled in this game. After Green Bay previously going 12 years (929 punts) without a blocked punt, the Bears blocked Jon Ryan twice on a slippery afternoon. In the second quarter, Darrell McClover got his hand onto a Ryan punt but more damaging was Charles Tillman's charge down midway through the third quarter which allowed Corey Graham to pick up the football and run in 7 yards for a TD to put the Bears up 28-7. Kyle Orton, Lovie Smith's third-choice QB, went 8-for-14 for 101 yards including a 3-yard touchdown pass to Desmond Clark in the third quarter. It was also a good day for LB Brian Urlacher who ran home an 85-yard interception early in the fourth quarter, the first of his career. Alex Brown, starting for the injured Mark Anderson, also got an interception which set up Clark's touchdown. In the end, it was a fairly comfortable win for the Bears, who ran out 35-7 victors which meant that they completed the double over their arch rivals having previously beating them at Lambeau Field in Week 5 27-20. Also, these 35 points were their most against Green Bay since a 61-7 win on December 7, 1980.\n\nQuestion:\nHow many points did the Bears win by?",
+    "question_alone": "How many points did the Bears win by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The Bears won by 28 points. \n\nAnswer: 28",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

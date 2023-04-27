@@ -1,0 +1,153 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "57.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Brandon McManus"
+        ]
+    },
+    "problem_text": "Context:\nThe Broncos kicked off the 2015 season against the Baltimore Ravens, the Broncos' fifth-consecutive Week 1 home opener. Two first-quarter field goals by placekicker Brandon McManus &#8212; from 57 and 56 yards out &#8212; gave the Broncos the early 6-point advantage. In the second quarter, a 44-yard field goal by placekicker Justin Tucker got the Ravens on the scoreboard. McManus later countered with a 43-yard field goal just before halftime to put the lead back to 6. Three plays into the Broncos' initial possession of the second half, quarterback Peyton Manning was intercepted by Ravens' cornerback Jimmy Smith for a 24-yard touchdown, in what was the Ravens' only touchdown of the game. After forcing a Broncos' punt, the Ravens increased their lead, with a 44-yard field goal by Tucker. The Broncos were forced to punt on their next two third-quarter offensive possessions. With 10 seconds remaining in the third quarter, the Broncos re-claimed the lead, with cornerback Aqib Talib returning an interception off Ravens' quarterback Joe Flacco 51 yards for a touchdown, in what was the Broncos' only touchdown of the game. The Broncos' defense forced the Ravens' to punt on their next possession early in the fourth quarter, and beginning at the 13:51 mark, the Broncos began a 17-play, 81-yard drive that devoured 10:51 off the clock, but had to settle for a 33-yard field goal by McManus to increase to a 19-13 lead. With 2:55 remaining in the game, the Ravens advanced to as far as the Broncos' 16-yard line, hoping for a game-winning touchdown. On the 14th play of the drive, a pass from Flacco to wide receiver Steve Smith, Sr. that was almost a touchdown was deflected by Broncos' cornerback Bradley Roby near the goal line, falling incomplete. On the next play, with 36 seconds remaining, a pass from Flacco intended for tight end Crockett Gilmore was intercepted by safety Darian Stewart in the end zone, sealing the Broncos' fourth consecutive Week 1 victory. NotesThis marked the first time since September 17, 2006, that the Broncos won a game without scoring an offensive touchdown. Peyton Manning failed to throw a touchdown pass in a season opener for the first time since 2003.\n\nQuestion:\nWhich kicker had the longest field goal?",
+    "question_alone": "Which kicker had the longest field goal?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "57.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

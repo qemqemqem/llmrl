@@ -1,0 +1,184 @@
+{
+    "commentary_on_process": "To solve the problem, I read the given information carefully and created a table to organize the data. From the table, I found that prospectors had to ferry their belongings and supplies for a distance of 2,500 miles. \n\nTo solve the problem better, I could have double-checked my calculations and made sure that I had included all the relevant information in the table. Additionally, I could have used a calculator to make sure that my arithmetic was correct.",
+    "final_answer": "2,500 miles.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2500",
+        "spans": []
+    },
+    "problem_text": "Context:\nThose who landed at Skagway made their way over the White Pass before cutting across to Bennett Lake. Although the trail began gently, it progressed over several mountains with paths as narrow as 2 feet  and in wider parts covered with boulders and sharp rocks. Under these conditions horses died in huge numbers, giving the route the informal name of Dead Horse Trail. The volumes of travellers and the wet weather made the trail impassable and, by late 1897, it was closed until further notice, leaving around 5,000 stranded in Skagway. An alternative toll road suitable for wagons was eventually constructed and this, combined with colder weather that froze the muddy ground, allowed the White Pass to reopen, and prospectors began to make their way into Canada. Moving supplies and equipment over the pass had to be done in stages. Most divided their belongings into 65 pounds  packages that could be carried on a man's back, or heavier loads that could be pulled by hand on a sled. Ferrying packages forwards and walking back for more, a prospector would need about thirty round trips, a distance of at least 2,500 miles , before they had moved all of their supplies to the end of the trail. Even using a heavy sled, a strong man would be covering 1,000 miles  and need around 90 days to reach Lake Bennett.\n\nQuestion:\nHow many miles did prospectors take for ferrying packages?",
+    "question_alone": "How many miles did prospectors take for ferrying packages?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The main question is: How many miles did prospectors take for ferrying packages?",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the specific information I needed to find.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, you can make a table to organize the given information. \n\n| Type of Load | Weight | Method of Transport | Distance | Time |\n|--------------|--------|---------------------|----------|------|\n| Belongings   | 65 lbs | Carried on back     | 2,500 mi | N/A  |\n| Supplies     | Heavier| Pulled on sled      | 2,500 mi | N/A  |\n| Heavy Sled   | N/A    | Pulled by hand      | 1,000 mi | 90 days |",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me organize the given information and made it easier to find the answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "2,500 miles.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me focus on the final answer and made sure that I had all the information I needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read the given information carefully and created a table to organize the data. From the table, I found that prospectors had to ferry their belongings and supplies for a distance of 2,500 miles. \n\nTo solve the problem better, I could have double-checked my calculations and made sure that I had included all the relevant information in the table. Additionally, I could have used a calculator to make sure that my arithmetic was correct.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 2,500 miles., and the correct answer was 2500. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

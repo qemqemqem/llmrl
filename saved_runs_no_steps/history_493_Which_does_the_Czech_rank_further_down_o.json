@@ -1,0 +1,153 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "30",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Global Competitiveness Report"
+        ]
+    },
+    "problem_text": "Context:\nThe Economy of the Czech Republic is a developed export-oriented social market economy based on services, manufacturing and innovation, that maintains a high-income welfare state and the \"continental\" type of the European social model. The Czech Republic participates in the European Single Market as a member of the European Union, and is therefore a part of the economy of the European Union, but uses its own currency, the Czech koruna, instead of the euro. It is a member of the OECD. As of 2017, the Czech GDP per capita at purchasing power parity is $35,223  and $20,152 at nominal value. As of March 2018, the unemployment rate in the Czech Republic was the lowest in the EU at 2.2%, and the poverty rate is the second lowest of OECD members only behind Denmark. Czech Republic ranks 24th in both the Index of Economic Freedom  and the Global Innovation Index , 31st in the Global Competitiveness Report 30th in the ease of doing business index and 25th in the Global Enabling Trade Report . The largest trading partner for both export and import is Germany and the EU in general. The Czech Republic has a highly diverse economy that ranks 7th in the 2016 Economic Complexity Index. The industry sector accounts for 37.5% of the economy, while services for 60% and agriculture for 2.5%. The principal industries are high tech engineering, electronics, automotive, and machine-building, steel production, transportation equipment, chemical production and pharmaceuticals. The major services are research and development, ICT and software development, nanotechnology and life sciences among others. Its main agricultural products are cereals, vegetable oils and hops.\n\nQuestion:\nWhich does the Czech rank further down on the list for, the Global Enabling Trade Report or the Global Competitiveness Report?",
+    "question_alone": "Which does the Czech rank further down on the list for, the Global Enabling Trade Report or the Global Competitiveness Report?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "30",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

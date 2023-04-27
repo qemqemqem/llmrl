@@ -1,0 +1,154 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "The question does not provide information about which team scored the most points in the second quarter.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Chiefs would take the lead",
+            "into halftime"
+        ]
+    },
+    "problem_text": "Context:\nComing off their Monday Night road win over the Broncos, the Packers flew to Arrowhead Stadium for a Week 9 interconference duel with the Kansas City Chiefs (the only team that QB Brett Favre had never beaten). After a scoreless first quarter, Green Bay drew first blood with rookie kicker Mason Crosby getting a 48-yard and a 36-yard field goal. However, the Chiefs would take the lead into halftime as RB Larry Johnson completed a 1-yard TD run. In the third quarter, the Packers regained the lead as Favre completed a 13-yard TD pass to WR Greg Jennings for the only score of the period. In the fourth quarter, Kansas City regained the lead with QB Damon Huard completing a 30-yard TD pass to Johnson. Green Bay replied with Crosby kicking a 32-yard field goal, yet the Chiefs answered with Huard completing a 17-yard TD pass to TE Tony Gonzalez (with RB Priest Holmes getting the 2-point conversion run). The Packers pulled back into the lead as Favre and Jennings hooked up again on a 60-yard TD pass. Afterwards, Crosby made a 45-yard field goal, and CB Charles Woodson returned an interception 46&#160;yards for a touchdown. With the win, the Packers improved to 7-1.  Brett Favre also became the third quarterback to defeat all of the other 31 NFL teams at least once.  Peyton Manning and Tom Brady had been the first two to do so, just hours apart, the week before. The Packers scored 17 points in the final 3:05 on a defense that hadn't given up more than 20 all year. Favre joined Peyton Manning and Tom Brady as quarterbacks who've beaten all 31 other teams in the NFL. Favre rallied the Packers to victory from a fourth-quarter deficit or tie for the fourth time this season and 40th in his career, second only to John Elway's 46 fourth-quarter comebacks. The Packers have won 11 of their last 12 games, dating back to last season. Their sixth straight road wins tie for the second-longest away-from-home streak in team history.\n\nQuestion:\nWhich team scored the most points in the second quarter?",
+    "question_alone": "Which team scored the most points in the second quarter?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "The question does not provide information about which team scored the most points in the second quarter.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

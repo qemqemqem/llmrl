@@ -1,0 +1,153 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "Julius Jones had the longest touchdown play with 77 yards. \n\nAnswer: 77",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Julius Jones"
+        ]
+    },
+    "problem_text": "Context:\nOn November 27, the NFL announced that the game was moved to 8:15&#160;p.m. EST (7:15&#160;p.m. CST) to be nationally televised on NBC Sunday Night Football. New Orleans Head Coach and former Dallas Offensive Coordinator, as well as Passing Coordinator, Sean Payton thoroughly dissected the Cowboys defense by showcasing the talents of Drew Brees, Reggie Bush, and Deuce McAllister.  Perhaps more surprising was the performance of  Mike Karney.  Previously an unknown fullback who had never had a touchdown in his 43 NFL games, Karney scored a hat trick (three touchdowns).  Brees topped 4,000 season passing yards for the first time in his career, having 26 completions for 38 attempts and 384 yards and five touchdowns.  Deuce McCallister and Reggie Bush both proved their worth with 135 and 162 all-purpose yards, respectively.  Payton was even feeling so confident as to attempt an onside kick early in the third quarter, further demoralizing the Cowboys and increasing momentum for the Saints when they recovered it.  With 3 minutes left in the game and the ball deep in Cowboys territory, Payton's Saints went to kneeling, either to let Parcells keep some of his pride intact, or to make a statement. The Cowboys had one of the worst games of their season.  Payton's defense never gave them a chance to get into a rhythm, and Tony Romo threw for 16 completions of 33 attempts for 249 yards for a single touchdown and a pair of interceptions.  The Cowboys started out promising, stopping the Saints' offense and Julius Jones responding with a career record 77-yard touchdown run.  Though after that play, nothing seemed to go right.  Gramatica missed another crucial field goal, soaring wide right, and the only other touchdown came from a fourth-down pass to Terrell Owens that could have been an interception had cornerback Fred Thomas not had a cast on his hand. New Orleans defeated Dallas 42-17, snapping Dallas' four-game winning streak and dropping them to 8-5 while improving their own record to 9-4. Stats\n\nQuestion:\nWho had the longest touchdown play?",
+    "question_alone": "Who had the longest touchdown play?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Julius Jones had the longest touchdown play with 77 yards. \n\nAnswer: 77",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "2",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "1",
+        "spans": []
+    },
+    "problem_text": "Context:\nLooking to stay in the playoff hunt, the Raiders welcomed the Dallas Cowboys to Oakland for Sunday Night Football. The Raiders struggled from the outset, allowing the Cowboys to drive inside Raider territory before Sean Smith intercepted a Dak Prescott pass to end the drive. Following a punt by the Raiders, the Cowboys moved right down the field, but were stopped at the Oakland 27 yard line. Settling for a 45-yard field goal, the Cowboys took the lead. The Raiders failed to manage a first down again on their second possession, the Cowboys took over and moved down field again. This time, the Raider defense could not stop the Cowboys and Rod Smith scored on a one-yard run to increase the Cowboy lead to 10-0. The Raider offense did manage two first downs on their next possession, but again were forced to punt. After forcing a Cowboy punt, the Raiders took over with just over three minutes left in the half. The offense came alive as the Raiders moved down to the Cowboy 11 yard line. Derek Carr then hit Jared Cook for an 11 yard touchdown, but Cook was called for pass interference on the play and the touchdown was taken off the board. The Raiders drive stalled and, with three seconds remaining, Giorgio Tavecchio missed a 39-yard field goal as the half expired leaving the score at 10-0. On the opening kickoff of the second half, Cordarrelle Patterson returned the kick 100 yards for a touchdown. However, the return was nullified on a Raider holding call. However, the Raider offense would make up for the mistake as they took the ball 90 yards and Carr found Michael Crabtree on a two-yard pass to narrow the lead to 10-7. On the ensuing Cowboy possession, Sean Smith intercepted Dak Prescott for the second time in the game and returned it 22 yards for a touchdown and Raider lead. Upon review of the play, it was determined that Smith was down by contact at the 22. The Raider offense failed to capitalize on the turnover, only managing one yard and settling for a Tavecchio 39-yard field goal to tie the game at 10. The Raider defense continued its strong play to start the second half by stopping the Cowboys on three plays on the next possession. However, punter Chris Jones took the snap and rushed around the right side of the line for a 24-yard gain and a first down. Nine plays later, Prescott scrambled in from five yards out to retake the lead 17-10. As the fourth quarter began, the Raiders answered as Carr again hit Crabtree from two yards out to cap a 53-yard drive to tie the game at 17. Following punts by both teams, the Cowboys moved to the Raider five-yard line as the two minute warning sounded. However, the Raider defense stiffened and the Cowboys could not get the ball in the end zone. Dan Bailey hit a 19-yard field goal with 1:47 remaining to give the Cowboys a 20-17 lead. Needing a field goal to tie, the Raiders drive stalled at their own 30 yard line with just over one minute remaining. On fourth down, Carr rolled out of the pocket and heaved the ball downfield to Crabtree who could not make the catch. But, the Cowboys were called for pass interference on the play and the Raiders took over on the Dallas 15, well within field goal range. Two plays later, Carr scrambled to the goal line and would have had a first down, but instead attempted to dive to the pylon to score the winning touchdown. Carr, however, lost control of the ball attempting to reach it into the end zone and fumbled it out of the end zone giving the ball to the Cowboys on a touchback. The Cowboys were able to a knee to end the game and secure the 20-17 win. The loss moved the Raiders to 6-8 on the season and eliminated them from the AFC West race. Carr threw for only 171 yards in the game as the offense, as usual, struggled through most of the game. The Raiders committed 14 penalties for 105 yards in the game as their disastrous season all but came to an end.\n\nQuestion:\nHow many field goals over 40 yards were converted?",
+    "question_alone": "How many field goals over 40 yards were converted?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "2",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

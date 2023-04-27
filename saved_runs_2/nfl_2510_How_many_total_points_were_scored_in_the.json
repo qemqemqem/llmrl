@@ -1,0 +1,195 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the passage to find the scores of each team and then added them together to get the total points scored in the game. I could have solved the problem more efficiently by scanning the passage for the total score instead of adding up the scores of each team. However, since the passage provided a detailed account of the game, adding up the scores of each team was a straightforward and accurate way to find the total points scored.",
+    "final_answer": "72",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "72",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Redskins opened their 2012 season on the road, marking the much-anticipated debut of Robert Griffin III, the second overall pick in the 2012 NFL Draft. Griffin started his career as well as possible, going 6/6 on his opening possession, setting up a 37-yard field goal by new Redskins kicker Billy Cundiff. However, the lead would be short lived as Six-time Pro Bowl QB Drew Brees marched his Saints down the field, culminating in a 20-yard touchdown pass to star tight end Jimmy Graham. For the first time, Griffin's resolve was tested, as he marched onto the field trailing for the first time. Griffin was unfazed, and after not completing a pass ahead of the line of scrimmage on his first possession, Griffin connected with fellow new Redskins Pierre Gar&#231;on for an 88-yard strike to give Washington a 10-7 lead. In the second quarter, Washington's lead continued to grow, as Griffin found second-year man Aldrick Robinson for a 5-yard touchdown pass to extend Washington's advantage to 17-7. Cundiff added a 41-yard field goal to give Washington a 20-7 advantage. On the next Saints ensuing possession, Brees found Marques Colston who was on his way to an apparent touchdown, but fumbled in the Washington endzone, which resulted in a touchback. Appearing to go into the second half up 20-7, Saverio Rocca's punt was blocked and returned four yards for a touchdown by Saints special teamer Courtney Roby to make it 20-14 at the half. Getting the ball to start the second half, Washington extended its advantage by way of a 1-yard rush TD by rookie running back Alfred Morris. Washington would again expand upon its lead via Cundiff's 37-yarder, to make it 30-14 Washington. Saints kicker Garrett Hartley hit a 21-yard field goal to close the third quarter scoring at 30-17. In the fourth, Washington again pushed its advantage to 16 when Billy Cundiff nailed his fourth field goal of the day, this one from 45 yards. However, the Saints would not go quietly. On the Saints' ensuing possession, Brian Orakpo dropped an interception on 3rd and 10 that would've all but sealed the deal. With this new break, Brees made the Redskins pay, as Lance Moore beat Madieu Williams to the endzone for a 33-yard touchdown on 4th-and-10. Darren Sproles scored on the two-point conversion to cut the Redskins lead to 33-25. The Redskins could not amass a first down on their next drive, and Drew Brees got the ball back with the crowd sensing a comeback. However, Brees overthrew his intended receiver on the first play of the drive, and DeJon Gomes returned the interception to the Saints 3-yard line, and on the next play, Alfred Morris extended the advantage to 40-25. However, the Saints continued to battle. It took Brees less than one minute to march New Orleans down the field and find Darren Sproles for a 2-yard touchdown pass, and the Saints again pulled within 8. The Redskins got the ball back and were able to nearly run out the clock, but gave Brees one last chance. However, fortunately for the Redskins, Brees' Hail Mary pass on the final play of the game fell short of the intended target and was intercepted by Reed Doughty to preserve the 40-32 upset win. With the win, the Redskins began the season 1-0. Robert Griffin III became the first rookie QB to throw for 300 yards in his debut game and win the game. This was the first game in league history to end with a score of 40 to 32.\n\nQuestion:\nHow many total points were scored in the game?",
+    "question_alone": "How many total points were scored in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage provides a detailed account of the game between the Redskins and the Saints, including the scores and events that occurred during the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the important details in the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To determine the total points scored in the game, we need to add up the points scored by each team.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "Breaking down the problem into smaller parts made it easier to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The Redskins scored 40 points and the Saints scored 32 points. To find the total points scored in the game, we add these two numbers together: \n\n40 + 32 = 72\n\nTherefore, a total of 72 points were scored in the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step allowed me to add up the scores of each team to find the total points scored in the game.",
+            "was_useful": true
+        },
+        {
+            "step_response": "72",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me prepare to give the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the passage to find the scores of each team and then added them together to get the total points scored in the game. I could have solved the problem more efficiently by scanning the passage for the total score instead of adding up the scores of each team. However, since the passage provided a detailed account of the game, adding up the scores of each team was a straightforward and accurate way to find the total points scored.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 72, and the correct answer was 72. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

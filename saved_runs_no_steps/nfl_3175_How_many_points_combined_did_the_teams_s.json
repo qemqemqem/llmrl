@@ -1,0 +1,151 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "66",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "65",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn a rematch of their only loss so far this season, the Patriots faced the Buffalo Bills in a road game. After taking the opening kick, the Bills raced 70 yards all the way to the Patriots 5, but the Patriots defense kept Buffalo out of the end zone, forcing them to kick a 23-yard field goal. On the ensuing kickoff, Walt Powell forced Matthew Slater to fumble, but Shea McClellin recovered for the Patriots at their own 30. The Patriots drained over half of the remainder of the first quarter, going 70 yards to score on a 9-yard touchdown pass from Brady to Amendola. After a Bills three-and-out, the Patriots were given good field at the Bills 45. An offensive pass interference penalty on Amendola moved the ball back to the Patriots 45, but a holding penalty on Robert Blanton of the Bills moved the ball to mid field. A two-yard run by Blount and incomplete pass brought up a 3rd-and-8 from the Bills 48, and Brady hit Edelman with a 47-yard bomb to the 1-yard line, but the gain was nullified on an ineligible man downfield penalty on Marcus Cannon moving the ball back to the Patriots 47. Then Brady hit Hogan on a 53-yard touchdown bomb, increasing the lead to 14-3. Four possessions later, the Bills raced 59 yards in just 5 plays, scoring on a Mike Gillislee 3-yard touchdown rush. After Amendola returned the ball 24 yards to the Patriots 21, the Patriots countered, using just four plays and Brady found Gronkowski on a 53-yard touchdown, increasing the lead to 21-10. The Bills raced 44 yards in 11 plays to the Patriots 31 on their ensuing possession, but Carpenter missed a 49-yard field goal after it hit the upright. Taking over at their own 39, a 6-yard pass to White, a 15-yard pass to Amendola, and a 7-yard pass to Edelman led the Patriot to Bills 33 and Gostkowski kicked a 51-yard field goal, giving the Patriots a 24-10 lead at halftime. Amendola kicked off the second half with fireworks, returning the kick 73 yards to the Bills 24. Two plays later, Brady hit Edelman for a 12-yard touchdown pass, extending the lead to 31-10. The Bills didn't quit, though, using a marathon 75-yard, six minute drive, concluding with Taylor splitting the defense for a 26-yard touchdown run, making it a game again with a 31-17 score. The Patriots countered right back, engineering an 11-play, 75-yard drive with LeGarrette Blount chalking up a 1-yard touchdown run, increasing the lead to 38-17 late in the third quarter. Using Reggie Bush 35 yard kick return, the Bills drove 50 yards to the Patriots 10 in just 4 plays, but on the first play of the fourth quarter, a Taylor pass bounced off the fingertips of Charles Clay and the Bills turned the ball over on downs. The Patriots put the game away on their next drive, marching 76-yards in 13 plays, taking 7:49 off the clock, with Gostkowski adding a 32-yard field goal, giving the Patriots a 41-17 lead with just 7:06 remaining in the game. The Bills drove 52 yards to the Patriots 32 on their next drive, but turned the ball over on downs when Robert Woods was tackled 1-yard short of the first down by Malcolm Butler. The Bills forced a Patriots punt and raced 66 yards in 6 plays, scoring a touchdown on a 1-yard touchdown run by Jonathan Williams with a two-point conversion on a two-yard pass from backup quarterback EJ Manuel to Nick O'Leary trimming the score to 41-25, but only 0:30 remained. After recovering the onside kick, the Patriots took a knee to win the game. Brady was 22/33 for 315 yards and had four touchdown passes to four different receivers (Danny Amendola, Chris Hogan, Rob Gronkowski and Julian Edelman); LeGarette Blount added a running touchdown and Stephen Gostkowski a field goal. Heading into their bye week, the Patriots improved to 7-1, the best record in the league.\n\nQuestion:\nHow many points combined did the teams score?",
+    "question_alone": "How many points combined did the teams score?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "66",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "The Bills were winning by 10 points at halftime. \n\nAnswer: 17-7.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "10",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nThe Bears opened the season at home against the Buffalo Bills, who had a record of 6-10 in 2013. Entering the game, the Bears were 54-35-5 in season openers, the most wins of any team, and they had not lost an opening game since 2009, the most in the NFC and second-most in the NFL behind the New England Patriots. The Bears were 7-4 against the Bills, with their last meeting being a 22-19 victory in Toronto in 2010, while winning 40-7 in the last game between the two at Soldier Field; the Bears had won all five meetings between the two in Chicago. When comparing the two teams in 2013 statistically, the Bears had the advantage in three offensive categories (points scored, total offense, and passing offense), while the Bills had the second-best rushing offense, compared to the Bears' 16th-ranked rushing game. On defense, the Bears were outmatched in all three categories (total defense, rushing defense, and passing defense), but are one spot higher than Buffalo in turnover ratio (+5 to +3). Scout.com's Jeremy Stoltz writes that one of the players the Bears must contain is the defensive tackle duo of Mario Williams and Marcell Dareus, who had a combined 139 total tackles, 18.0 sacks and two forced fumbles during 2013. While the Bears' offensive line boasted the fourth-least sacks, none of the five starters played in the preseason. As a result, to combat the rush, the Bears need Jay Cutler to release the ball quickly. For the Bears' defense, Stoltz stated all the Bears needed to do was stop Buffalo's running backs Fred Jackson and C. J. Spiller, as the Bills had the second-best rushing attack in the league. The Bears were favored to win by seven points, the third-largest spread of the week. Matt Fort&#233;, Charles Tillman, and Robbie Gould were the captains for the game. David Fales, Kelvin Hayden, Tony Fiammetta, Khaseem Greene, Charles Leno, Jr., David Bass and Cornelius Washington were inactive for the game. The Bears won the coin toss, and elected to kick. After Buffalo punted, Chicago scored on Cutler's 12-yard touchdown pass to Martellus Bennett, which the Bills retaliated with E. J. Manuel's two-yard touchdown run. On the Bears' first drive of the second quarter, Brandon Marshall fumbled, with linebacker Preston Brown recovering; the Bills would score on Dan Carpenter's 50-yard field goal. Afterwards, Cutler was intercepted by former Bear Corey Graham after Bennett did not \"turn to look for the ball in time\", with the Bills again capitalizing on the takeaway, with Manuel's seven-yard touchdown pass to Spiller, and the half ended with Buffalo leading 17-7. On the Bears' first possession of the third quarter, Gould kicked a five-yard field goal, and on the Bills' first drive of the half, Chris Conte read a pass intended for Marquise Goodwin, stepping in front of the pass to intercept the ball. On Chicago's ensuing drive, the offense rallied to tie the score on Cutler's 11-yard touchdown pass to Marshall. In the fourth quarter, the Bears drove from their own six-yard line to reach the Buffalo 34, but Cutler's forced pass intended for Bennett was intercepted by Kyle Williams; Carpenter would kick a 33-yard field goal, which the Bears responded with Gould's 37-yarder. The Bills would kneel to end regulation with a 20-20 score. After the Bears went three-and-out, the Bills started on their own 22-yard line, but drove to the Bears' 39. On the next play, Jackson found a hole in the line of scrimmage, getting past Lance Briggs. Conte reached Jackson at the 20-yard line, but was stiff-armed; Conte attempted to tackle again, but was knocked down, with Jackson being pushed out of bounds at the one-yard line. Two plays later, Carpenter kicked the game-winning 27-yard field goal. Four of the Bears' offensive starters suffered injuries during the game: Roberto Garza (right ankle) and Matt Slauson (left ankle) did not play after the first half, Alshon Jeffery (hamstring) departed in the third quarter, while Marshall (right ankle) was hurt after being tackled. Conte received scrutiny after the game for failing to tackle Jackson, but defended himself by saying, \"It was a play where it's the end of the game - I've got to get the ball out or something. If I hit him, it's a field goal no matter what, so I've got to try and get the ball out. It's a desperation play where I've got to try and punch the ball or something.\"\n\nQuestion:\nHow many points were the Bills winning by at halftime?",
+    "question_alone": "How many points were the Bills winning by at halftime?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The Bills were winning by 10 points at halftime. \n\nAnswer: 17-7.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

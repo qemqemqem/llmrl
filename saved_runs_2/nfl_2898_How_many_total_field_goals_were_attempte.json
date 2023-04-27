@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "I solved the problem by scanning the passage for any mention of field goals attempted in the game. I found that the passage mentioned two missed field goals by the Bears, one by Robbie Gould and another by Jason Verrett. The passage also mentioned two successful field goals by the Chargers, both by Josh Lambo. Therefore, the total number of field goals attempted in the game was 4. \n\nTo solve the problem better, I could have taken notes while reading the passage to keep track of the number of field goals attempted by each team. This would have made it easier to add up the total number of field goals attempted in the game.",
+    "final_answer": "4",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "4",
+        "spans": []
+    },
+    "problem_text": "Context:\nOn Monday Night Football, the Bears traveled west to face the 2-6 San Diego Chargers. The two teams last met in 2011 at Soldier Field, the Bears winning 31-20, though their last meeting in San Diego was in 2007, which the Chargers won 14-3, and the last MNF game in San Diego was a Chargers 20-7 victory in 1984; in eleven games, the Bears led the series 6-5. Jeff Joniak wrote that the Bears offense could capitalize on a defense that allowed the most yards after the catch in the NFL. Additionally, offenses often started drives at 32-yard line, ranked 31st in the league, while the Chargers also had the least points off turnovers with seven. The Chargers were also allowing 6.34 yards per play, the second-worst in the NFL. To attack, the offense would balance passes that focused on favorable receiver/cornerback matchups and run with Jeremy Langford, who was making his first career start with Matt Forte out. Defensively, the Bears faced an offense struggling with injuries, particularly at the line: of the five positions, four have seen two or more players starting. However, quarterback Philip Rivers excelled despite the injuries, having thrown for 18 touchdowns and 7.9 yards per pass, both of which were among the highest in the NFL; Rivers' performance had also enabled him to be in position to overtake Peyton Manning's single-season passing yards record. The Chargers had the top-ranked offense in the NFL, and also ranked first in yardage after the catch. Another offensive player that the Bears faced was tight end Antonio Gates, who led the league in career touchdowns with 101. However, the San Diego running game was struggling, with 3.6 rushing yards per play, which ranked 30th in the league. Special teams-wise, both teams were among the worst in the NFL: the Chargers were ranked 30th in average return yardage allowed, while the Bears were 31st; the former also allowed a league-high ten returns of 30-39 yards. For the Chargers' punt return unit, they had only one yard in 2015. San Diego also had league-worsts in starting yard line after kickoffs with 19.3 yards, drives starting within their own 20-yard line (11) and average starting area (21). Forte, receiver Eddie Royal, safety Harold Jones-Quartey, Shea McClellin, Hroniss Grasu, Tayo Fabuluje and defensive lineman Ziggy Hood were inactive. The Chargers won the coin toss and elected to kick off. Despite reaching the Chargers' 28-yard line, two scoring opportunities were denied with Jason Verrett deflecting Jay Cutler's pass for Alshon Jeffery and Robbie Gould's field goal sailing wide left. Afterwards, the Chargers scored with Danny Woodhead's 14-yard touchdown catch from Rivers. On the Bears' next possession, the offense entered Charger territory again, reaching as far as the 10-yard line, where Cutler was sack-stripped by Melvin Ingram, with the ball being recovered by Eric Weddle, though the Chargers failed to capitalize and punted. After the Bears punted as well, they reclaimed the ball when Tracy Porter stripped Dontrelle Inman and linebacker Christian Jones recovered. However, after two plays, Verrett intercepted Cutler's pass for Jeffery, returning it 68 yards for the touchdown; the Chargers eventually missed the extra point, making the score 13-0. On the next drive, Cutler threw a one-yard touchdown pass to Martellus Bennett. After both teams exchanged punts, the Chargers scored the final points of the first half with Josh Lambo's 31-yard field goal. In the second half, after the Chargers punted, Gould's 34-yard field goal attempt hit the left upright. San Diego punted again, and the Bears engineered a 93-yard drive that culminated with Langford scoring on a one-yard run. The Chargers increased the margin to five points with Lambo kicking a 22-yard field goal. Guiding an 80-yard drive, Cutler threw a 25-yard pass to tight end Zach Miller, who caught the pass with one hand as he scored the go-ahead touchdown. Afterwards, Langford scored on the two-point conversion. The Chargers' final drive fell apart with plays like Lamarr Houston's two sacks, and on 4th down and 23, Rivers' deep pass fell incomplete. With 1:09 left in the game, Cutler kneeled three times to end the game. With Cutler's touchdown to Bennett, he overtook Sid Luckman for the most passing touchdowns in franchise history with 138. Additionally, his final touchdown marked his twelfth fourth quarter touchdown, the most in the league. Miller's touchdown catch was his first since the 2011 season.\n\nQuestion:\nHow many total field goals were attempted in the game?",
+    "question_alone": "How many total field goals were attempted in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage mentions field goals attempted by the Bears and the Chargers, but it does not provide a total number of field goals attempted in the game.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to focus on the information that was relevant to the problem and ignore the rest of the passage.",
+            "was_useful": true
+        },
+        {
+            "step_response": "4",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "I solved the problem by scanning the passage for any mention of field goals attempted in the game. I found that the passage mentioned two missed field goals by the Bears, one by Robbie Gould and another by Jason Verrett. The passage also mentioned two successful field goals by the Chargers, both by Josh Lambo. Therefore, the total number of field goals attempted in the game was 4. \n\nTo solve the problem better, I could have taken notes while reading the passage to keep track of the number of field goals attempted by each team. This would have made it easier to add up the total number of field goals attempted in the game.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 4, and the correct answer was 4. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

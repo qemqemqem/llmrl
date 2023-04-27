@@ -1,0 +1,184 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the percentage of Native Americans from 100%. This gave me the percentage of people who were not Native American. I arrived at the correct answer of 99.1%. \n\nTo solve the problem better, I could have used the actual number of people who were Native American and subtracted it from the total population to find the number of people who were not Native American. Then, I could have divided that number by the total population and multiplied by 100 to find the percentage. However, since the percentage of Native Americans was already given, subtracting it from 100% was a simpler and quicker method.",
+    "final_answer": "99.1",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "99.1",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe 2010 United States Census reported that Placer County had a population of 348,432. The racial makeup of Placer County was 290,977 (83.5%) White (U.S. Census), 4,751 (1.4%) African American (U.S. Census), 3,011 (0.9%) Native American (U.S. Census), 20,435 (5.9%) Asian (U.S. Census), 778 (0.2%) Pacific Islander (U.S. Census), 13,375 (3.8%) from Race (United States Census), and 15,105 (4.3%) from two or more races.  Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 44,710 persons (12.8%).\n\nQuestion:\nHow many in percent from the census weren't Native American?",
+    "question_alone": "How many in percent from the census weren't Native American?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, you can estimate the answer by subtracting the percentage of Native Americans from 100%. This will give you an approximate answer.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Estimate the answer",
+                "short_name": "estimate",
+                "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me to have an idea of what the answer should be and to check if my final answer was reasonable.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To find the percentage of people who were not Native American, we need to subtract the percentage of Native Americans from 100%. \n\n100% - 0.9% = 99.1%\n\nTherefore, 99.1% of the population in Placer County were not Native American.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This was the main step where I subtracted the percentage of Native Americans from 100% to find the percentage of people who were not Native American.",
+            "was_useful": true
+        },
+        {
+            "step_response": "99.1",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to double-check my answer and make sure that I had answered the question correctly.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the percentage of Native Americans from 100%. This gave me the percentage of people who were not Native American. I arrived at the correct answer of 99.1%. \n\nTo solve the problem better, I could have used the actual number of people who were Native American and subtracted it from the total population to find the number of people who were not Native American. Then, I could have divided that number by the total population and multiplied by 100 to find the percentage. However, since the percentage of Native Americans was already given, subtracting it from 100% was a simpler and quicker method.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 99.1, and the correct answer was 99.1. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

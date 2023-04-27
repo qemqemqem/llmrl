@@ -1,0 +1,184 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the year when T\u00e1bor was captured (1452) from the year when the Hussite Wars ended (1431). The result was 21, which is the number of years between the two events. I could have solved the problem better by double-checking my subtraction to ensure that I did not make any errors.",
+    "final_answer": "21 years.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "21",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Utraquist creed, frequently varying in its details, continued to be that of the established church of Bohemia until all non-Catholic religious services were prohibited shortly after the Battle of the White Mountain in 1620. The Taborite party never recovered from its defeat at Lipany, and after the town of T\u00e1bor had been captured by George of Pod\u011bbrady in 1452, Utraquist religious worship was established there. The Bohemian Brethren , whose intellectual originator was Petr Chel\u010dick\u00fd but whose actual founders were Brother Gregory, a nephew of Archbishop Rokycany, and Michael, curate of \u017damberk, to a certain extent continued the Taborite traditions, and in the 15th and 16th centuries included most of the strongest opponents of Rome in Bohemia. J. A. Komensk\u00fd , a member of the Brethren, claimed for the members of his church that they were the genuine inheritors of the doctrines of Hus. After the beginning of the German Reformation, many Utraquists adopted to a large extent the doctrines of Martin Luther and of John Calvin and, in 1567, obtained the repeal of the Compacts which no longer seemed sufficiently far-reaching. From the end of the 16th century the inheritors of the Hussite tradition in Bohemia were included in the more general name of \"Protestants\" borne by the adherents of the Reformation. At the end of the Hussite Wars in 1431, the lands of Bohemia had been totally ravaged. The  adjacent Bishopric of W\u00fcrzburg in Germany was left in such bad shape after the Hussite Wars, that the impoverishment of the people was still evident in 1476. The poor conditions contributed directly to the peasant conspiracy that broke out that same year in W\u00fcrzburg.\n\nQuestion:\nHow many years before T\u00e1bor was captured by George did the  Hussite Wars start?",
+    "question_alone": "How many years before T\u00e1bor was captured by George did the  Hussite Wars start?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "We know that the town of T\u00e1bor was captured by George of Pod\u011bbrady in 1452, and that the Hussite Wars ended in 1431.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Think about background",
+                "short_name": "background",
+                "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me focus on the relevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information is that T\u00e1bor was captured by George of Pod\u011bbrady in 1452, and the Hussite Wars ended in 1431.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped me identify the information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "21 years.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It allowed me to find the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the year when T\u00e1bor was captured (1452) from the year when the Hussite Wars ended (1431). The result was 21, which is the number of years between the two events. I could have solved the problem better by double-checking my subtraction to ensure that I did not make any errors.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 21 years., and the correct answer was 21. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

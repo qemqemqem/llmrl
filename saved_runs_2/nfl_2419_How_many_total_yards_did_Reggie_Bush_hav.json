@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the passage and looked for information about Reggie Bush's touchdown runs. I found that he had two touchdown runs, one for 25 yards and the other for 65 yards. Therefore, I added those two numbers together to get the total yards that Reggie Bush had on touchdown runs, which was 90 yards. \n\nSince the information about Reggie Bush's touchdown runs was explicitly stated in the passage, there was no need for any additional calculations or assumptions. However, if the information was not explicitly stated, I would have had to look for other clues in the passage, such as the total number of rushing yards that Reggie Bush had in the game and the percentage of those yards that came from touchdown runs.",
+    "final_answer": "90",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "90",
+        "spans": []
+    },
+    "problem_text": "Context:\nThe Dolphins entered their second game of the season with a 0-1 record, hosting the 0-1 Oakland Raiders. The game marked the third consecutive season game between the two teams and 36th all-time, with the Dolphins winning the last two games with an average margin of victory of 18 points. Miami opened the game with an impressive 80-yard drive after the opening kickoff, which lead to a quarterback Ryan Tannehill two-yard rushing touchdown. Two possessions later at the (3:28) mark in the first quarter, Oakland quarterback Carson Palmer threw a 64-yard touchdown to Mike Goodson tying the game. Through a majority of the second quarter both teams had a hard time moving across the 50-yard line, which was matched with impressive punting by both Dolphins punter Brandon Fields and Oakland punter Shane Lechler. By the end of the game Field punted the ball six times for 319 yards with an average yard per punt of 53.2 and Lechler punted the ball nine times for 422 yards with an average yard per punt of 46.9. However, Oakland managed to get the ball back with (3:33) left in the quarter and orchestrated a drive that ended with a Sebastian Janikowski 25-yard field goal. Both teams entered halftime evenly matched. It didn't take long following halftime for the Dolphins rushing attack to shine. On the second possession of the half the Dolphins drove the ball down field and allowed Reggie Bush to rush for a 25-yard touchdown. On the next Miami possession, after a quick pass from Tannehill to receiver Brian Hartline, Reggie Bush rushed 65 yards for another Miami touchdown. A few possessions later Oakland answered with a Janikowski 27-yard field goal. With little opposition from the Oakland defense Miami's offense kept the ball moving and managed to score on their next two possessions. Once with an Anthony Fasano 14-yard reception touchdown from Tannehill, the first of his career, and again with a Lamar Miller 15-yard rushing touchdown, the first of his career. Oakland tried to stop the bleeding on their next drive, but quarterback Palmer was intercepted by safety Reshad Jones. The impressive game of 172 rushing yards on 26 attempts by running back Reggie Bush earned him the week 2 AFC Offensive Player of the Week and FedEx Air and Ground rusher of the week honors.\n\nQuestion:\nHow many total yards did Reggie Bush have on touchdown runs?",
+    "question_alone": "How many total yards did Reggie Bush have on touchdown runs?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The passage states that Reggie Bush had two touchdown runs in the game. The first was for 25 yards and the second was for 65 yards. Therefore, the total yards that Reggie Bush had on touchdown runs is 25 + 65 = 90 yards.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "I used this step to add the yards of the two touchdown runs.",
+            "was_useful": true
+        },
+        {
+            "step_response": "90",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "I used this step to give the final answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the passage and looked for information about Reggie Bush's touchdown runs. I found that he had two touchdown runs, one for 25 yards and the other for 65 yards. Therefore, I added those two numbers together to get the total yards that Reggie Bush had on touchdown runs, which was 90 yards. \n\nSince the information about Reggie Bush's touchdown runs was explicitly stated in the passage, there was no need for any additional calculations or assumptions. However, if the information was not explicitly stated, I would have had to look for other clues in the passage, such as the total number of rushing yards that Reggie Bush had in the game and the percentage of those yards that came from touchdown runs.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 90, and the correct answer was 90. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

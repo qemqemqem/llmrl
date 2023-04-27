@@ -1,0 +1,151 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "9",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "9",
+        "spans": []
+    },
+    "problem_text": "Context:\nAfter their first loss of the season, the Steelers traveled to Baltimore to play the Ravens. The Steelers forced a punt on the Ravens' first drive before the Steelers offense produced a 16-play, 84-yard drive which took up 10 minutes and 23 seconds of game time and led to a 30-yard Chris Boswell field goal, making the score 3-0. This would remain the score until Boswell added a 49-yard field goal in the second quarter, making the score 6-0. The Steelers finally reached the end zone on their next drive, as Le'Veon Bell scored from the 1-yard line to put the Steelers up 13-0. The Steelers scored again on their final offensive drive of the half as Ben Roethlisberger connected with JuJu Smith-Schuster for an 11-yard touchdown pass (and the Steelers failed their 2-point conversion attempt), putting the Steelers up 19-0 going into halftime. The Ravens' Justin Tucker missed a 62-yard field goal as time expired in the second quarter. The Steelers received the ball to begin the second half, and Roethlisberger was intercepted by Eric Weddle, who was credited with the turnover after a coach's challenge by John Harbaugh. The play had initially been ruled a catch by Antonio Brown, but after review, the officials determined that Brown had never established possession of the ball, and because it had never touched the ground, the Ravens took over on the Steelers' 18-yard line. Baltimore capitalized by adding a Tucker 42-yard field goal, making the score 19-3 in favor of the Steelers. On the Steelers' next drive, Boswell missed a 44-yard field goal, and after taking over on downs, the Ravens took only three plays to score on a 16-yard touchdown from Joe Flacco to Mike Wallace. The Ravens attempted a 2-point conversion, but Terrance West (though initially ruled as successfully scoring) was stopped at the 1-yard line by the Steelers defense, making the score 19-9. In the fourth quarter, the Steelers defense intercepted Flacco twice, with the second interception leading to another 1-yard touchdown run by Bell, making the final score 26-9. The Steelers moved into sole possession of first place in the AFC North with the victory while the team improved to 3-1.  The team would win their 6th straight game against a divisional opponent. The victory marked the first time that the Steelers defeated the Ravens in Baltimore since 2012.  It would also be Roethlisberger's first win in Baltimore since 2010. Pittsburgh also scored the most points in Baltimore of any Steelers team since 2002. Seventeen points marked the largest margin of victory for the Steelers in Baltimore in series history, and the largest such margin against any team in Baltimore since the Steelers defeated the Colts in Memorial Stadium by twenty-six points in the 1976 NFL Playoffs.\n\nQuestion:\nHow many points did the Ravens score in total?",
+    "question_alone": "How many points did the Ravens score in total?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "9",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

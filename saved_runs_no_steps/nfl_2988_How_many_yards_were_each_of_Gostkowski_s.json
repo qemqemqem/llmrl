@@ -1,0 +1,155 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "Gostkowski's field goals were 43, 38, 41, and 32 yards. \n\nAnswer: 43, 38, 41, 32.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "43-yard",
+            "41-yard",
+            "32-yard"
+        ]
+    },
+    "problem_text": "Context:\nAfter a Titans three-and-out, the Patriots put together an 11 play, 79-yard drive, with Brady hitting Gronkowski on a 5-yard touchdown pass. Three possessions later, Akiem Hicks returned a Marcus Mariota fumble 14 yards for a touchdown, increasing the Patriots lead to 14-0. After another Titans punt, Amendola fumbled with Cody Riggs recovering at the Patriots 26. The Titans could only reach the Patriots 21, but Ryan Succop got the Titans on the board with a 49-yard field goal. Keshawn Martin returned the ensuing kick 75 yards to the Titans 30. Two plays later, Brady hit White for a 30-yard touchdown, widening the lead to 21-3. Zach Mettenberger replaced Mariota on the next drive, and the Titans drove to the Patriots 38, but on 4th-and-1, Antonio Andrews stuffed for no gain. The Patriots drove to the Titans 25 and Gostkowski increased the lead to 24-3 on a 43-yard field goal. Amendola returned the ensuing punt 22 yards to the Patriots 45. The Patriots drove to the Titans 30, but Gostkowski missed the 48-yard field goal wide right, keeping the score 24-3 at halftime. After the Patriots punted, aid by an 18-yard punt return by Harry Douglas, the Titans drove 59 yards in 7 plays, with Mettenberger finding Delanie Walker for a 7-yard touchdown, trimming the deficit to 24-10. The Patriots responded by driving to the Titans 20, and Gostkowski was good from 38 yards away. Three possessions later, the Titans reached the Patriots 36, but Mettenberger was intercepted by Butler at the 2. After a Patriots three-and-out, Mettenberger hit Walker again for a 57-yard touchdown pass, with a missed extra point, making the score just 27-16. The Patriots drove to the Titans 23, and Gostkowski upped the score to 30-16 with his 41-yard field goal. The Titans drove to the Patriots 48, but Mettenberger was intercepted by Collins who returned it 51 yards to the Titans 16. Four plays later, Gostkowski hit a 32-yarder, making the score 33-16. The Titans ran out the rest of the clock to end the game. With the win, the Patriots improved to 12-2, and they clinched a first-round bye following the Broncos' loss to the Steelers later that night.\n\nQuestion:\nHow many yards were each of Gostkowski's field goals?",
+    "question_alone": "How many yards were each of Gostkowski's field goals?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "Gostkowski's field goals were 43, 38, 41, and 32 yards. \n\nAnswer: 43, 38, 41, 32.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

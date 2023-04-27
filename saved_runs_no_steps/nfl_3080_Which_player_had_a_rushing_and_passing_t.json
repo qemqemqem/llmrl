@@ -1,0 +1,155 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "There is no information provided about a player having both a rushing and passing touchdown in this game. Therefore, the answer is 0.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "",
+        "spans": [
+            "Cousins"
+        ],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nThe Redskins hosted the Eagles in another NFC East matchup with both teams at 1-2. The Redskins started on offense, and running back Chris Thompson converted a 3rd-and-long with a 42-yard run into Eagles territory. Just 3 plays later, he took a short Cousins pass 19 yards to the 21-yard-line. They moved the ball down to the 2-yard-line, but could not score a touchdown. They took a 3-0 lead off of a Dustin Hopkins field goal. Philadelphia started shakily, losing 8 yards on their next drive before punting back to Washington. The Redskins were able to move from midfield down to the Eagles' 20-yard-line, but the drive again stalled in the redzone and they settled for another Hopkins field goal. Last year's NFL rushing leader DeMarco Murray rattled off a 30-yard gain on the Eagles' next possession, but the teams exchanged punts after it. After several short passes by Cousins got the Redskins inside the red zone yet again, the Redskins got a first down at the 1-yard-line after a pass interference call on Eagles rookie cornerback Eric Rowe. Kirk Cousins then ran the ball in for the first rushing touchdown of his career, and Washington led 13-0. On the Eagles' next drive, a Sam Bradford deep ball to rookie receiver Nelson Agholor was negated by a Ryan Mathews fumble that was recovered by Redskins linebacker Keenan Robinson on a trick play. After a Redskins punt (which speedy returner Darren Sproles returned to the Washington 30-yard-line), Bradford threw an apparent touchdown to tight end Zach Ertz that was nullified by an illegal formation penalty on Agholor. With all the momentum lost and a sack by Redskins rookie linebacker Preston Smith moving the Eagles back to the 25-yard-line, kicker Caleb Sturgis missed a short field goal to keep the score at 13-0. It was the first time the Redskins had shut out back-to-back home opponents in the first half since 1997. After driving to their own 38-yard-line, Philadelphia got the break they needed, with Bradford connecting with Riley Cooper for a 62-yard score. This cut the Redskins' lead to only 7 points, as Sturgis missed the extra point. Washington advanced the ball only 9 yards before punting back to the Eagles, who got the ball at their own 29-yard-line. Two Redskins penalties moved the ball 29 yards, and a 10-yard Bradford pass was caught by tight end Brent Celek to tie the game at 13-13. The Redskins retaliated by immediately getting into Eagles territory, courtesy of a 43-yard bomb from Kirk Cousins to rookie receiver Rashad Ross. Another rookie receiver, Jamison Crowder, got them inside the 20. From there, Hopkins kicked the ball through the uprights from 33 yards out, allowing Washington to regain its 16-13 advantage. The Redskins were quickly back in business after an Eagles punt, and now had a chance to go up by two scores, but Jordan Reed fumbled in Eagles territory to end the third quarter. Three plays later, Bradford burned the Redskins secondary on another deep ball, this one 39 yards to veteran wide receiver Miles Austin. More importantly, the Eagles took their first lead of the game, 20-16. The Redskins remained scoreless in the second half, punting from the Eagles' 35-yard-line instead of attempting a 53-yard field goal. The Eagles were barely able to cross midfield before punting back to Washington. With under 9 minutes remaining, they needed to regain some offensive momentum, but could not, going three-and-out. However, they were able to get a defensive stop, forcing the Eagles to go three-and-out as well. Alfred Morris runs of 16 and 13 yards got the offense rolling, and Pierre Gar&#231;on catches of 14 and 12 yards helped get Washington down to the Eagles' 4-yard-line with 35 seconds left. Cousins threw one incomplete pass to Crowder before connecting with Garcon for the game-winning touchdown and the 23-20 win. It was the second game-winning drive of Cousins' career, the first being Week 14 of the 2012 season against the Baltimore Ravens, when he entered the game in relief of the injured Robert Griffin III. This win was also Cousins' first division win, after previously going 0-5 against the Cowboys, Giants, and Eagles. With the win the Redskins moved to 2-2 for the season. Cousins threw zero interceptions for the second consecutive home game, a first in his career, and the Redskins defense did not allow a 40-yard rusher for the second straight week.\n\nQuestion:\nWhich player had a rushing and passing touchdown?",
+    "question_alone": "Which player had a rushing and passing touchdown?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "There is no information provided about a player having both a rushing and passing touchdown in this game. Therefore, the answer is 0.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

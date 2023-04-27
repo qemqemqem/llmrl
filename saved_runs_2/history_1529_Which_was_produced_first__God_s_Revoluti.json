@@ -1,0 +1,175 @@
+{
+    "commentary_on_process": "To solve the problem, I researched the various productions that featured the character Fairfax and looked up their release dates. I found that To Kill a King was released in 2003, while God's Revolution was a BBC Radio production from 1988. Therefore, To Kill a King was produced first. \n\nTo solve the problem better, I could have used a more systematic approach to my research, such as creating a table or spreadsheet to organize the information about each production and its release date. This would have made it easier to compare the dates and ensure that I had considered all relevant information.",
+    "final_answer": "To Kill a King was produced first in 2003.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "To Kill a King"
+        ]
+    },
+    "problem_text": "Context:\nFairfax, played by actor Dougray Scott, is a pivotal character in the 2003 film To Kill a King, as well as in Rosemary Sutcliff's 1953 historical fiction Simon, being portrayed as inspiring and fair. He also appears as a central character in Sutcliff's 1959 novel The Rider of the White Horse, which gives an account of the early stage of the Civil War from the point of view of his wife, and in Howard Brenton's 2012 play 55 Days. Douglas Wilmer portrayed him in the 1970 Ken Hughes film Cromwell. He was played by Jerome Willis in the 1975 historical film Winstanley.  He appears in Michael Arnold's novel Marston Moor, which includes an account of Fairfax's adventures in the eponymous battle. He was also a central character, played by Nigel Anthony, in the 1988 BBC Radio production of Don Taylor's play God's Revolution.\n\nQuestion:\nWhich was produced first, God's Revolution or To Kill A King?",
+    "question_alone": "Which was produced first, God's Revolution or To Kill A King?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The obvious answer is to research the release dates of both productions and compare them to determine which was produced first.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the obvious answer",
+                "short_name": "obvious",
+                "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to identify the most straightforward approach to solving the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To Kill a King was produced first in 2003.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the final answer and avoid getting sidetracked by irrelevant information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I researched the various productions that featured the character Fairfax and looked up their release dates. I found that To Kill a King was released in 2003, while God's Revolution was a BBC Radio production from 1988. Therefore, To Kill a King was produced first. \n\nTo solve the problem better, I could have used a more systematic approach to my research, such as creating a table or spreadsheet to organize the information about each production and its release date. This would have made it easier to compare the dates and ensure that I had considered all relevant information.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was To Kill a King was produced first in 2003., and the correct answer was . Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

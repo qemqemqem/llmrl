@@ -1,0 +1,151 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "0",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "0",
+        "spans": []
+    },
+    "problem_text": "Context:\nJohn Fox, joined by coordinators Adam Gase and Jeff Rodgers and quarterback Jay Cutler, faced their former team in the Denver Broncos for week eleven. It would also be the coldest game the Bears would play in 2015. In 14 games, the two teams split the series, though the Broncos won the most recent game in 2011 13-10. In the last game at Soldier Field, the Bears won 37-34. The offense took on one of the league's top defenses, Denver's pass rush leading the NFL in sacks with 32, with twelve players with at least .5 sacks. The Broncos defense was allowing the fewest average yards with 277.3, while also allowing the third-least points per game with 18.7. Despite DeMarcus Ware being out with a back injury, the Broncos still had Von Miller, who had more than five sacks in 2015. For the Bears, despite Alshon Jeffery and Eddie Royal's injuries, Martellus Bennett and Zach Miller could still play a role. If passing, Cutler had to watch for defensive lineman Malik Jackson, who had four pass breakups in the previous four games. When the Bears decide to run, they faced a run defense that led the league in multiple categories, including sack percentage. The Broncos offense was without Peyton Manning, and in his place was Brock Osweiler. Osweiler, who had 305 career passing yards, had only played in garbage time during his NFL career, but fits Gary Kubiak's West Coast offense. Jeff Joniak believed with Osweiler, the Broncos' plays, which consisted of 64 percent passes, would decrease, though tight ends Owen Daniels and Vernon Davis could be targeted more often. Meanwhile, Denver's rushing attack was struggling during the season, with an average of 86 rushing yards per game, 29th-ranked in the NFL. The Broncos won the coin toss and deferred until the second half. After the Bears punted, Osweiler threw a pass to Demaryius Thomas, who escaped Chris Prosinski to score on the 48-yard play. After both teams exchanged punts, the Bears scored their first points of the game in the second quarter with Robbie Gould's 46-yard field goal, and narrowed the margin to one point when Gould scored on a 37-yard kick. Denver and Chicago traded punts again, but the former scored with Brandon McManus' 24-yard field goal as time expired in the second quarter to make the score 10-6. The first three drives of the second half ended with punts, though the first turnover of the game occurred on the next series, when Cutler's pass for receiver Marquess Wilson was intercepted by Danny Trevathan. However, the Broncos failed to capitalize when Ronnie Hillman was tripped by Osweiler's feet on fourth down. Afterwards, aided by two consecutive 29-yard plays (via Brandon Marshall's defensive pass interference, followed by Wilson's 29-yard catch), the Bears reached the Broncos' 19-yard line, where Gould eventually kicked a 37-yard field goal. The Broncos later increased their lead by eight when Osweiler threw a ten-yard touchdown pass to Cody Latimer. On the Bears' next series, Cutler capitalized on a late hit by T. J. Ward and a 40-yard pass to Wilson to reach the Broncos' seven-yard line. Despite reaching as far as the four, the Bears turned the ball over on downs with three consecutive incomplete passes. Although Denver punted again and the Chicago offense reaching the Broncos' 33-yard line, Cutler was hit from behind by Marshall while throwing, and the ball was intercepted by Malik Jackson. The Broncos were forced to punt again, and with 1:25 left in the game, the Bears drove 65 yards, where Jeremy Langford scored on a two-yard run. However, Langford was stopped short on the two-point conversion, and on the onside kick, Thomas recovered. Osweiler kneeled once to end the game. The Bears ended the game with no penalties for the first time since 1995 against the Philadelphia Eagles and becoming the 24th team to do so in the last 15 years; the Bears also became the first team to accomplish the feat in a loss since the 2013 Packers' loss to the Bears in week nine. The defense recorded five sacks, the team's most in 2015.\n\nQuestion:\nHow many penalties did the Bears commit in the game?",
+    "question_alone": "How many penalties did the Bears commit in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "0",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

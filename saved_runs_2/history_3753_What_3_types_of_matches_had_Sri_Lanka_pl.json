@@ -1,0 +1,221 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read and understood the given information and then identified the three formats of cricket and the number of matches played by Sri Lanka in each format. I then stated the results of those matches. I could have solved the problem better by presenting the information in a table format, which would have made it easier to read and understand.",
+    "final_answer": "Three types of matches that Sri Lanka had played as of 10 July 2018 are:  Test matches (272), ODI matches (816), and T20I matches (108).",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Test matches",
+            "ODI matches",
+            "T20I matches"
+        ]
+    },
+    "problem_text": "Context:\nAs of 10 July 2018, Sri Lanka have played 272 Test matches; they have won 86 matches, lost 101 matches, and 85 matches were Draw (cricket). As of 10 July 2018, Sri Lanka have played 816 ODI matches, winning 376 matches and losing 399; they also tied 5 matches, whilst 36 had no result. As of 10 July 2018, Sri Lanka have played 108 T20I matches and won 54 of them; 52 were lost and 1 tied and 1 no result match as well.\n\nQuestion:\nWhat 3 types of matches had Sri Lanka played in as of 10 July 2018?",
+    "question_alone": "What 3 types of matches had Sri Lanka played in as of 10 July 2018?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "We have been given information about the number of matches played by Sri Lanka in three different formats of cricket as of 10 July 2018.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Summarize what we've done so far",
+                "short_name": "summarize",
+                "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand the problem and what was required of me.",
+            "was_useful": true
+        },
+        {
+            "step_response": "1. Identify the three formats of cricket.\n2. Determine the number of matches played by Sri Lanka in each format.\n3. State the results of those matches.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Break down the problem",
+                "short_name": "break",
+                "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand the different parts of the problem and how to approach it.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to carefully read and understand the given information. Then, identify the three formats of cricket and the number of matches played by Sri Lanka in each format. Finally, state the results of those matches.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me decide on the best way to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, making a list or table can be a helpful way to organize the given information and make it easier to understand.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me organize the information and make it easier to understand.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, keywords or phrases that can help identify this type of problem include \"number of matches played,\" \"results of matches,\" and \"different formats of cricket.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me understand what the problem was asking for and what information was relevant.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Three types of matches that Sri Lanka had played as of 10 July 2018 are:  Test matches (272), ODI matches (816), and T20I matches (108).",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This helped me focus on finding the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read and understood the given information and then identified the three formats of cricket and the number of matches played by Sri Lanka in each format. I then stated the results of those matches. I could have solved the problem better by presenting the information in a table format, which would have made it easier to read and understand.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was Three types of matches that Sri Lanka had played as of 10 July 2018 are:  Test matches (272), ODI matches (816), and T20I matches (108)., and the correct answer was . Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

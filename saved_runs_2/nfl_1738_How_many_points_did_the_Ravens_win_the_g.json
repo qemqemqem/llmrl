@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the context to find the final score of the game. The Ravens won the game by a score of 30-24. To find the point difference, I subtracted the Saints' score from the Ravens' score: 30-24 = 6. Therefore, the Ravens won the game by 6 points. \n\nSince the context provided the final score of the game, this was a straightforward problem to solve. However, if the final score was not given, I would have had to add up the scores of each team throughout the game to find the final score and then calculate the point difference.",
+    "final_answer": "6",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "6",
+        "spans": []
+    },
+    "problem_text": "Context:\nHoping to beat the defending Super Bowl champs, the Ravens returned home. New Orleans struck first with an 18-yard pass from Drew Brees to Jimmy Graham, but Baltimore quickly answered with Flacco throwing a 34-yard pass to Ed Dickson. The Ravens then followed with two touchdowns, both by Ray Rice, one rushing (10&#160;yards) and one passing (17&#160;yards), to bring the score up 21-7. At the close of the half, the Saints scored on a 1-yard pass to Graham to bring the halftime score to 21-14. The Saints kicked a field goal to enter the third quarter to make it 21-17, but the Ravens quickly answered that with a field goal to make it 24-17. The Saints tied it in the fourth quarter on a 15-yard touchdown pass to Lance Moore in the corner of the end zone, a play that was challenged by Baltimore but not overturned. The Ravens managed to get ahead with a Billy Cundiff field goal with 10:03 remaining 27-24.The Saints had the ball in the final minutes backed up near their own end zone when Drew Brees threw an interception to Cory Redding to give Baltimore a chance to run off the clock. Though there was not enough time to run off the entire clock, Baltimore managed to leave just 9&#160;seconds as they kicked a field goal to make it 30-24. The Saints had one last chance on their kickoff return in which they pitched it around in hopes of a touchdown, but they were stopped. They were also called for a moot penalty for a forward pass that would have rendered any drive at this point null. Overall, the game was highlighted by Ray Rice's 153&#160;yards rushing and two touchdowns, Billy Cundiff's two field goals, and the Redding interception that virtually ended the game. With the win, the Ravens went to 10-4, nearly clinching a playoff berth.\n\nQuestion:\nHow many points did the Ravens win the game by?",
+    "question_alone": "How many points did the Ravens win the game by?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "No assumptions or constraints are mentioned in the context that would affect the answer to the question.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make assumptions",
+                "short_name": "assumptions",
+                "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "There were no assumptions to make.",
+            "was_useful": false
+        },
+        {
+            "step_response": "6",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "I read through the context to find the final score of the game, which allowed me to calculate the point difference.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the context to find the final score of the game. The Ravens won the game by a score of 30-24. To find the point difference, I subtracted the Saints' score from the Ravens' score: 30-24 = 6. Therefore, the Ravens won the game by 6 points. \n\nSince the context provided the final score of the game, this was a straightforward problem to solve. However, if the final score was not given, I would have had to add up the scores of each team throughout the game to find the final score and then calculate the point difference.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 6, and the correct answer was 6. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

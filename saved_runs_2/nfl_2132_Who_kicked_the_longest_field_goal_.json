@@ -1,0 +1,208 @@
+{
+    "commentary_on_process": "To solve the problem, I scanned the table for the yardage of the field goals made by the kickers of both teams and compared them to determine which one was the longest. I found that the longest field goal was 37 yards, made by Neil Rackers of the Texans. \n\nTo solve the problem better, I could have added a column to the table to indicate which team the kicker belonged to. This would have made it easier to identify the kicker who made the longest field goal.",
+    "final_answer": "The longest field goal was 37 yards, made by Neil Rackers of the Texans. \n\nAnswer: 37",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "Neil Rackers"
+        ]
+    },
+    "problem_text": "Context:\nHoping to snap a six-game losing streak the Titans played on home ground for an AFC South rivalry rematch against the Texans. The Titans took the lead after QB Kerry Collins threw a 3 and a 1-yard TD pass to WR Nate Washington and to WR Justin Gage. This was followed by RB Chris Johnson getting an 11-yard TD run. The Texans got on the scoreboard after kicker Neil Rackers made a 37-yard field goal, but the Titans extended their lead after kicker Rob Bironas hit a 30-yard field goal. The lead was narrowed with QB Matt Schaub getting a 12-yard TD pass to WR Andre Johnson, but the Titans would pull away with RB Javon Ringer getting a 7-yard TD run. The lead was narrowed agan with Schaub throwing a 4-yard TD pass to WR Kevin Walter, but the Titans' defense prevented any more scoring chances.\n\nQuestion:\nWho kicked the longest field goal?",
+    "question_alone": "Who kicked the longest field goal?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, creating a list or table to organize the given information would be helpful. Here is a possible table:\n\n| Team | Scorer | Type of Score | Yardage |\n|------|--------|--------------|---------|\n| Titans | Nate Washington | TD | 3 yards |\n| Titans | Justin Gage | TD | 1 yard |\n| Titans | Chris Johnson | TD | 11 yards |\n| Titans | Rob Bironas | FG | 30 yards |\n| Titans | Javon Ringer | TD | 7 yards |\n| Texans | Neil Rackers | FG | 37 yards |\n| Texans | Andre Johnson | TD | 12 yards |\n| Texans | Kevin Walter | TD | 4 yards | \n\nNote: The table only includes information related to scoring and does not include other details from the context.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Make a list or table",
+                "short_name": "list",
+                "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped to organize the information in a clear and concise way.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information to the problem is the yardage of the field goals made by the kickers of both teams.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped to focus on the key details needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The units being used are yards for the field goals. No conversion is needed.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Convert units",
+                "short_name": "measurement",
+                "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "No conversion was needed in this problem.",
+            "was_useful": false
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to scan the table for the yardage of the field goals made by the kickers of both teams and compare them to determine which one is the longest.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "It helped to have a plan of attack before starting to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The longest field goal was 37 yards, made by Neil Rackers of the Texans. \n\nAnswer: 37",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "It helped to stay focused on finding the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I scanned the table for the yardage of the field goals made by the kickers of both teams and compared them to determine which one was the longest. I found that the longest field goal was 37 yards, made by Neil Rackers of the Texans. \n\nTo solve the problem better, I could have added a column to the table to indicate which team the kicker belonged to. This would have made it easier to identify the kicker who made the longest field goal.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The longest field goal was 37 yards, made by Neil Rackers of the Texans. \n\nAnswer: 37, and the correct answer was . Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

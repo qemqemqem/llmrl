@@ -1,0 +1,186 @@
+{
+    "commentary_on_process": "I solved the problem by subtracting the year of Philippa's imprisonment (1294) from the year of her death (1306), which gave me the answer of 12. I could have solved the problem better by providing more context and information about Philippa's life and death, such as her cause of death and any other significant events that occurred during her imprisonment.",
+    "final_answer": "12",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "",
+        "spans": [
+            "12"
+        ]
+    },
+    "problem_text": "Context:\nPhilip IV of France became King in 1285, and was determined to strengthen the French monarchy at any cost. The County of Flanders had been formally part of the French Kingdom since the Treaty of Verdun in 843, but had always de facto been largely, if not fully, independent from the French crown. Flanders had some of the richest cities of that time, like Bruges, Ghent, Ypres, Lille and Douai. These cities tried to keep their independence from the Count of Flanders and from the rural aristocracy. But the cities were themselves divided between the rich patricians and the urban tradesmen, united in guilds. In 1288, Philip IV of France used complaints over taxes to tighten his control over Flanders. Tension built between Guy of Dampierre, Count of Flanders and the King. In 1294, Guy turned for help to King Edward I of England, arranging a marriage between his daughter Philippa and Edward, Prince of Wales. However, Philip imprisoned Guy and two of his sons, forced him to call off the marriage, and imprisoned Philippa in Paris until her death in 1306. Guy was summoned before the king again in 1296, and the principal cities of Flanders were taken under royal protection, until Guy paid an indemnity and surrendered his territories, to hold them at the grace of the King. After these indignities, in 1297 Guy attempted to revenge himself on Philip by an alliance with Edward I of England, now at war with France. Philip responded by declaring Flanders annexed to the royal domain and sending a French army under Robert II of Artois to conquer Flanders.\n\nQuestion:\nHow many years after she was imprisoned did Philippa die?",
+    "question_alone": "How many years after she was imprisoned did Philippa die?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Philippa was imprisoned in Paris and died in 1306.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the relevant information needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Philip IV of France imprisoned Philippa, daughter of Guy of Dampierre, Count of Flanders, in Paris after Guy turned for help to King Edward I of England in 1294.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Think about background",
+                "short_name": "background",
+                "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me recall the background information that could be useful in solving the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "12",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me find the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "I solved the problem by subtracting the year of Philippa's imprisonment (1294) from the year of her death (1306), which gave me the answer of 12. I could have solved the problem better by providing more context and information about Philippa's life and death, such as her cause of death and any other significant events that occurred during her imprisonment.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 12, and the correct answer was . Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and identified the two field goals made by Matt Prater, which were 27 yards and 52 yards. To find the difference between the two field goals, I subtracted the first field goal distance from the second field goal distance, which gave me 52 - 27 = 25. \n\nTo solve the problem more efficiently, I could have taken notes while reading the context to keep track of the relevant information. Additionally, I could have used a calculator to subtract the two distances more quickly.",
+    "final_answer": "25",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "25",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn week 11, the Lions visited their division rival, the Chicago Bears. The Bears scored 10 points in the first quarter via a 23-yard field goal from Connor Barth, and a one-yard touchdown pass from Mitchell Trubisky to Adam Shaheen. The Lions scored 21 points in the second quarter via a 27-yard fumble return from D. J. Hayden, a 28-yard touchdown pass from Matthew Stafford to Marvin Jones Jr. and a two-yard touchdown pass from Stafford to Ameer Abdullah. The Bears responded with a 12-yard touchdown run from Jordan Howard, to make the score 21-17 in favor of Detroit at half-time. After a scoreless third quarter, the Lions extended their lead in the fourth quarter via a 27-yard field goal from Matt Prater. The Bears responded with a 15-yard touchdown run from Tarik Cohen to tie the game. The Lions regained the lead via a 52-yard field goal from Prater. The Bears attempted comeback failed when Barth missed a potentially game-tying 46-yard field goal attempt with eight seconds remaining in the game, making the final score 27-24 in favor of Detroit. With the win, the Lions won all of their division games on the road in a season for the first time in franchise history.\n\nQuestion:\nHow many yards longer was Matt Prater's second field goal over his first one?",
+    "question_alone": "How many yards longer was Matt Prater's second field goal over his first one?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, it is often helpful to try a different approach if your current strategy is not working. A better approach would be to review your current strategy and identify any weaknesses or areas for improvement. You could also seek feedback or advice from others who have experience in the same area.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Try a different approach",
+                "short_name": "different",
+                "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to think about alternative ways to approach the problem and potentially find a more efficient solution.",
+            "was_useful": true
+        },
+        {
+            "step_response": "25",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the final answer and disregard any unnecessary information or distractions.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and identified the two field goals made by Matt Prater, which were 27 yards and 52 yards. To find the difference between the two field goals, I subtracted the first field goal distance from the second field goal distance, which gave me 52 - 27 = 25. \n\nTo solve the problem more efficiently, I could have taken notes while reading the context to keep track of the relevant information. Additionally, I could have used a calculator to subtract the two distances more quickly.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 25, and the correct answer was 25. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

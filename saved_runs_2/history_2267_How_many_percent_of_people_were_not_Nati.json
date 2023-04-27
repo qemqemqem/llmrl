@@ -1,0 +1,217 @@
+{
+    "commentary_on_process": "To solve the problem, I used the strategy of adding up the percentages of all the races except Native American and subtracting the sum from 100%. This gave me the percentage of people who were not Native American, which was 99.9%. I believe this is the most straightforward and efficient way to solve the problem. Therefore, I don't think there is a better way to solve this problem.",
+    "final_answer": "99.9%",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "99.9",
+        "spans": []
+    },
+    "problem_text": "Context:\nAs of the 2010 United States Census of 2010, there were 173,514 people, and 62,400 households. The population density was . There were 74,537 housing units. The racial makeup of the city was 79.4% African American (U.S. Census) or Race (United States Census), 18.4% White (U.S. Census) or Euro American, 0.1% Native American (U.S. Census), 0.4% Asian (U.S. Census), and 0.9% from two or more races. 1.6% of the population were Hispanics in the United States or Latino (U.S. Census) of any race. Non-Hispanic Whites were 18% of the population in 2010, down from 60% in 1970.\n\nQuestion:\nHow many percent of people were not Native American?",
+    "question_alone": "How many percent of people were not Native American?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The main question is to determine the percentage of people who were not Native American in the given population.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me focus on the problem and understand what I needed to solve.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The relevant information is that the racial makeup of the city was 79.4% African American, 18.4% White, 0.1% Native American, 0.4% Asian, and 0.9% from two or more races.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the information I needed to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "We have identified the main question of the problem, which is to determine the percentage of people who were not Native American in the given population. We have also identified the relevant information, which is the racial makeup of the city.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Summarize what we've done so far",
+                "short_name": "summarize",
+                "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me keep track of my progress and stay organized.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The best strategy to solve this problem is to add up the percentages of all the races except Native American and subtract the sum from 100%.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Choose a strategy",
+                "short_name": "strategy",
+                "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me decide on the best approach to solve the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The percentage of people who were not Native American can be calculated as follows:\n\nPercentage of people who were not Native American = 100% - Percentage of people who were Native American\n\nPercentage of people who were not Native American = 100% - 0.1%\n\nPercentage of people who were not Native American = 99.9%",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Do math",
+                "short_name": "math",
+                "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me calculate the answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "99.9%",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me present the final answer in a clear and concise manner.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I used the strategy of adding up the percentages of all the races except Native American and subtracting the sum from 100%. This gave me the percentage of people who were not Native American, which was 99.9%. I believe this is the most straightforward and efficient way to solve the problem. Therefore, I don't think there is a better way to solve this problem.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 99.9%, and the correct answer was 99.9. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

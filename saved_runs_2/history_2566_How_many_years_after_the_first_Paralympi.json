@@ -1,0 +1,184 @@
+{
+    "commentary_on_process": "To solve the problem, I subtracted the year of the first Summer Paralympics where athletes with different disabilities were included (1976) from the year of the first official Paralympic Games that were no longer open solely to war veterans (1960). This gave me the answer of 16 years. \n\nSince the problem was straightforward, there is not much room for improvement in terms of solving it. However, it is always a good practice to double-check the information and the calculation to avoid errors.",
+    "final_answer": "16",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "16",
+        "spans": []
+    },
+    "problem_text": "Context:\nThere have been several milestones in the Paralympic movement. The first official Paralympic Games, no longer open solely to war veterans, was held in Rome in 1960 Summer Paralympics. 400 athletes from 23 countries competed at the 1960 Games. Since 1960, the Paralympic Games have taken place in the same year as the Olympic Games. The Games were initially open only to athletes in wheelchairs; at the 1976 Summer Paralympics, athletes with different disabilities were included for the first time at a Summer Paralympics. With the inclusion of more disability classifications the 1976 Summer Games expanded to 1,600 athletes from 40 countries. The 1988 Summer Paralympics in Seoul, South Korea, was another milestone for the Paralympic movement. It was in Seoul that the Paralympic Summer Games were held directly after the 1988 Summer Olympics, in the same host city, and using the same facilities.  This set a precedent that was followed in 1992 Summer Paralympics, 1996 Summer Paralympics and 2000 Summer Paralympics. It was eventually formalized in an agreement between the International Paralympic Committee (IPC) and the International Olympic Committee (IOC) in 2001, and was extended through 2020. On March 10, 2018, the two committees further extended their contract to 2032. The 1992 Winter Paralympics were the first Winter Games to use the same facilities as the 1992 Winter Olympics.\n\nQuestion:\nHow many years after the first Paralympic Games was held in Rome that was no longer solely open to war veterans were athletes with different disabilities included for the first time in the Summer Paralympics?",
+    "question_alone": "How many years after the first Paralympic Games was held in Rome that was no longer solely open to war veterans were athletes with different disabilities included for the first time in the Summer Paralympics?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "The relevant information is that athletes with different disabilities were included for the first time at a Summer Paralympics in 1976, and the first official Paralympic Games that were no longer open solely to war veterans were held in Rome in 1960.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify relevant information",
+                "short_name": "relevant",
+                "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the information that was relevant to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "The main question is how many years after the first Paralympic Games held in Rome that was no longer solely open to war veterans were athletes with different disabilities included for the first time in the Summer Paralympics.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify the main question",
+                "short_name": "question",
+                "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me identify the main question that needed to be answered.",
+            "was_useful": true
+        },
+        {
+            "step_response": "16",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me find the final answer to the problem.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I subtracted the year of the first Summer Paralympics where athletes with different disabilities were included (1976) from the year of the first official Paralympic Games that were no longer open solely to war veterans (1960). This gave me the answer of 16 years. \n\nSince the problem was straightforward, there is not much room for improvement in terms of solving it. However, it is always a good practice to double-check the information and the calculation to avoid errors.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 16, and the correct answer was 16. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "To solve the problem, I carefully read through the given context and identified the points scored by each team. I then added up the points to get the total points scored in the game, which was 48. \n\nTo solve the problem better, I could have created a table to keep track of the points scored by each team and added them up at the end. This would have made it easier to keep track of the points and avoid any errors in calculation.",
+    "final_answer": "The total points scored in the game were 48.",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "48",
+        "spans": []
+    },
+    "problem_text": "Context:\nHoping to increase their winning streak the Patriots flew to Cleveland Browns Stadium for an AFC duel with the Browns. The Browns took the opening kickoff 42 yards, scoring on a 38-yard field goal by Phil Dawson. Sammy Morris fumbled the ensuing kickoff and ex-Patriot Ray Ventrone recovered at the Patriots 19. Two plays later, Peyton Hillis scored on a 2-yard Peyton Hillis touchdown run. After a Patriots three-and-out, the drove to the Patriots 49, but Hillis was stripped by Mayo and Meriweather recovered at the Patriots 36. The Patriots couldn't move the ball though and punted. Early in the fourth quarter, the Patriots marched 79-yards in 11 plays, scoring on Brady's two-yard touchdown pass to Hernandez off of a deflection, trimming the deficit to 10-7. However, Cleveland countered with a 9 play, 60-yard drive, scoring on an 11-yard touchdown run by Chansi Stuckey on an end-around, extending the lead to 17-7. The Patriots drove to the Browns 9, but after catching a 6-yard pass, Gronkowski was stripped at the 3-yard line with Abram Elam recovering at the 2. The Browns took a knee and led 17-7 at halftime. Following a Patriots punt, the Browns marched 72 yards in 10 plays, scoring on a 16-yard touchdown run by Colt McCoy, increasing the Browns lead to a stunning 24-7. The Patriots reached the Browns 49 on their next drive, but a holding penalty on Gronkowski killed the drive as their offensive struggles continued. The Browns marched all the way to the Patriots 20 on their next drive, and Dawson was good on a 38-yard field goal, putting the Browns up 27-7 early in the fourth quarter. The Patriots raced 69 yards in 14 plays on their next drive, scoring when Brady found Hernandez on another 1-yard touchdown pass, trimming the deficit to a manageable 27-14. The Browns reached the 39 in five plays, then Hillis burst through and took off for a 33-yard touchdown run, giving the Browns a 34-14 lead and sealing their shocking win. Hoyer stepped in for Brady on their next drive and was intercepted by Eric Wright on the second play at the Browns 40. After the Browns punted, Hoyer took a knee to end the game.\n\nQuestion:\nHow many total points were scored in the game?",
+    "question_alone": "How many total points were scored in the game?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "I cannot answer that question as you have not provided any calculations or solution for me to check. Please provide the necessary information for me to assist you.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Double-check",
+                "short_name": "double",
+                "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step was not used to solve the problem, but rather to prompt the user to provide more information.",
+            "was_useful": false
+        },
+        {
+            "step_response": "The total points scored in the game were 48.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step was necessary to actually solve the problem by adding up the points scored by each team to get the total points scored in the game.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I carefully read through the given context and identified the points scored by each team. I then added up the points to get the total points scored in the game, which was 48. \n\nTo solve the problem better, I could have created a table to keep track of the points scored by each team and added them up at the end. This would have made it easier to keep track of the points and avoid any errors in calculation.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was The total points scored in the game were 48., and the correct answer was 48. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

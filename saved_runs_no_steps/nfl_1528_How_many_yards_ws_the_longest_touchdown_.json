@@ -1,0 +1,153 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "58",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "81",
+        "spans": [],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nComing off their Monday night loss to the Saints, the Patriots traveled to Miami to face the Dolphins with a two-game lead in the division. The Patriots received the ball to start the game and six plays in, converted a 3rd-and-8 to keep the drive alive. On the next play, Brady threw a 58-yard touchdown pass to Moss to take an early 7-0 lead. Brady was injured on the play and went to the locker room but returned by the next offensive snap. In the mean time, the Dolphins' first possession reached the Patriots' 42-yard line before Henne was sacked by Banta-Cain and Mayo for a loss of seven yards. On the next play, the Dolphins used White in their \"pistol\" formation and attempted a play action option run, but White's option toss to Ricky Williams was errant and recovered by Williams for a loss of 13 yards. Following the Dolphins' punt, the Patriots began a 13-play, 80-yard drive with 6:41 left in the first quarter and did not surrender the ball until early in the second quarter, extending their lead to 14-0 on a 6-yard Faulk draw for a touchdown. The Dolphins responded with a 10-play, 88-yard drive of their own, including a 29-yard pass to Camarillo, that ended in a 13-yard touchdown pass from Henne to Davone Bess, cutting the Patriots' lead to 14-7. Despite a 16-yard Welker reception to begin the Patriots' next drive, they were forced to punt after four plays. The Dolphins again moved into Patriots territory on their ensuing possession, reaching the 49-yard line before Henne was intercepted by Meriweather at the Patriots' 19-yard line. Following a 19-yard return, a 15-yard unsportsmanlike conduct penalty on Wilfork, and a false start penalty on Watson, the Patriots' next drive began at their own 18-yard line. The Patriots quickly moved into the red zone on a 58-yard Welker catch, but on a 4th-and-1 from the 6-yard line, the Patriots tried to convert, and Morris was stopped short of the first down marker. Off the turnover and with under two minutes remaining, the Dolphins moved 83 yards on 11 plays, cutting the Patriots' halftime lead to 14-10 on a 29-yard Carpenter field goal. The Dolphins, who had deferred the opening coin toss, chose to receive at the start of the second half but went three-and-out. On the next play (after a penalty), Brady threw a short sideline pass to Aiken, who caught the ball over the defender and proceeded to run down the sideline for an 81-yard touchdown, extending the Patriots' lead to 21-10. It was the third 50+ yard completion of the game for Brady, a career first, and the third longest completion of Brady's career. He also eclipsed 30,000 career passing yards on the play. Following a 51-yard kickoff return by Ted Ginn, Jr., the Dolphins took two plays to reach Patriots territory. On a 3rd-and-4 from the Patriots' 46-yard line, Henne attempted a deep sideline pass to wide receiver Brian Hartline, who stopped and turned back to catch the ball but was taken down by Wilhite for a 37-yard defensive pass interference penalty. However, the Pats surrendered only three yards and forced the Dolphins to kick a field goal; Carpenter's 24-yard score cut the Patriots' lead to 21-13. After a Patriots three-and-out, the Dolphins continued to pressure the Patriots defense, moving 64 yards on 12 plays and cutting the deficit to two points on a 7-yard Hartline touchdown catch. The Dolphins attempted to tie the game on a two-point conversion pass attempt to Fasano, but the pass fell incomplete. The Patriots' next drive reached the Dolphins' 39-yard line, where the Patriots again attempted to convert a fourth down, this one with three yards to gain. The Patriots appeared to do so at first, as Welker caught a 13-yard pass from Brady, but the play was nullified by an Aiken offensive pass interference penalty. After another penalty on the first punt attempt, the second punt attempt by Hanson actually gave the Patriots a better break, pinning the Dolphins at their own 3-yard line at the end of the third quarter. The Dolphins could not move past their 22-yard line on the ensuing possession and punted, giving the Patriots the ball at their own 39-yard line. After several quick first downs, the Patriots reached the red zone. However, a Brady pass attempt intended for Moss in the back corner of the end zone was intercepted by Vontae Davis for a touchback, maintaining a two-point deficit for the Dolphins. However, the Dolphins could not move a yard off the turnover and were forced to punt; the Patriots too went three-and-out. The Dolphins moved to the Patriots' 39-yard line on their ensuing possession, and like the Patriots, faced a fourth down with two yards to go. Henne's pass intended for Bess was broken up by Butler to turn the ball over on downs. However, the Patriots did not gain a yard, and in fact lost one yard on their next possession, setting up a Dolphins possession with 3:44 left in the game. The Dolphins moved 51 yards on 10 plays, reaching the Patriots' 23-yard line with just over one minute remaining. Carpenter then hit a 41-yard field goal to put the Dolphins ahead for the first time in the game, 22-21. Only needing a field goal, the Patriots tried to set up a Gostkowski attempt with under a minute to go, but three plays into their drive Brady was hit as he threw and was intercepted by linebacker Channing Crowder to seal a Dolphins victory. The back-to-back losses were a first for the Patriots since November 2006, and dropped their record to 7-5, while the Dolphins improved to 6-6 and within a game of first place in the division.\n\nQuestion:\nHow many yards ws the longest touchdown pass?",
+    "question_alone": "How many yards ws the longest touchdown pass?",
+    "solved_correctly": false,
+    "steps": [
+        {
+            "step_response": "58",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "commentary_on_process": "To solve the problem, I read through the given context and identified the parts that mentioned field goals. I then looked for the specific yardage of each field goal mentioned and found that the longest field goal was 44 yards. \n\nTo solve the problem better, I could have taken notes while reading through the context to keep track of the yardage of each field goal. This would have made it easier to identify the longest field goal without having to go back and reread the context multiple times.",
+    "final_answer": "44",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "44",
+        "spans": []
+    },
+    "problem_text": "Context:\nIn Week 2, the Titans played their first road game of the year against the San Diego Chargers.  From the get-go, the Titans trailed as opposing kicker Nate Kaeding kicked a 28-yard field goal in the first quarter.  Things only got worse in the second quarter, as San Diego unleashed their ultimate weapon, RB LaDainian Tomlinson, as he got a 4-yard and an 8-yard TD run and Kaeding got a 31-yard field goal to give Tennessee a 20-0 halftime deficit.  Things weren't any better in the third quarter, as Kaeding got a 35 and a 44-yard field goal for San Diego.  In the fourth quarter, the game was put well out of reach as opposing QB Philip Rivers completed a 12-yard TD pass to WR Vincent Jackson.  By this time, QB Kerry Collins was taken out and rookie QB Vince Young came in to complete an 18-yard pass to WR Drew Bennett.  However, the Chargers would deliver one more blow as opposing QB Charlie Whitehurst ran 14 yards for tha game's final TD.  With the loss, the Titans fell to 0-2.\n\nQuestion:\nHow many yards was the longest field goal?",
+    "question_alone": "How many yards was the longest field goal?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Yes, it is often helpful to try a different approach if your current strategy is not working. A better approach would be to analyze why your current strategy is not working and identify potential solutions or alternatives. This may involve seeking input from others, conducting research, or experimenting with different methods.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Try a different approach",
+                "short_name": "different",
+                "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This step helped me to approach the problem from a different angle and potentially find a better solution.",
+            "was_useful": true
+        },
+        {
+            "step_response": "44",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This step helped me to focus on finding the final answer and disregard any unnecessary information.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I read through the given context and identified the parts that mentioned field goals. I then looked for the specific yardage of each field goal mentioned and found that the longest field goal was 44 yards. \n\nTo solve the problem better, I could have taken notes while reading through the context to keep track of the yardage of each field goal. This would have made it easier to identify the longest field goal without having to go back and reread the context multiple times.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 44, and the correct answer was 44. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

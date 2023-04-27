@@ -1,0 +1,184 @@
+{
+    "commentary_on_process": "To solve the problem, I searched for the keywords \"Manning and Harrison struck again with a four-yard touchdown strike\" in the passage. I found that Manning and Harrison worked together twice to score touchdowns. Therefore, the answer is 2. \n\nTo solve the problem better, I could have read the passage more carefully to ensure that I did not miss any relevant information. Additionally, I could have taken notes or highlighted important details to help me remember them more easily.",
+    "final_answer": "2",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "number": "2",
+        "spans": []
+    },
+    "problem_text": "Context:\nRiding high from their Monday Night win over the Vikings, the Patriots returned home for a highly anticipated Sunday Night matchup with the Indianapolis Colts. In the first quarter, the Colts drew first blood as quarterback Peyton Manning completed a five-yard touchdown pass to wide receiver Marvin Harrison for the only score of the quarter. In the second quarter, Dillon helped the Patriots respond with a one-yard touchdown run. Indianapolis would re-take the lead on a one-yard touchdown run by rookie running back Joseph Addai. Dillon again tied the game, this time on a four-yard touchdown run. Colts kicker Adam Vinatieri then nailed a 23-yard field goal to give the Colts a lead they would not relinquish. In the third quarter, the duo of Manning and Harrison struck again with a four-yard touchdown strike. The Patriots responded with a 49-yard field goal, Gostkowski's career longest to date. In the fourth quarter, Vinatieri kicked a 31-yard field goal to make the score 27-17. On the Patriots next possession they drove down the field but ended up going 3-and-out in the red zone and settled for a 26-yard Gostkowski field goal. On the Colts' ensuing drive, a drive set up a Vinatieri field goal attempt but the former Patriots kicker missed this one to give his former team a chance to tie it up and send the game into overtime. However, the Patriots comeback attempt was thwarted when a Brady pass deflected off the hands of Faulk and was intercepted by Cato June. With the loss, the Patriots dropped to 6-2. As part of his 5-catch effort in the game, Troy Brown became the Patriots' all-time leader in receptions. (Stanley Morgan, 534) This would be the last time Brady lost at home to a team from another AFC division during the regular season until Week 1 of the 2017 season.\n\nQuestion:\nHow many times did Manning and Harrison work together to score?",
+    "question_alone": "How many times did Manning and Harrison work together to score?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "We have read a passage about a football game between the New England Patriots and the Indianapolis Colts. We have not yet answered the question.",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Summarize what we've done so far",
+                "short_name": "summarize",
+                "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me to focus on the task at hand and remember what we were trying to accomplish.",
+            "was_useful": true
+        },
+        {
+            "step_response": "Yes, the keywords that can help identify the type of problem are \"Manning and Harrison struck again with a four-yard touchdown strike.\"",
+            "type_of_step": {
+                "is_final": false,
+                "name": "Identify keywords",
+                "short_name": "keywords",
+                "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+            },
+            "usefulness_commentary": "This helped me to locate the relevant information in the passage more quickly and efficiently.",
+            "was_useful": true
+        },
+        {
+            "step_response": "2",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "This helped me to stay focused on the task and motivated to find the answer.",
+            "was_useful": true
+        },
+        {
+            "step_response": "To solve the problem, I searched for the keywords \"Manning and Harrison struck again with a four-yard touchdown strike\" in the passage. I found that Manning and Harrison worked together twice to score touchdowns. Therefore, the answer is 2. \n\nTo solve the problem better, I could have read the passage more carefully to ensure that I did not miss any relevant information. Additionally, I could have taken notes or highlighted important details to help me remember them more easily.",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Overall reflection",
+                "short_name": "Overall reflection",
+                "text": "Your answer was 2, and the correct answer was 2. Please write a few sentences about how you solved the problem and how you could have solved it better. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}

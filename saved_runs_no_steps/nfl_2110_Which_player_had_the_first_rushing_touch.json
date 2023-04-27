@@ -1,0 +1,155 @@
+{
+    "commentary_on_process": "",
+    "final_answer": "Beanie Wells. \n\nAnswer: 26",
+    "gold_correct_answer": {
+        "date": {
+            "day": "",
+            "month": "",
+            "year": ""
+        },
+        "hit_id": "",
+        "number": "",
+        "spans": [
+            "Beanie Wells"
+        ],
+        "worker_id": ""
+    },
+    "problem_text": "Context:\nThe Buccaneers won their fifth straight road game (dating back to the previous season) with a shootout win against the Cardinals. Arizona took the early lead after a 3-yard touchdown pass from Max Hall to Larry Fitzgerald. On their next drive, Geno Hayes intercepted Hall, and returned 41-yards for a touchdown. Early in the second quarter, Buccaneers returner Sammie Stroughter muffed a punt and the ball was recovered by the Cardinals at the Tampa Bay 16-yard line. Beanie Wells scored a 1-yard touchdown run off the turnover, and the Cardinals led 14-7. On the ensuing drive, Josh Freeman drove the Buccaneers 80 yards in only three plays, completing a 47-yard touchdown pass to Mike Williams and a 14-14 tie. Four plays later, Aqib Talib returned Hall's second interception 45 yards for a touchdown and the Buccaneers led 21-14. Hall was benched in favor of Derek Anderson. Anderson drove the Cardinals to the Tampa Bay 3-yard line, but threw incomplete on a 4th down & 2 and turned the ball over on downs. Tampa Bay drove 94 yards in the final three minutes, and Connor Barth kicked a field goal as the half expired. In the third quarter, Tampa Bay increased their lead to 31-14 after a LeGarrette Blount touchdown run. Arizona rallied, however. LaRod Stephens-Howling rushed for a 30-yard touchdown with one minute left in the third quarter. Blount fumbled the ball on the first play of the ensuing drive, and Gerald Hayes recovered the ball 21 yards for a Cardinals touchdown. With 9:46 left in the game, Arizona took the lead 35-31 following Anderson's 5-yard touchdown pass to Fitzgerald. Tampa Bay answered with Blount's second touchdown run, and a 38-35 lead. Barrett Ruud intercepted Anderson on the first play of the next drive, which set up a 53-yard field goal attempt by Barth. Tampa Bay chose to attempt the long field goal instead of punting. The kick was blocked, and the Cardinals took over with 3:16 remaining in good field position. Anderson drove the Cardinals to the Tampa Bay 20-yard line, but he was intercepted by Aqib Talib, who clinched the win for Tampa Bay.\n\nQuestion:\nWhich player had the first rushing touchdown?",
+    "question_alone": "Which player had the first rushing touchdown?",
+    "solved_correctly": true,
+    "steps": [
+        {
+            "step_response": "Beanie Wells. \n\nAnswer: 26",
+            "type_of_step": {
+                "is_final": true,
+                "name": "Ready to find the final answer",
+                "short_name": "final",
+                "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+            },
+            "usefulness_commentary": "",
+            "was_useful": false
+        }
+    ],
+    "types_of_steps": [
+        {
+            "is_final": false,
+            "name": "Identify relevant information",
+            "short_name": "relevant",
+            "text": "What information is relevant to the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the main question",
+            "short_name": "question",
+            "text": "What is the main question or goal of the problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify keywords",
+            "short_name": "keywords",
+            "text": "Are there any keywords or phrases that can help me identify the type of problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Break down the problem",
+            "short_name": "break",
+            "text": "Please break down the problem into smaller, more manageable parts Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify patterns",
+            "short_name": "patterns",
+            "text": "Identify any patterns or relationships between the given information that can help me solve the problem Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Rephrase the problem",
+            "short_name": "rephrase",
+            "text": "Rephrase the problem in your own words to ensure you understand it Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Use similar problems",
+            "short_name": "similar",
+            "text": "Are there any similar problems that I've solved before that could help guide me? If so, describe them. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make a list or table",
+            "short_name": "list",
+            "text": "Can I make a list or table to organize the given information? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Convert units",
+            "short_name": "measurement",
+            "text": "What units or measurements are being used, and do I need to convert any of them? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Make assumptions",
+            "short_name": "assumptions",
+            "text": "Are there any assumptions I need to make, or are there any constraints I should consider? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Try a different approach",
+            "short_name": "different",
+            "text": "Should I try a different approach if my current strategy is not working? If so, what would be a better approach? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Estimate the answer",
+            "short_name": "estimate",
+            "text": "Can I estimate the answer to check if my solution is reasonable? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Double-check",
+            "short_name": "double",
+            "text": "Have I double-checked my calculations and solution for accuracy? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Choose a strategy",
+            "short_name": "strategy",
+            "text": "What is the best strategy to solve this problem? Describe it. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Identify the obvious answer",
+            "short_name": "obvious",
+            "text": "What is the obvious answer to this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Do math",
+            "short_name": "math",
+            "text": "Step through the math to solve this problem. Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Look for a clever trick",
+            "short_name": "trick",
+            "text": "I think there might be a clever trick for solving this problem. What is it? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": false,
+            "name": "Think about background",
+            "short_name": "background",
+            "text": "What background information do we know that might help us solve this problem? Please be concise and professional. Do only this step and do not jump ahead."
+        },
+        {
+            "is_final": true,
+            "name": "Ready to find the final answer",
+            "short_name": "final",
+            "text": "Given what we know, what is the answer to this problem? Please write the numerical answer and nothing else. Write the answer with digits, like '4' rather than 'four'. Give the final answer only, using as few words as possible."
+        },
+        {
+            "is_final": false,
+            "name": "Summarize what we've done so far",
+            "short_name": "summarize",
+            "text": "Please summarize what we've done so far. Please be concise and professional. Do only this step and do not jump ahead."
+        }
+    ]
+}
