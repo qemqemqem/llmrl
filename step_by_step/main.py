@@ -122,6 +122,6 @@ def get_filter_by_file_match(save_dir):
 if __name__ == "__main__":
     start_time = time.time()
     # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
-    generate_train_data_threaded(save_dir="saved_runs_no_steps/", num_questions=500000, max_threads=8, filter_func=get_filter_by_file_match("saved_runs_2"), max_steps=0, min_steps=0, do_reflection=False)
+    generate_train_data_threaded(save_dir="saved_runs_3/", num_questions=50, max_threads=8, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=True)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")
