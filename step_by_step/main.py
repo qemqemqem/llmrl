@@ -31,7 +31,7 @@ def get_question_id(passage_id, question):
     return passage_id + "_" + re.sub("\W", "_", question[:30]) + "_" + hashlib.sha256(question.encode()).hexdigest()[:10]
 
 
-def train_on_question(passage_id, passage_text, question, answer, save_dir, logger: RunsLogger = None, max_steps=5, min_steps=1, do_reflection=True):
+def run_on_question(passage_id, passage_text, question, answer, save_dir, logger: RunsLogger = None, test: bool = False, max_steps=5, min_steps=1, do_reflection=True):
     start_time = time.time()
 
     # Create a Problem
@@ -39,7 +39,10 @@ def train_on_question(passage_id, passage_text, question, answer, save_dir, logg
     prompt = format_prompt(passage_text, question)
     problem = Problem(prompt, question_alone=question)
     problem.types_of_steps = define_step_types()
-    solve_problem_for_train(problem, randomness=0.0, max_steps=max_steps, min_steps=min_steps)
+    if test:
+        solve_problem_at_inference(problem)
+    else:
+        solve_problem_for_train(problem, randomness=0.0, max_steps=max_steps, min_steps=min_steps)
 
     # Reflect
     problem.gold_correct_answer = answer
@@ -50,7 +53,7 @@ def train_on_question(passage_id, passage_text, question, answer, save_dir, logg
 
     # Save to file
     if save_dir is not None:
-        save_to_file(save_dir + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        save_to_file(save_dir + "/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
     # Print how we did
     print("Final answer:", problem.final_answer)
@@ -68,7 +71,7 @@ def train_on_question(passage_id, passage_text, question, answer, save_dir, logg
 
 
 def generate_train_data(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000):
-    drop_data = download_data()
+    drop_data = download_data_train()
     logger = RunsLogger()
 
     # Sample outside the loop to avoid duplicates
@@ -79,15 +82,18 @@ def generate_train_data(save_dir: typing.Optional[str] = "saved_runs/", num_ques
         passage_id, passage_text, question, answer = question_tuples[i]
         print(f"Problem {i}:", passage_text + "\n\nQuestion: " + question)
 
-        problem = train_on_question(passage_id, passage_text, question, answer, save_dir, logger)
+        problem = run_on_question(passage_id, passage_text, question, answer, save_dir, logger)
 
     # Final summary
     if logger is not None:
         logger.print_summary()
 
 
-def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000, max_threads=10, filter_func=None, max_steps=5, min_steps=1, do_reflection=True):
-    drop_data = download_data()
+def run_problems_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000, max_threads=10, test=False, filter_func=None, max_steps=5, min_steps=1, do_reflection=True):
+    if test:
+        drop_data = download_data_train()  # TODO get test data
+    else:
+        drop_data = download_data_train()
     logger = RunsLogger()
 
     # Sample outside the loop to avoid duplicates
@@ -98,14 +104,15 @@ def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/",
     for i in range(num_questions):
         # Get the question
         passage_id, passage_text, question, answer = question_tuples[i]
-        args.append((passage_id, passage_text, question, answer, save_dir, logger, max_steps, min_steps, do_reflection))
+        args.append((passage_id, passage_text, question, answer, save_dir, logger, test, max_steps, min_steps, do_reflection))
 
     # Open AI tokens per min. Limit: 90000 / min. This seems to be approximately 10 max_threads for our use case.
-    api_call_limited_parallel(train_on_question, args, max_threads=max_threads)
+    api_call_limited_parallel(run_on_question, args, max_threads=max_threads)
 
     # Final summary
     if logger is not None:
         logger.print_summary()
+    return logger
 
 
 def get_filter_by_file_match(save_dir):
@@ -122,6 +129,6 @@ def get_filter_by_file_match(save_dir):
 if __name__ == "__main__":
     start_time = time.time()
     # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
-    generate_train_data_threaded(save_dir="saved_runs_3/", num_questions=50, max_threads=8, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=True)
+    run_problems_threaded(save_dir="saved_runs_finetune_guided", num_questions=50, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=False, test=True)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")

@@ -18,7 +18,7 @@ import requests
 inflect_engine = inflect.engine()
 
 
-def download_data():
+def download_data_train():
     # Set up your API key for OpenAI
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -174,10 +174,10 @@ def sample_questions(drop_data, num_random_questions, filter_func: typing.Option
                 answer = qa_pair["answer"]
                 question_answer_pairs.append((passage_id, passage_text, question, answer))
             num_questions_looked_at += 1
-    print(f"Number of numeric questions: {num_numeric}")
-    print(f"Number of span questions: {num_span}")
-    print(f"Number of date questions: {num_date}")
-    print(f"Number of multi-span questions: {num_multi_span}")
+    # print(f"Number of numeric questions: {num_numeric}")
+    # print(f"Number of span questions: {num_span}")
+    # print(f"Number of date questions: {num_date}")
+    # print(f"Number of multi-span questions: {num_multi_span}")
     return question_answer_pairs
 
 
@@ -186,7 +186,7 @@ def format_prompt(passage_text, question):
 
 
 def drop_test():
-    drop_data = download_data()
+    drop_data = download_data_train()
 
     num_random_questions = 10
 
@@ -230,7 +230,7 @@ def drop_test():
 
 if __name__ == '__main__':
     # drop_test()
-    drop_data = download_data()
+    drop_data = download_data_train()
     start_time = time.time()
     random_questions = sample_questions(drop_data, 100000, filter_func=filter_by_answer_type(["number", "span", "date"]))
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")

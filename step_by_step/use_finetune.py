@@ -13,7 +13,7 @@ class SuggestedSteps:
 
 def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2023-04-26-18-05-06", temperature=0.1):
     response = openai.Completion.create(model=model, prompt=prompt, max_tokens=1000, n=1, stop="\n###", temperature=temperature)
-    print("Got response: ", response["choices"][0]["text"])
+    # print("Got response: ", response["choices"][0]["text"])
     steps = SuggestedSteps()
     cur_question = ""
     cur_answer = ""
@@ -46,7 +46,7 @@ def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2
             steps.expected_correct = True
         elif l.startswith("Final answer:"):
             steps.expected_answer = l[13:].strip()
-    if cur_question and "the correct answer was" not in cur_question:
+    if cur_question and ("the correct answer was" not in cur_question and "your answer was" not in cur_question.lower()):
         # Attempt to filter out the reflection step. This if statement will almost never happen.
         steps.steps.append({"question": cur_question, "answer": cur_answer, "commentary": cur_commentary, "useful": cur_useful})
     return steps

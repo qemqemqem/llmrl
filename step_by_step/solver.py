@@ -44,11 +44,10 @@ def solve_problem_for_train(problem: Problem, randomness=0.1, max_steps=5, min_s
 
 def solve_problem_at_inference(problem: Problem):
     # Add this text so that the model knows it's solved correctly, and the ### so that it knows the prompt is done
+    print("Problem text:", problem.problem_text)
     steps = get_steps_from_finetuned_model(problem.problem_text + "\n\nSolved correctly: True\n\n\n###\n\n")
 
     for i, step in enumerate(steps.steps):
-        print("Next step:", step["question"])
-
         # Complete this step with chat
         messages = problem.messages_for_chat()
         st = step["question"]
@@ -57,7 +56,8 @@ def solve_problem_at_inference(problem: Problem):
             if "\n\nQuestion:" in step["question"]:
                 # Remove the question, then re-add it:
                 st = st[:st.index("\n\nQuestion:")]
-                st += "\n\nQuestion: " + problem.question_alone
+            st += "\n\nQuestion: " + problem.question_alone
+        print("Next step:", st)
         messages.append({"role": "user", "content": st})
         response = prompt_completion_chat(messages=messages)
         print(colored(f"Got response: {response}", "blue"))
