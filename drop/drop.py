@@ -1,3 +1,4 @@
+import datetime
 import json
 import os
 import random
@@ -57,6 +58,19 @@ def answer_question(prompt):
     return answer
 
 
+def contains_date(string, date):
+    date_formats = ['%d/%m/%Y', '%d-%m-%Y', '%Y/%m/%d', '%Y-%m-%d', '%m/%d/%Y', '%m-%d-%Y',
+                    '%d %B %Y', '%d %b %Y', '%B %d, %Y', '%b %d %Y']
+    for format in date_formats:
+        try:
+            parsed_date = datetime.datetime.strptime(string, format).date()
+            if parsed_date == date:
+                return True
+        except ValueError:
+            pass
+    return False
+
+
 def is_correct_answer(predicted_answer, gold_answer):
     if gold_answer["number"] != '':
         # Handle the numeric case
@@ -74,15 +88,51 @@ def is_correct_answer(predicted_answer, gold_answer):
 
     if len(gold_answer["spans"]) > 0:
         # Check if the predicted answer matches all the gold text spans
+        # This is also not correct for the same reason as above
         for span in gold_answer["spans"]:
             if span.lower() not in predicted_answer.lower():
                 return False
         return True
 
-    if "day" in gold_answer["date"] and gold_answer["date"]["day"] != "":
-        assert False, "TODO: Implement date checking"
+    if "day" in gold_answer["date"] and gold_answer["date"]["day"] != "" and gold_answer["date"]["month"] != "" and gold_answer["date"]["year"] != "":
+        try:
+            month_str = gold_answer['date']['month']
+            month_num = datetime.datetime.strptime(month_str, '%B').month
+            date_obj = datetime.date(int(gold_answer['date']['year']), month_num, int(gold_answer['date']['day']))
+            return contains_date(predicted_answer, date_obj)
+        except ValueError:
+            print("Error parsing date: " + str(gold_answer['date']))
+            return False
 
-    assert False, "Unknown answer type " + str(gold_answer)
+    if "day" in gold_answer["date"] and (gold_answer["date"]["day"] != "" or gold_answer["date"]["month"] != "" or gold_answer["date"]["year"] != ""):
+        date_str = gold_answer["date"]["day"] + " " + gold_answer["date"]["month"] + " " + gold_answer["date"]["year"]
+        # Sometimes only the month is populated
+        date_str = date_str.strip()
+        return date_str.lower() in predicted_answer.lower()
+
+    print("Error: unknown answer type: " + str(gold_answer))
+    return False
+    # assert False, "Unknown answer type " + str(gold_answer)
+
+
+def filter_by_answer_type(types: list[str]):
+    def filter_func(qa_pair):
+        answer = qa_pair["answer"]
+        types_inr = types
+        if types == []:
+            types_inr = ["number", "span", "date"]  # Accept all
+        if "number" in types_inr:
+            if answer["number"] != "":
+                return True
+        if "span" in types_inr:
+            if len(answer["spans"]) > 0:
+                return True
+        if "date" in types_inr:
+            if "day" in answer["date"] and answer["date"]["day"] != "" and answer["date"]["month"] != "" and answer["date"]["year"] != "":
+                return True
+        return False
+
+    return filter_func
 
 
 def sample_questions(drop_data, num_random_questions, filter_func: typing.Optional[typing.Callable[[dict], bool]] = None):
@@ -124,10 +174,10 @@ def sample_questions(drop_data, num_random_questions, filter_func: typing.Option
                 answer = qa_pair["answer"]
                 question_answer_pairs.append((passage_id, passage_text, question, answer))
             num_questions_looked_at += 1
-    # print(f"Number of numeric questions: {num_numeric}")
-    # print(f"Number of span questions: {num_span}")
-    # print(f"Number of date questions: {num_date}")
-    # print(f"Number of multi-span questions: {num_multi_span}")
+    print(f"Number of numeric questions: {num_numeric}")
+    print(f"Number of span questions: {num_span}")
+    print(f"Number of date questions: {num_date}")
+    print(f"Number of multi-span questions: {num_multi_span}")
     return question_answer_pairs
 
 
@@ -182,7 +232,7 @@ if __name__ == '__main__':
     # drop_test()
     drop_data = download_data()
     start_time = time.time()
-    random_questions = sample_questions(drop_data, 10000, filter_func=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0)
+    random_questions = sample_questions(drop_data, 100000, filter_func=filter_by_answer_type(["number", "span", "date"]))
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")
     print(f"Time elapsed: {time.time() - start_time:.2f} seconds")
     num_correct = 0
