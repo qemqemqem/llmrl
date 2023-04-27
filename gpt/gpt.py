@@ -49,6 +49,7 @@ def prompt_completion_chat(question="", model="gpt-3.5-turbo", n=1, temperature=
     start_time = time.perf_counter()
     prompt = f"{question} "
     response = None
+    backoff = 1
     while response is None:
         try:
             response = openai.ChatCompletion.create(
@@ -64,7 +65,8 @@ def prompt_completion_chat(question="", model="gpt-3.5-turbo", n=1, temperature=
             )
         except Exception as e:
             print(f"OpenAI GPT Error: {e}")
-            time.sleep(1)  # Wait a second and try again
+            time.sleep(backoff)  # Wait and try again
+            backoff *= 2
     answers = []
     for i in range(n):
         ans = response.choices[i].message.content.strip()

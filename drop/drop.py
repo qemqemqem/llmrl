@@ -85,7 +85,7 @@ def is_correct_answer(predicted_answer, gold_answer):
     assert False, "Unknown answer type " + str(gold_answer)
 
 
-def sample_questions(drop_data, num_random_questions, filter_function: typing.Optional[typing.Callable[[dict], bool]] = None):
+def sample_questions(drop_data, num_random_questions, filter_func: typing.Optional[typing.Callable[[dict], bool]] = None):
     total_num_questions = 0
     num_questions_looked_at = 0
     question_answer_pairs = []
@@ -94,16 +94,16 @@ def sample_questions(drop_data, num_random_questions, filter_function: typing.Op
     num_multi_span = 0
     num_date = 0
     for passage_id, passage_data in drop_data.items():
-        if filter_function is None:
+        if filter_func is None:
             total_num_questions += len(passage_data["qa_pairs"])
         else:
-            total_num_questions += len([qa_pair for qa_pair in passage_data["qa_pairs"] if filter_function(qa_pair)])
+            total_num_questions += len([qa_pair for qa_pair in passage_data["qa_pairs"] if filter_func(qa_pair)])
     print(f"Total number of DROP questions available: {total_num_questions}")
     # Iterate over each question for each passage. This isn't the optimal algorithm, but that's fine.
     for passage_id, passage_data in drop_data.items():
         passage_text = passage_data["passage"]
         for qa_pair in passage_data["qa_pairs"]:
-            if filter_function is not None and not filter_function(qa_pair):
+            if filter_func is not None and not filter_func(qa_pair):
                 continue
             ans = None
             if qa_pair["answer"]["number"] != "":
@@ -124,10 +124,10 @@ def sample_questions(drop_data, num_random_questions, filter_function: typing.Op
                 answer = qa_pair["answer"]
                 question_answer_pairs.append((passage_id, passage_text, question, answer))
             num_questions_looked_at += 1
-    print(f"Number of numeric questions: {num_numeric}")
-    print(f"Number of span questions: {num_span}")
-    print(f"Number of date questions: {num_date}")
-    print(f"Number of multi-span questions: {num_multi_span}")
+    # print(f"Number of numeric questions: {num_numeric}")
+    # print(f"Number of span questions: {num_span}")
+    # print(f"Number of date questions: {num_date}")
+    # print(f"Number of multi-span questions: {num_multi_span}")
     return question_answer_pairs
 
 
@@ -182,7 +182,7 @@ if __name__ == '__main__':
     # drop_test()
     drop_data = download_data()
     start_time = time.time()
-    random_questions = sample_questions(drop_data, 10000, filter_function=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0)
+    random_questions = sample_questions(drop_data, 10000, filter_func=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0)
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")
     print(f"Time elapsed: {time.time() - start_time:.2f} seconds")
     num_correct = 0
