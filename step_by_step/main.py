@@ -1,6 +1,8 @@
+import hashlib
 import re
 
 from drop.drop import *
+from step_by_step.finetuning import load_all_files_in_directory
 from step_by_step.next_step import *
 from step_by_step.reflecting import reflect_on_finished_problem, reflect_on_each_step
 from step_by_step.solver import *
@@ -24,11 +26,16 @@ class RunsLogger:
         print(f"\nNum correct: {sum([1 for problem in self.problems if problem.solved_correctly])} / {len(self.problems)}")
 
 
+def get_question_id(passage_id, question):
+    # Note: I changed this on 4/27/23, so files created before that date will be formatted differently (question[:40], with no hash)
+    return passage_id + "_" + re.sub("\W", "_", question[:30]) + "_" + hashlib.sha256(question.encode()).hexdigest()[:10]
+
+
 def train_on_question(passage_id, passage_text, question, answer, save_dir, logger: RunsLogger = None, max_steps=5, min_steps=1, do_reflection=True):
     start_time = time.time()
 
     # Create a Problem
-    question_id = passage_id + "_" + re.sub("\W", "_", question[:40])
+    question_id = get_question_id(passage_id, question)
     prompt = format_prompt(passage_text, question)
     problem = Problem(prompt, question_alone=question)
     problem.types_of_steps = define_step_types()
@@ -101,8 +108,20 @@ def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/",
         logger.print_summary()
 
 
+def get_filter_by_file_match(save_dir):
+    all_files = load_all_files_in_directory(save_dir)
+    file_names = list(all_files.keys())
+
+    def filter_func(question, passage_id):
+        question_id = get_question_id(passage_id, question["question"]) + ".json"
+        return question_id in file_names
+
+    return filter_func
+
+
 if __name__ == "__main__":
     start_time = time.time()
-    generate_train_data_threaded(save_dir="saved_runs_2/", num_questions=500, max_threads=8, filter_func=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0, max_steps=5, min_steps=1, do_reflection=True)
+    # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
+    generate_train_data_threaded(save_dir="saved_runs_no_steps/", num_questions=500000, max_threads=8, filter_func=get_filter_by_file_match("saved_runs_2"), max_steps=0, min_steps=0, do_reflection=False)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")
