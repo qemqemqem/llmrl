@@ -103,6 +103,6 @@ def generate_train_data_threaded(save_dir: typing.Optional[str] = "saved_runs/",
 
 if __name__ == "__main__":
     start_time = time.time()
-    generate_train_data_threaded(save_dir="saved_runs_no_steps/", num_questions=100, max_threads=10, filter_func=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0, max_steps=5, min_steps=1, do_reflection=True)
+    generate_train_data_threaded(save_dir="saved_runs_2/", num_questions=100, max_threads=8, filter_func=lambda qa_pair: qa_pair["answer"]["number"] != "" or len(qa_pair["answer"]["spans"]) > 0, max_steps=5, min_steps=1, do_reflection=True)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")

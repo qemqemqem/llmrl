@@ -15,6 +15,20 @@ def compute_accuracy_on_all_files(save_dir="saved_runs"):
     print(f"Num correct: {num_correct} / {num_total} = {num_correct / num_total * 100:.2f}%")
 
 
+def compute_accuracy_all_files_by_step_count(save_dir="saved_runs"):
+    all_files = load_all_files_in_directory(save_dir)
+    num_correct = defaultdict(int)
+    num_total = defaultdict(int)
+    for filename, file in all_files.items():
+        problem = parse_file_as_json(file)
+        num_total[len(problem["steps"])] += 1
+        if problem["solved_correctly"]:
+            num_correct[len(problem["steps"])] += 1
+    print("Num correct / Num total = Accuracy for each step count")
+    for step_count in sorted(num_total.keys()):
+        print(f"Num correct: {num_correct[step_count]} / {num_total[step_count]} = {num_correct[step_count] / num_total[step_count] * 100:.2f}% for {step_count} steps")
+
+
 def compute_per_step_accuracy(save_dir="saved_runs"):
     all_files = load_all_files_in_directory(save_dir)
     num_useful = defaultdict(int)
@@ -36,5 +50,12 @@ def compute_per_step_accuracy(save_dir="saved_runs"):
 
 if __name__ == "__main__":
     save_dir = "saved_runs_no_steps"
+    print(f"\nStatistics for {save_dir}")
     compute_accuracy_on_all_files(save_dir=save_dir)
     compute_per_step_accuracy(save_dir=save_dir)
+
+    save_dir = "saved_runs_2"
+    print(f"\nStatistics for {save_dir}")
+    compute_accuracy_on_all_files(save_dir=save_dir)
+    compute_per_step_accuracy(save_dir=save_dir)
+    compute_accuracy_all_files_by_step_count(save_dir=save_dir)
