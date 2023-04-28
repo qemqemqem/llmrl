@@ -10,7 +10,7 @@ def reflect_on_each_step(problem: Problem):
     for i, step in enumerate(problem.steps):
         # if step.type_of_step.is_final:
         #     continue
-        if "reflection" in step.type_of_step.name.lower():
+        if step.type_of_step.is_reflection:
             continue
         steps_prompt += f"{str(i + 1)}. {step.type_of_step.name}\n"  #: {step.step_response}\n"
     steps_prompt += f"Look back on the steps you took. For each one, say whether it was useful or not useful. Then give a one sentence explanation of why it was useful or not."
@@ -72,5 +72,5 @@ def reflect_on_finished_problem(problem: Problem):
     messages.append({"role": "user", "content": overall_reflection_prompt})
     problem.commentary_on_process = prompt_completion_chat(messages=messages)
     print(problem.commentary_on_process)
-    # Mark it as is_final so that it will be filtered in the steps reflection above
-    problem.steps.append(Step(StepType("Overall reflection", overall_reflection_prompt, is_final=True), step_response=problem.commentary_on_process))
+    # Not final because we don't want the final question annotations to be applied
+    problem.steps.append(Step(StepType("Overall reflection", overall_reflection_prompt, is_final=False, is_reflection=True), step_response=problem.commentary_on_process))

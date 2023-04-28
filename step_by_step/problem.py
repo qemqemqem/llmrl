@@ -1,15 +1,16 @@
 class StepType:
-    def __init__(self, name: str, text: str, is_final: bool = False, short_name=None):
+    def __init__(self, name: str, text: str, is_final: bool = False, short_name=None, is_reflection=False):
         self.name: str = name
         self.short_name: str = short_name if short_name else name  # This helps for parsing the text to choose the next step
         self.text: str = text
         self.is_final: bool = is_final  # If True, this is the last step in the problem, and the answer is the answer to the Problem
+        self.is_reflection: bool = is_reflection  # If True, this is a reflection step, and the answer is a reflection on the process
 
-        if not is_final:
+        if not is_final and not is_reflection:
             # self.text += " Answer this question, but do not proceed to the final answer yet."
             # TODO Put this elsewhere so it doesn't get logged
             self.text += " Please be concise and professional. Do only this step and do not jump ahead."
-        else:
+        elif is_final:
             self.text += " Give the final answer only, using as few words as possible."
 
 

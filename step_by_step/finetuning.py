@@ -15,7 +15,8 @@ def format_problem_for_finetuning(problem: dict, prompt_end="\n\n###\n\n", compl
         sq = step["type_of_step"]["text"].strip()
         if "Please be concise" in sq:  # This is a hack because this is added to all steps in problem.py
             sq = sq[:sq.index("Please be concise")]
-        c += "Question: " + sq.strip() + "\n"
+        question_type = "Final. " if step["type_of_step"].is_final else ("Reflection. " if step["type_of_step"].is_reflection else "")
+        c += "Question: " + question_type + sq.strip() + "\n"
         c += "Answer: " + step["step_response"].strip() + "\n"
         c += "Commentary: " + step["usefulness_commentary"].strip() + "\n"
         c += "This was " + ("Useful." if step["was_useful"] else "Not useful.") + "\n"

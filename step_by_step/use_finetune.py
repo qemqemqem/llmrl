@@ -19,7 +19,9 @@ def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2
     cur_answer = ""
     cur_commentary = ""
     cur_useful = False
-    is_reflecting = False
+    cur_is_final = False
+    cur_is_reflection = False
+    is_reflecting = False  # Note that this is different from the "cur_" variables
     for l in response["choices"][0]["text"].split("\n"):
         if l != "" and is_reflecting:
             steps.reflection = l.strip()
@@ -27,13 +29,21 @@ def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2
         if l.startswith("Step") and l.endswith(":"):
             # Save the previous step
             if cur_question:
-                steps.steps.append({"question": cur_question, "answer": cur_answer, "commentary": cur_commentary, "useful": cur_useful})
+                steps.steps.append({"question": cur_question, "answer": cur_answer, "commentary": cur_commentary, "useful": cur_useful, "is_final": cur_is_final, "is_reflection": cur_is_reflection})
             # Start a new step
             cur_question = ""
             cur_answer = ""
             cur_commentary = ""
+            cur_useful = False
+            cur_is_final = False
+            cur_is_reflection = False
         elif l.startswith("Question:"):
             cur_question = l[9:].strip()
+            # Check if "Final." or "Reflection." is in the question, as it is in finetuning.py
+            if "Final." in cur_question:
+                cur_is_final = True
+            elif "Reflection." in cur_question:
+                cur_is_reflection = True
         elif l.startswith("Answer:"):
             cur_answer = l[7:].strip()
         elif l.startswith("Commentary:"):
@@ -48,7 +58,7 @@ def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2
             steps.expected_answer = l[13:].strip()
     if cur_question and ("the correct answer was" not in cur_question and "your answer was" not in cur_question.lower()):
         # Attempt to filter out the reflection step. This if statement will almost never happen.
-        steps.steps.append({"question": cur_question, "answer": cur_answer, "commentary": cur_commentary, "useful": cur_useful})
+        steps.steps.append({"question": cur_question, "answer": cur_answer, "commentary": cur_commentary, "useful": cur_useful, "is_final": cur_is_final, "is_reflection": cur_is_reflection})
     return steps
 
 
