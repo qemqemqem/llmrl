@@ -53,9 +53,9 @@ def run_on_question(passage_id, passage_text, question, answer, save_dir, logger
 
     # Save to file
     if save_dir is not None:
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
-        save_to_file(save_dir + "/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+        if not os.path.exists("saved_runs/" + save_dir):
+            os.makedirs("saved_runs/" + save_dir)
+        save_to_file("saved_runs/" + save_dir + "/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
     # Print how we did
     print("Final answer:", problem.final_answer)
@@ -96,7 +96,7 @@ def run_problems_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_qu
 
 
 def get_filter_by_file_match(save_dir):
-    all_files = load_all_files_in_directory(save_dir)
+    all_files = load_all_files_in_directory("saved_runs/" + save_dir)
     file_names = list(all_files.keys())
 
     def filter_func(question, passage_id):

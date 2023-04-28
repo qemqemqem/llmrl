@@ -4,7 +4,7 @@ from step_by_step.finetuning import load_all_files_in_directory, parse_file_as_j
 
 
 def compute_accuracy_on_all_files(save_dir="saved_runs"):
-    all_files = load_all_files_in_directory(save_dir)
+    all_files = load_all_files_in_directory("saved_runs/" + save_dir)
     num_correct = 0
     num_total = 0
     for filename, file in all_files.items():
@@ -16,7 +16,7 @@ def compute_accuracy_on_all_files(save_dir="saved_runs"):
 
 
 def compute_accuracy_all_files_by_step_count(save_dir="saved_runs"):
-    all_files = load_all_files_in_directory(save_dir)
+    all_files = load_all_files_in_directory("saved_runs/" + save_dir)
     num_correct = defaultdict(int)
     num_total = defaultdict(int)
     for filename, file in all_files.items():
@@ -30,7 +30,7 @@ def compute_accuracy_all_files_by_step_count(save_dir="saved_runs"):
 
 
 def compute_per_step_accuracy(save_dir="saved_runs"):
-    all_files = load_all_files_in_directory(save_dir)
+    all_files = load_all_files_in_directory("saved_runs/" + save_dir)
     num_useful = defaultdict(int)
     num_correct = defaultdict(int)
     num_total = defaultdict(int)

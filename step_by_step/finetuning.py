@@ -47,7 +47,7 @@ def parse_file_as_json(file: str):
 
 def generate_finetune_file(save_dir):
     output = ""  # JSONL File
-    all_files = load_all_files_in_directory(save_dir)
+    all_files = load_all_files_in_directory("saved_runs/" + save_dir)
     for file_name, contents in all_files.items():
         problem = parse_file_as_json(contents)
         prompt, completion = format_problem_for_finetuning(problem)
