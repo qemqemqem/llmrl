@@ -107,6 +107,6 @@ def get_filter_by_file_match(save_dir):
 if __name__ == "__main__":
     start_time = time.time()
     # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
-    run_problems_threaded(save_dir="saved_runs_finetune_guided", num_questions=100, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=False, test=True)
+    run_problems_threaded(save_dir="saved_runs_full2", num_questions=5000, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=True, test=False)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")
