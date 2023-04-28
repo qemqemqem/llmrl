@@ -53,6 +53,8 @@ def run_on_question(passage_id, passage_text, question, answer, save_dir, logger
 
     # Save to file
     if save_dir is not None:
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
         save_to_file(save_dir + "/" + question_id + ".json", json.dumps(problem, default=lambda o: o.__dict__, sort_keys=True, indent=4))
 
     # Print how we did
@@ -107,6 +109,6 @@ def get_filter_by_file_match(save_dir):
 if __name__ == "__main__":
     start_time = time.time()
     # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
-    run_problems_threaded(save_dir="saved_runs_full2", num_questions=5000, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=True, test=False)
+    run_problems_threaded(save_dir="saved_runs_finetune_guided_full2", num_questions=5000, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=True, test=False)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")
