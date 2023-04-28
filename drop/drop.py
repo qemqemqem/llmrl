@@ -18,16 +18,19 @@ import requests
 inflect_engine = inflect.engine()
 
 
-def download_data_train():
+def download_data(test=False):
     # Set up your API key for OpenAI
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
     # Download the DROP dataset if it's not saved locally
     drop_data_url = "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip"
     drop_filename = "drop_dataset.zip"
-    train_data_file = "drop_dataset_train.json"
+    if test:
+        data_file = "drop_dataset_dev.json"
+    else:
+        data_file = "drop_dataset_train.json"
 
-    if not os.path.exists("drop_dataset/" + train_data_file):
+    if not os.path.exists("drop_dataset/" + data_file):
         print("Downloading DROP dataset...")
         response = requests.get(drop_data_url)
         with open(drop_filename, "wb") as f:
@@ -38,7 +41,7 @@ def download_data_train():
             zip_ref.extractall(".")
 
     # Load the dataset
-    with open("drop_dataset/" + train_data_file, "r") as f:
+    with open("drop_dataset/" + data_file, "r") as f:
         drop_data = json.load(f)
 
     return drop_data
@@ -186,7 +189,7 @@ def format_prompt(passage_text, question):
 
 
 def drop_test():
-    drop_data = download_data_train()
+    drop_data = download_data()
 
     num_random_questions = 10
 
@@ -230,7 +233,7 @@ def drop_test():
 
 if __name__ == '__main__':
     # drop_test()
-    drop_data = download_data_train()
+    drop_data = download_data()
     start_time = time.time()
     random_questions = sample_questions(drop_data, 100000, filter_func=filter_by_answer_type(["number", "span", "date"]))
     print(f"Sampled {len(random_questions)} questions from the DROP dataset.")

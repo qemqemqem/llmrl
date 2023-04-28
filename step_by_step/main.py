@@ -70,30 +70,8 @@ def run_on_question(passage_id, passage_text, question, answer, save_dir, logger
     return problem
 
 
-def generate_train_data(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000):
-    drop_data = download_data_train()
-    logger = RunsLogger()
-
-    # Sample outside the loop to avoid duplicates
-    question_tuples = sample_questions(drop_data, num_questions)
-
-    for i in range(num_questions):
-        # Get the question
-        passage_id, passage_text, question, answer = question_tuples[i]
-        print(f"Problem {i}:", passage_text + "\n\nQuestion: " + question)
-
-        problem = run_on_question(passage_id, passage_text, question, answer, save_dir, logger)
-
-    # Final summary
-    if logger is not None:
-        logger.print_summary()
-
-
 def run_problems_threaded(save_dir: typing.Optional[str] = "saved_runs/", num_questions: int = 5000, max_threads=10, test=False, filter_func=None, max_steps=5, min_steps=1, do_reflection=True):
-    if test:
-        drop_data = download_data_train()  # TODO get test data
-    else:
-        drop_data = download_data_train()
+    drop_data = download_data(test=test)
     logger = RunsLogger()
 
     # Sample outside the loop to avoid duplicates
@@ -129,6 +107,6 @@ def get_filter_by_file_match(save_dir):
 if __name__ == "__main__":
     start_time = time.time()
     # Use filter_by_answer_type(["number", "span", "date"]) to filter questions
-    run_problems_threaded(save_dir="saved_runs_finetune_guided", num_questions=50, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=False, test=True)
+    run_problems_threaded(save_dir="saved_runs_finetune_guided", num_questions=100, max_threads=5, filter_func=filter_by_answer_type(["number", "span", "date"]), max_steps=5, min_steps=1, do_reflection=False, test=True)
     # compute_per_step_accuracy("saved_runs")
     print(f"Overall Took time: {time.time() - start_time} seconds\n")

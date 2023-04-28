@@ -59,3 +59,9 @@ if __name__ == "__main__":
     compute_accuracy_on_all_files(save_dir=save_dir)
     compute_per_step_accuracy(save_dir=save_dir)
     compute_accuracy_all_files_by_step_count(save_dir=save_dir)
+
+    save_dir = "saved_runs_finetune_guided"
+    print(f"\nStatistics for {save_dir}")
+    compute_accuracy_on_all_files(save_dir=save_dir)
+    compute_per_step_accuracy(save_dir=save_dir)
+    compute_accuracy_all_files_by_step_count(save_dir=save_dir)

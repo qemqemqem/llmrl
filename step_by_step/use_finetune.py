@@ -11,7 +11,7 @@ class SuggestedSteps:
         self.reflection = None
 
 
-def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2023-04-26-18-05-06", temperature=0.1):
+def get_steps_from_finetuned_model(prompt, model="curie:ft-vast:step-by-step-1-2023-04-26-18-05-06", temperature=0.3):
     response = openai.Completion.create(model=model, prompt=prompt, max_tokens=1000, n=1, stop="\n###", temperature=temperature)
     # print("Got response: ", response["choices"][0]["text"])
     steps = SuggestedSteps()
